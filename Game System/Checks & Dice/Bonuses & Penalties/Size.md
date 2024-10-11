@@ -5,4 +5,4 @@ tags:
   - bonus
   - penalty
 ---
-A bonus/penalty derived from your [[../../Characters/Characteristics/Size|size]].
+A bonus/penalty derived from your [[../../Characters/Characteristics/Size/Size|size]].

@@ -19,7 +19,7 @@ PRE: 19
 RES: 56
 WIS: 47
 appResult: ""
-dexResult: 54/72 (difficult; 2)
+dexResult: 
 endResult: ""
 migResult: ""
 tecResult: ""
@@ -33,15 +33,22 @@ empResult: ""
 preResult: ""
 resResult: ""
 wisResult: ""
+size: 5
 ---
-> [!note] # [[../../Game System/Characters/Attributes/Attributes|Attributes]]
-> | [[../../Game System/Characters/Attributes/Attributes#Body\|BODY]] |     Score     |       *roll*       | *result*            | [[../../Game System/Characters/Attributes/Attributes#Mind\|Mind]]  |     Score     |       *roll*       | *result*            | [[../../Game System/Characters/Attributes/Attributes#Soul\|Soul]] |     Score     |       *roll*       | *result*            |
-> | :---------------------------------------------------------------: | :-----------: | :----------------: | :------------------ | :----------------------------------------------------------------: | :-----------: | :----------------: | :------------------ | :---------------------------------------------------------------: | :-----------: | :----------------: | ------------------- |
-> | [[../../Game System/Characters/Attributes/Appearance (APP)\|APP]] | `VIEW[{APP}]` | `BUTTON[roll-app]` | `VIEW[{appResult}]` | [[../../Game System/Characters/Attributes/Imagination (IMA)\|IMA]] | `VIEW[{IMA}]` | `BUTTON[roll-ima]` | `VIEW[{imaResult}]` | [[../../Game System/Characters/Attributes/Conviction (CON)\|CON]] | `VIEW[{CON}]` | `BUTTON[roll-con]` | `VIEW[{conResult}]` |
-> | [[../../Game System/Characters/Attributes/Dexterity (DEX)\|DEX]]  | `VIEW[{DEX}]` | `BUTTON[roll-dex]` | `VIEW[{dexResult}]` |   [[../../Game System/Characters/Attributes/Memory (MEM)\|MEM]]    | `VIEW[{MEM}]` | `BUTTON[roll-mem]` | `VIEW[{memResult}]` |  [[../../Game System/Characters/Attributes/Empathy (EMP)\|EMP]]   | `VIEW[{EMP}]` | `BUTTON[roll-emp]` | `VIEW[{empResult}]` |
-> | [[../../Game System/Characters/Attributes/Endurance (END)\|END]]  | `VIEW[{END}]` | `BUTTON[roll-end]` | `VIEW[{endResult}]` | [[../../Game System/Characters/Attributes/Perception (PER)\|PER]]  | `VIEW[{PER}]` | `BUTTON[roll-per]` | `VIEW[{perResult}]` |  [[../../Game System/Characters/Attributes/Presence (PRE)\|PRE]]  | `VIEW[{PRE}]` | `BUTTON[roll-pre]` | `VIEW[{preResult}]` |
-> |   [[../../Game System/Characters/Attributes/Might (MIG)\|MIG]]    | `VIEW[{MIG}]` | `BUTTON[roll-mig]` | `VIEW[{migResult}]` |   [[../../Game System/Characters/Attributes/Reason (REA)\|REA]]    | `VIEW[{REA}]` | `BUTTON[roll-rea]` | `VIEW[{reaResult}]` |  [[../../Game System/Characters/Attributes/Resolve (RES)\|RES]]   | `VIEW[{RES}]` | `BUTTON[roll-res]` | `VIEW[{resResult}]` |
-> | [[../../Game System/Characters/Attributes/Technique (TEC)\|TEC]]  | `VIEW[{TEC}]` | `BUTTON[roll-tec]` | `VIEW[{tecResult}]` |  [[../../Game System/Characters/Attributes/Willpower (WIL)\|WIL]]  | `VIEW[{WIL}]` | `BUTTON[roll-wil]` | `VIEW[{wilResult}]` |   [[../../Game System/Characters/Attributes/Wisdom (WIS)\|WIS]]   | `VIEW[{WIS}]` | `BUTTON[roll-wis]` | `VIEW[{wisResult}]` |
+# General
+- [[../../Game System/Characters/Characteristics/Size/Size|Size]]: `INPUT[inlineSelect(option(1, diminutive), option(2, fine), option(3, tiny), option(4, small), option(5, medium), option(6, large), option(7, huge), option(8, enormous), option(9, gargantuan), option(10, colossal), option(11, mammoth), option(12, titanic), defaultValue(5)):size]`
+
+
+
+# [[../../Game System/Characters/Attributes/Attributes|Attributes]]
+
+| [[../../Game System/Characters/Attributes/Attributes#Body\|BODY]] |     Score     |       *roll*       | *result*            | [[../../Game System/Characters/Attributes/Attributes#Mind\|Mind]]  |     Score     |       *roll*       | *result*            | [[../../Game System/Characters/Attributes/Attributes#Soul\|Soul]] |     Score     |       *roll*       | *result*            |
+| :---------------------------------------------------------------: | :-----------: | :----------------: | :------------------ | :----------------------------------------------------------------: | :-----------: | :----------------: | :------------------ | :---------------------------------------------------------------: | :-----------: | :----------------: | ------------------- |
+| [[../../Game System/Characters/Attributes/Appearance (APP)\|APP]] | `VIEW[{APP}]` | `BUTTON[roll-app]` | `VIEW[{appResult}]` | [[../../Game System/Characters/Attributes/Imagination (IMA)\|IMA]] | `VIEW[{IMA}]` | `BUTTON[roll-ima]` | `VIEW[{imaResult}]` | [[../../Game System/Characters/Attributes/Conviction (CON)\|CON]] | `VIEW[{CON}]` | `BUTTON[roll-con]` | `VIEW[{conResult}]` |
+| [[../../Game System/Characters/Attributes/Dexterity (DEX)\|DEX]]  | `VIEW[{DEX}]` | `BUTTON[roll-dex]` | `VIEW[{dexResult}]` |   [[../../Game System/Characters/Attributes/Memory (MEM)\|MEM]]    | `VIEW[{MEM}]` | `BUTTON[roll-mem]` | `VIEW[{memResult}]` |  [[../../Game System/Characters/Attributes/Empathy (EMP)\|EMP]]   | `VIEW[{EMP}]` | `BUTTON[roll-emp]` | `VIEW[{empResult}]` |
+| [[../../Game System/Characters/Attributes/Endurance (END)\|END]]  | `VIEW[{END}]` | `BUTTON[roll-end]` | `VIEW[{endResult}]` | [[../../Game System/Characters/Attributes/Perception (PER)\|PER]]  | `VIEW[{PER}]` | `BUTTON[roll-per]` | `VIEW[{perResult}]` |  [[../../Game System/Characters/Attributes/Presence (PRE)\|PRE]]  | `VIEW[{PRE}]` | `BUTTON[roll-pre]` | `VIEW[{preResult}]` |
+|   [[../../Game System/Characters/Attributes/Might (MIG)\|MIG]]    | `VIEW[{MIG}]` | `BUTTON[roll-mig]` | `VIEW[{migResult}]` |   [[../../Game System/Characters/Attributes/Reason (REA)\|REA]]    | `VIEW[{REA}]` | `BUTTON[roll-rea]` | `VIEW[{reaResult}]` |  [[../../Game System/Characters/Attributes/Resolve (RES)\|RES]]   | `VIEW[{RES}]` | `BUTTON[roll-res]` | `VIEW[{resResult}]` |
+| [[../../Game System/Characters/Attributes/Technique (TEC)\|TEC]]  | `VIEW[{TEC}]` | `BUTTON[roll-tec]` | `VIEW[{tecResult}]` |  [[../../Game System/Characters/Attributes/Willpower (WIL)\|WIL]]  | `VIEW[{WIL}]` | `BUTTON[roll-wil]` | `VIEW[{wilResult}]` |   [[../../Game System/Characters/Attributes/Wisdom (WIS)\|WIS]]   | `VIEW[{WIS}]` | `BUTTON[roll-wis]` | `VIEW[{wisResult}]` |
 
 
 ---
