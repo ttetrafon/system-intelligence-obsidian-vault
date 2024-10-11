@@ -4,9 +4,9 @@ tags:
   - character
   - character-sheet
 APP: 47
-DEX: 72
+DEX: 58
 END: 16
-MIG: 40
+MIG: 45
 TEC: 65
 IMA: 31
 MEM: 40
@@ -34,10 +34,10 @@ preResult: ""
 resResult: ""
 wisResult: ""
 size: 5
-encumbrance: 1792
+encumbrance: 1280
 ---
 # General
-- [[../../Game System/Characters/Characteristics/Size/Size|Size]]: `INPUT[inlineSelect(option(1, diminutive), option(2, fine), option(3, tiny), option(4, small), option(5, medium), option(6, large), option(7, huge), option(8, enormous), option(9, gargantuan), option(10, colossal), option(11, mammoth), option(12, titanic), defaultValue(5)):size]` ([[../../Game System/Characters/Characteristics/Encumbrance|encumbrance]] `VIEW[{encumbrance}]`)
+- [[../../Game System/Characters/Characteristics/Size/Size|Size]]: `INPUT[inlineSelect(option(1, diminutive), option(2, fine), option(3, tiny), option(4, small), option(5, medium), option(6, large), option(7, huge), option(8, enormous), option(9, gargantuan), option(10, colossal), option(11, mammoth), option(12, titanic), defaultValue(5)):size]` ([[../../Game System/Characters/Characteristics/Encumbrance|encumbrance]] `VIEW[{encumbrance} / 4]`/`VIEW[{encumbrance} / 2]`/`VIEW[{encumbrance} * 3 / 4]`/`VIEW[{encumbrance}]`)
 
 # [[../../Game System/Characters/Attributes/Attributes|Attributes]]
 
@@ -320,5 +320,6 @@ return Math.max(Math.floor(context.bound.var1 / 10), Math.floor(context.bound.va
 save to {encumbrance}
 hidden
 ---
-return Math.max(Math.floor(context.bound.var1 / 10), Math.floor(context.bound.var2 / 10)) * Math.pow(4, context.bound.size - 1);
+let enc = Math.max(Math.floor(context.bound.var1 / 10), Math.floor(context.bound.var2 / 10)) * Math.pow(4, context.bound.size - 1);
+return enc;
 ```
