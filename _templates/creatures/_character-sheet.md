@@ -34,11 +34,10 @@ preResult: ""
 resResult: ""
 wisResult: ""
 size: 5
+encumbrance: 1792
 ---
 # General
-- [[../../Game System/Characters/Characteristics/Size/Size|Size]]: `INPUT[inlineSelect(option(1, diminutive), option(2, fine), option(3, tiny), option(4, small), option(5, medium), option(6, large), option(7, huge), option(8, enormous), option(9, gargantuan), option(10, colossal), option(11, mammoth), option(12, titanic), defaultValue(5)):size]`
-
-
+- [[../../Game System/Characters/Characteristics/Size/Size|Size]]: `INPUT[inlineSelect(option(1, diminutive), option(2, fine), option(3, tiny), option(4, small), option(5, medium), option(6, large), option(7, huge), option(8, enormous), option(9, gargantuan), option(10, colossal), option(11, mammoth), option(12, titanic), defaultValue(5)):size]` ([[../../Game System/Characters/Characteristics/Encumbrance|encumbrance]] `VIEW[{encumbrance}]`)
 
 # [[../../Game System/Characters/Attributes/Attributes|Attributes]]
 
@@ -97,7 +96,7 @@ actions:
 %% The following are helper functions and will be invisible. %%
 ```meta-bind-button
 label: "🎲"
-hidden: false
+hidden: true
 class: ""
 tooltip: Roll APP
 id: roll-app
@@ -111,7 +110,7 @@ actions:
 ```
 ```meta-bind-button
 label: "🎲"
-hidden: false
+hidden: true
 class: ""
 tooltip: Roll DEX
 id: roll-dex
@@ -125,7 +124,7 @@ actions:
 ```
 ```meta-bind-button
 label: "🎲"
-hidden: false
+hidden: true
 class: ""
 tooltip: Roll END
 id: roll-end
@@ -139,7 +138,7 @@ actions:
 ```
 ```meta-bind-button
 label: "🎲"
-hidden: false
+hidden: true
 class: ""
 tooltip: Roll MIG
 id: roll-mig
@@ -153,7 +152,7 @@ actions:
 ```
 ```meta-bind-button
 label: "🎲"
-hidden: false
+hidden: true
 class: ""
 tooltip: Roll TEC
 id: roll-tec
@@ -167,7 +166,7 @@ actions:
 ```
 ```meta-bind-button
 label: "🎲"
-hidden: false
+hidden: true
 class: ""
 tooltip: Roll IMA
 id: roll-ima
@@ -181,7 +180,7 @@ actions:
 ```
 ```meta-bind-button
 label: "🎲"
-hidden: false
+hidden: true
 class: ""
 tooltip: Roll MEM
 id: roll-mem
@@ -195,7 +194,7 @@ actions:
 ```
 ```meta-bind-button
 label: "🎲"
-hidden: false
+hidden: true
 class: ""
 tooltip: Roll PER
 id: roll-per
@@ -209,7 +208,7 @@ actions:
 ```
 ```meta-bind-button
 label: "🎲"
-hidden: false
+hidden: true
 class: ""
 tooltip: Roll REA
 id: roll-rea
@@ -223,7 +222,7 @@ actions:
 ```
 ```meta-bind-button
 label: "🎲"
-hidden: false
+hidden: true
 class: ""
 tooltip: Roll WIL
 id: roll-wil
@@ -237,7 +236,7 @@ actions:
 ```
 ```meta-bind-button
 label: "🎲"
-hidden: false
+hidden: true
 class: ""
 tooltip: Roll CON
 id: roll-con
@@ -251,7 +250,7 @@ actions:
 ```
 ```meta-bind-button
 label: "🎲"
-hidden: false
+hidden: true
 class: ""
 tooltip: Roll EMP
 id: roll-emp
@@ -265,7 +264,7 @@ actions:
 ```
 ```meta-bind-button
 label: "🎲"
-hidden: false
+hidden: true
 class: ""
 tooltip: Roll PRE
 id: roll-pre
@@ -279,7 +278,7 @@ actions:
 ```
 ```meta-bind-button
 label: "🎲"
-hidden: false
+hidden: true
 class: ""
 tooltip: Roll RES
 id: roll-res
@@ -293,7 +292,7 @@ actions:
 ```
 ```meta-bind-button
 label: "🎲"
-hidden: false
+hidden: true
 class: ""
 tooltip: Roll WIS
 id: roll-wis
@@ -304,4 +303,22 @@ actions:
     args: {
 	    "attribute": "WIS"
     }
+```
+```meta-bind-js-view
+{MIG} as var1
+{DEX} as var2
+{size} as size
+save to {encumbrance}
+hidden
+---
+return Math.max(Math.floor(context.bound.var1 / 10), Math.floor(context.bound.var2 / 10)) * Math.pow(4, context.bound.size - 1);
+```
+```meta-bind-js-view
+{MIG} as var1
+{DEX} as var2
+{size} as size
+save to {encumbrance}
+hidden
+---
+return Math.max(Math.floor(context.bound.var1 / 10), Math.floor(context.bound.var2 / 10)) * Math.pow(4, context.bound.size - 1);
 ```
