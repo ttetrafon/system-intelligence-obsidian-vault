@@ -1,0 +1,5 @@
+---
+tags:
+  - cosmology
+  - world
+---

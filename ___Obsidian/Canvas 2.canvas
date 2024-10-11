@@ -1,0 +1,9 @@
+{
+	"nodes":[
+		{"id":"204c9da2eaaaee86","type":"text","text":"Aha!","x":-125,"y":-30,"width":250,"height":60},
+		{"id":"01d49b80819f5405","x":-125,"y":160,"width":250,"height":60,"type":"text","text":"No way..."}
+	],
+	"edges":[
+		{"id":"34d1f314489fb9be","fromNode":"204c9da2eaaaee86","fromSide":"bottom","toNode":"01d49b80819f5405","toSide":"top"}
+	]
+}

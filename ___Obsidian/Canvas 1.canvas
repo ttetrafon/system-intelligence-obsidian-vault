@@ -1,0 +1,145 @@
+{
+  "nodes": [
+    {
+      "id": "cccf9a04d2645070",
+      "type": "text",
+      "text": "B",
+      "styleAttributes": {},
+      "x": 60,
+      "y": 60,
+      "width": 60,
+      "height": 60
+    },
+    {
+      "id": "93a9d0a068247de3",
+      "type": "text",
+      "text": "C",
+      "styleAttributes": {},
+      "x": -272,
+      "y": 145,
+      "width": 72,
+      "height": 60
+    },
+    {
+      "id": "0fd7d388173d6401",
+      "type": "text",
+      "text": "A",
+      "styleAttributes": {},
+      "x": -120,
+      "y": -30,
+      "width": 60,
+      "height": 50,
+      "color": "1"
+    },
+    {
+      "id": "dd8da37ea6088189",
+      "type": "file",
+      "file": "_attachments/obsidian logo.png",
+      "styleAttributes": {},
+      "x": -60,
+      "y": 240,
+      "width": 101,
+      "height": 101,
+      "color": "2"
+    },
+    {
+      "id": "90edbafc5cd4e4b1",
+      "type": "file",
+      "file": "___Obsidian/Plugins.md",
+      "styleAttributes": {},
+      "x": 280,
+      "y": -240,
+      "width": 414,
+      "height": 860
+    },
+    {
+      "id": "ed8158df4679174e",
+      "type": "file",
+      "file": "___Obsidian/Canvas 2.canvas",
+      "styleAttributes": {},
+      "x": -660,
+      "y": 420,
+      "width": 400,
+      "height": 400
+    },
+    {
+      "id": "97a854538f8ee00b",
+      "type": "text",
+      "text": "# Card\nA card is an inline note for canvas.",
+      "styleAttributes": {},
+      "x": -585,
+      "y": -170,
+      "width": 250,
+      "height": 165
+    },
+    {
+      "id": "22f95158d8518115",
+      "type": "text",
+      "text": "❗ Note that canvases do not render fully in preview mode.",
+      "styleAttributes": {},
+      "x": -585,
+      "y": 880,
+      "width": 250,
+      "height": 104
+    }
+  ],
+  "edges": [
+    {
+      "id": "efe7e8a45e895346",
+      "fromNode": "0fd7d388173d6401",
+      "fromSide": "right",
+      "toNode": "cccf9a04d2645070",
+      "toSide": "left"
+    },
+    {
+      "id": "18314419b25d09f3",
+      "fromNode": "0fd7d388173d6401",
+      "fromSide": "bottom",
+      "toNode": "93a9d0a068247de3",
+      "toSide": "top"
+    },
+    {
+      "id": "059cbc144f63523e",
+      "fromNode": "cccf9a04d2645070",
+      "fromSide": "bottom",
+      "toNode": "dd8da37ea6088189",
+      "toSide": "top"
+    },
+    {
+      "id": "bcc7fc312f54dbec",
+      "fromNode": "93a9d0a068247de3",
+      "fromSide": "right",
+      "toNode": "dd8da37ea6088189",
+      "toSide": "top"
+    },
+    {
+      "id": "c6243a23197f7d59",
+      "fromNode": "90edbafc5cd4e4b1",
+      "fromSide": "left",
+      "toNode": "cccf9a04d2645070",
+      "toSide": "right"
+    },
+    {
+      "id": "e5714fa7bbd539fe",
+      "fromNode": "93a9d0a068247de3",
+      "fromSide": "bottom",
+      "toNode": "ed8158df4679174e",
+      "toSide": "top"
+    },
+    {
+      "id": "87ca3748c945d0a3",
+      "fromNode": "97a854538f8ee00b",
+      "fromSide": "right",
+      "toNode": "0fd7d388173d6401",
+      "toSide": "left"
+    },
+    {
+      "id": "748128bf825199be",
+      "fromNode": "ed8158df4679174e",
+      "fromSide": "bottom",
+      "toNode": "22f95158d8518115",
+      "toSide": "top"
+    }
+  ],
+  "metadata": {}
+}

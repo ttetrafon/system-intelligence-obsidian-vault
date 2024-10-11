@@ -1,0 +1,6 @@
+---
+tags:
+  - descriptor
+  - descriptor-designator
+---
+…
