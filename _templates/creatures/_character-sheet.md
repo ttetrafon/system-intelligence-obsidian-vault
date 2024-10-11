@@ -35,9 +35,11 @@ resResult: ""
 wisResult: ""
 size: 5
 encumbrance: 1280
+LUCK: d6
 ---
 # General
 - [[../../Game System/Characters/Characteristics/Size/Size|Size]]: `INPUT[inlineSelect(option(1, diminutive), option(2, fine), option(3, tiny), option(4, small), option(5, medium), option(6, large), option(7, huge), option(8, enormous), option(9, gargantuan), option(10, colossal), option(11, mammoth), option(12, titanic), defaultValue(5)):size]` ([[../../Game System/Characters/Characteristics/Encumbrance|encumbrance]] `VIEW[{encumbrance} / 4]`/`VIEW[{encumbrance} / 2]`/`VIEW[{encumbrance} * 3 / 4]`/`VIEW[{encumbrance}]`)
+- [[../../Game System/Checks & Dice/Bonuses & Penalties/Luck|Luck]]: `VIEW[{LUCK}]` 
 
 # [[../../Game System/Characters/Attributes/Attributes|Attributes]]
 
@@ -71,7 +73,7 @@ actions:
     }
 ```
 
-### Attributes
+### [[../../Game System/Characters/Attributes/Attributes|Attributes]]
 
 | [[../../Game System/Characters/Attributes/Attributes\|Attributes]]               |        Current Score        |
 |:-------------------------------------------------------------------------------- |:---------------------------:|
@@ -90,6 +92,14 @@ actions:
 | [[../../Game System/Characters/Attributes/Presence (PRE)\|Presence (PRE)]]       | `INPUT[number-input][:PRE]` |
 | [[../../Game System/Characters/Attributes/Resolve (RES)\|Resolve (RES)]]         | `INPUT[number-input][:RES]` |
 | [[../../Game System/Characters/Attributes/Wisdom (WIS)\|Wisdom (WIS)]]           | `INPUT[number-input][:WIS]` |
+
+### [[../../Game System/Checks & Dice/Resources|Resources]]
+|                                                                    | Current Value                  |     |     |
+| ------------------------------------------------------------------ | ------------------------------ | --- | --- |
+| [[../../Game System/Checks & Dice/Bonuses & Penalties/Luck\|Luck]] | `INPUT[resource-score][:LUCK]` |     |     |
+
+
+
 
 ---
 - [!] Do not write under this line!
