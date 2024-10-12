@@ -1,4 +1,7 @@
+const cleaner = require("/_scripts/clean_rolls_from_character_sheet.js");
+
 console.log(`randomise-character.js: ${context.file.path}; ${JSON.stringify(context.args)}!`);
+cleaner();
 
 const currentFile = app.workspace.getActiveFile();
 app.fileManager.processFrontMatter(currentFile, (fm) => {

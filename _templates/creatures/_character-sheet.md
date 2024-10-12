@@ -19,7 +19,7 @@ PRE: 19
 RES: 56
 WIS: 47
 appResult: ""
-dexResult: 
+dexResult: ""
 endResult: ""
 migResult: ""
 tecResult: ""
@@ -35,11 +35,30 @@ resResult: ""
 wisResult: ""
 size: 5
 encumbrance: 1280
-LUCK: d6
+LUCK: d12
+luckTarget: 6
+luckResult: ""
 ---
+%% Info-box controls for later %%
+```meta-bind-button
+label: Clear all Check Results
+icon: ""
+hidden: false
+class: ""
+tooltip: ""
+id: ""
+style: default
+actions:
+  - type: js
+    file: _scripts/clear_all_check_results.js
+    args: {}
+
+```
+
+
 # General
 - [[../../Game System/Characters/Characteristics/Size/Size|Size]]: `INPUT[inlineSelect(option(1, diminutive), option(2, fine), option(3, tiny), option(4, small), option(5, medium), option(6, large), option(7, huge), option(8, enormous), option(9, gargantuan), option(10, colossal), option(11, mammoth), option(12, titanic), defaultValue(5)):size]` ([[../../Game System/Characters/Characteristics/Encumbrance|encumbrance]] `VIEW[{encumbrance} / 4]`/`VIEW[{encumbrance} / 2]`/`VIEW[{encumbrance} * 3 / 4]`/`VIEW[{encumbrance}]`)
-- [[../../Game System/Checks & Dice/Bonuses & Penalties/Luck|Luck]]: `VIEW[{LUCK}]` 
+- [[../../Game System/Checks & Dice/Bonuses & Penalties/Luck|Luck]]: `VIEW[{LUCK}]`  ()
 
 # [[../../Game System/Characters/Attributes/Attributes|Attributes]]
 
@@ -94,9 +113,9 @@ actions:
 | [[../../Game System/Characters/Attributes/Wisdom (WIS)\|Wisdom (WIS)]]           | `INPUT[number-input][:WIS]` |
 
 ### [[../../Game System/Checks & Dice/Resources|Resources]]
-|                                                                    | Current Value                  |     |     |
-| ------------------------------------------------------------------ | ------------------------------ | --- | --- |
-| [[../../Game System/Checks & Dice/Bonuses & Penalties/Luck\|Luck]] | `INPUT[resource-score][:LUCK]` |     |     |
+|                                                             | Current Value                  |                                    *check*                                     |       *result*       |
+| :---------------------------------------------------------: | ------------------------------ | :----------------------------------------------------------------------------: | :------------------: |
+| [[../../Game System/Characters/Characteristics/Luck\|Luck]] | `INPUT[resource-score][:LUCK]` | `BUTTON[spend-luck]` `INPUT[resource-target][:luckTarget]` `BUTTON[gain-luck]` | `VIEW[{luckResult}]` |
 
 
 
@@ -332,4 +351,36 @@ hidden
 ---
 let enc = Math.max(Math.floor(context.bound.var1 / 10), Math.floor(context.bound.var2 / 10)) * Math.pow(4, context.bound.size - 1);
 return enc;
+```
+```meta-bind-button
+label: "+"
+icon: ""
+hidden: true
+class: ""
+tooltip: Gain LUCK
+id: gain-luck
+style: default
+actions:
+  - type: js
+    file: _scripts/roll_resource_change.js
+    args: {
+	    "direction": 1,
+	    "resource": "LUCK"
+    }
+```
+```meta-bind-button
+label: "-"
+icon: ""
+hidden: true
+class: ""
+tooltip: Spend LUCK
+id: spend-luck
+style: default
+actions:
+  - type: js
+    file: _scripts/roll_resource_change.js
+    args: {
+	    "direction": -1,
+	    "resource": "LUCK"
+    }
 ```

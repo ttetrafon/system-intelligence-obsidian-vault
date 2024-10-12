@@ -16,7 +16,7 @@ These scores are counted using dice, in the following order:
 - d20+d6
 - d20+d8
 - d20+d12
-- d20+d20
+- 2d20
 - 2d20+d4
 - …
 

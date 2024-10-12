@@ -1,25 +1,12 @@
+const cleaner = require("/_scripts/clean_rolls_from_character_sheet.js");
+
 console.log(`roll check.js: ${context.file.path}; ${JSON.stringify(context.args)}!`);
+cleaner();
 
 const currentFile = app.workspace.getActiveFile();
 app.fileManager.processFrontMatter(currentFile, (fm) => {
   let attributeToRoll = context.args.attribute;
   let score = fm[attributeToRoll];
-
-  fm["appResult"] = "";
-  fm["dexResult"] = "";
-  fm["endResult"] = "";
-  fm["migResult"] = "";
-  fm["tecResult"] = "";
-  fm["imaResult"] = "";
-  fm["memResult"] = "";
-  fm["perResult"] = "";
-  fm["reaResult"] = "";
-  fm["wilResult"] = "";
-  fm["conResult"] = "";
-  fm["empResult"] = "";
-  fm["preResult"] = "";
-  fm["resResult"] = "";
-  fm["wisResult"] = "";
 
   let roll = 1 + Math.floor(Math.random() * 100);
   let degreeOfSuccess;
