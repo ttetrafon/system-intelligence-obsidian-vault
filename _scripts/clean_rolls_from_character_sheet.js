@@ -18,6 +18,11 @@ const cleanAllRolls = () => {
     fm["resResult"] = "";
     fm["wisResult"] = "";
     fm["luckResult"] = "";
+    fm["tierExperienceResult"] = "";
+    fm["tierMythicResult"] = "";
+    fm["tierDivineResult"] = "";
+    fm["magicAptitudeResult"] = "";
+    fm["technologyKnowledgeResult"] = "";
   });
 }
 

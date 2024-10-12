@@ -36,7 +36,7 @@ LIST
 FROM #attribute AND #mind AND -"_templates"
 SORT file.name ASC
 ```
-
+ 
 
 # Soul
 ```dataview

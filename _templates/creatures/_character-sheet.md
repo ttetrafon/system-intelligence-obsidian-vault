@@ -1,23 +1,24 @@
 ---
+"30": 37
 tags:
   - creature
   - character
   - character-sheet
-APP: 47
-DEX: 58
-END: 16
-MIG: 45
-TEC: 65
-IMA: 31
-MEM: 40
-PER: 23
-REA: 38
-WIL: 24
-CON: 26
-EMP: 52
-PRE: 19
-RES: 56
-WIS: 47
+APP: 33
+DEX: 48
+END: 24
+MIG: 21
+TEC: 46
+IMA: 41
+MEM: 64
+PER: 47
+REA: 15
+WIL: 43
+CON: 45
+EMP: 28
+PRE: 63
+RES: 24
+WIS: 50
 appResult: ""
 dexResult: ""
 endResult: ""
@@ -34,10 +35,25 @@ preResult: ""
 resResult: ""
 wisResult: ""
 size: 5
-encumbrance: 1280
-LUCK: d12
-luckTarget: 6
+encumbrance: 1024
+LUCK: d8
+luckTarget: 1
 luckResult: ""
+TierExperience: 34
+TierMythic: 9
+TierDivine: 6
+MagicAptitude: 34
+TechnologyKnowledge: 20
+ET: 3
+MT: 0
+DT: 0
+MA: 3
+TK: 2
+tierExperienceResult: ""
+tierMythicResult: ""
+tierDivineResult: ""
+magicAptitudeResult: ""
+technologyKnowledgeResult: "task TechnologyKnowledge (roll 75): 15 -> 20"
 ---
 %% Info-box controls for later %%
 ```meta-bind-button
@@ -57,6 +73,11 @@ actions:
 
 
 # General
+- [[../../Game System/Characters/Tiers/Experience Tier (ET)|ET]]: `VIEW[{ET}]`
+- [[../../Game System/Characters/Tiers/Mythic Tier (MT)|MT]]: `VIEW[{MT}]`
+- [[../../Game System/Characters/Tiers/Divine Tier (DT)|DT]]: `VIEW[{DT}]`
+- [[../../Game System/Characters/Tiers/Magic Aptitude (MA)|MA]]: `VIEW[{MA}]`
+- [[../../Game System/Characters/Tiers/Technology Knowledge (TK)|TK]]: `VIEW[{TK}]`
 - [[../../Game System/Characters/Characteristics/Size/Size|Size]]: `INPUT[inlineSelect(option(1, diminutive), option(2, fine), option(3, tiny), option(4, small), option(5, medium), option(6, large), option(7, huge), option(8, enormous), option(9, gargantuan), option(10, colossal), option(11, mammoth), option(12, titanic), defaultValue(5)):size]` ([[../../Game System/Characters/Characteristics/Encumbrance|encumbrance]] `VIEW[{encumbrance} / 4]`/`VIEW[{encumbrance} / 2]`/`VIEW[{encumbrance} * 3 / 4]`/`VIEW[{encumbrance}]`)
 - [[../../Game System/Checks & Dice/Bonuses & Penalties/Luck|Luck]]: `VIEW[{LUCK}]`
 
@@ -91,6 +112,17 @@ actions:
     args: {
     }
 ```
+
+### [[../../Game System/Characters/Tiers/Tiers|Tiers]]
+|                                                                                             |            Current Score            |        Gain XP        |              *result*               |
+| ------------------------------------------------------------------------------------------- | :---------------------------------: | :-------------------: | :---------------------------------: |
+| [[../../Game System/Characters/Tiers/Experience Tier (ET)\|Experience Tier (ET)]]           |   `INPUT[number:TierExperience]`    | `BUTTON[progress-et]` |   `VIEW[{tierExperienceResult}]`    |
+| [[../../Game System/Characters/Tiers/Mythic Tier (MT)\|Mythic Tier (MT)]]                   |     `INPUT[number:TierMythic]`      | `BUTTON[progress-mt]` |     `VIEW[{tierMythicResult}]`      |
+| [[../../Game System/Characters/Tiers/Divine Tier (DT)\|Divine Tier (DT)]]                   |     `INPUT[number:TierDivine]`      | `BUTTON[progress-dt]` |     `VIEW[{tierDivineResult}]`      |
+| [[../../Game System/Characters/Tiers/Magic Aptitude (MA)\|Magic Aptitude (MA)]]             |    `INPUT[number:MagicAptitude]`    | `BUTTON[progress-ma]` |    `VIEW[{magicAptitudeResult}]`    |
+| [[../../Game System/Characters/Tiers/Technology Knowledge (TK)\|Technology Knowledge (TK)]] | `INPUT[number:TechnologyKnowledge]` | `BUTTON[progress-tk]` | `VIEW[{technologyKnowledgeResult}]` |
+
+
 
 ### [[../../Game System/Characters/Attributes/Attributes|Attributes]]
 
@@ -382,5 +414,120 @@ actions:
     args: {
 	    "direction": -1,
 	    "resource": "LUCK"
+    }
+```
+```meta-bind-js-view
+{TierExperience} as var1
+save to {ET}
+hidden
+---
+return Math.floor(context.bound.var1 / 10);
+```
+```meta-bind-js-view
+{TierMythic} as var1
+save to {MT}
+hidden
+---
+return Math.floor(context.bound.var1 / 10);
+```
+```meta-bind-js-view
+{TierDivine} as var1
+save to {DT}
+hidden
+---
+return Math.floor(context.bound.var1 / 10);
+```
+```meta-bind-js-view
+{MagicAptitude} as var1
+save to {MA}
+hidden
+---
+return Math.floor(context.bound.var1 / 10);
+```
+```meta-bind-js-view
+{TechnologyKnowledge} as var1
+save to {TK}
+hidden
+---
+return Math.floor(context.bound.var1 / 10);
+```
+```meta-bind-button
+label: "++"
+icon: ""
+hidden: true
+class: ""
+tooltip: Progress ET
+id: "progress-et"
+style: default
+actions:
+  - type: js
+    file: _scripts/progress_task.js
+    args: {
+	    "task": "TierExperience",
+	    "result": "tierExperienceResult"
+    }
+```
+```meta-bind-button
+label: "++"
+icon: ""
+hidden: true
+class: ""
+tooltip: Progress MT
+id: "progress-mt"
+style: default
+actions:
+  - type: js
+    file: _scripts/progress_task.js
+    args: {
+	    "task": "TierMythic",
+	    "result": "tierMythicResult"
+    }
+```
+```meta-bind-button
+label: "++"
+icon: ""
+hidden: true
+class: ""
+tooltip: Progress DT
+id: "progress-dt"
+style: default
+actions:
+  - type: js
+    file: _scripts/progress_task.js
+    args: {
+	    "task": "TierDivine",
+	    "result": "tierDivineResult"
+    }
+```
+```meta-bind-button
+label: "++"
+icon: ""
+hidden: true
+class: ""
+tooltip: Progress MA
+id: "progress-ma"
+style: default
+actions:
+  - type: js
+    file: _scripts/progress_task.js
+    args: {
+	    "task": "MagicAptitude",
+	    "result": "magicAptitudeResult"
+    }
+```
+```meta-bind-button
+label: "++"
+icon: ""
+hidden: true
+class: ""
+tooltip: Progress TK
+id: "progress-tk"
+style: default
+actions:
+  - type: js
+    file: _scripts/progress_task.js
+    args: {
+	    "task": "TechnologyKnowledge",
+	    "result": "technologyKnowledgeResult"
     }
 ```
