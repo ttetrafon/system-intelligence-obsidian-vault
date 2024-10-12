@@ -58,7 +58,7 @@ actions:
 
 # General
 - [[../../Game System/Characters/Characteristics/Size/Size|Size]]: `INPUT[inlineSelect(option(1, diminutive), option(2, fine), option(3, tiny), option(4, small), option(5, medium), option(6, large), option(7, huge), option(8, enormous), option(9, gargantuan), option(10, colossal), option(11, mammoth), option(12, titanic), defaultValue(5)):size]` ([[../../Game System/Characters/Characteristics/Encumbrance|encumbrance]] `VIEW[{encumbrance} / 4]`/`VIEW[{encumbrance} / 2]`/`VIEW[{encumbrance} * 3 / 4]`/`VIEW[{encumbrance}]`)
-- [[../../Game System/Checks & Dice/Bonuses & Penalties/Luck|Luck]]: `VIEW[{LUCK}]`  ()
+- [[../../Game System/Checks & Dice/Bonuses & Penalties/Luck|Luck]]: `VIEW[{LUCK}]`
 
 # [[../../Game System/Characters/Attributes/Attributes|Attributes]]
 
