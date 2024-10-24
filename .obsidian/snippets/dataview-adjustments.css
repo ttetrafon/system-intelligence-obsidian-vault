@@ -1,0 +1,12 @@
+ul.dataview.list-view-ul {
+  list-style-type: decimal !important;
+}
+
+.table-view-table {
+  counter-reset: section;
+}
+
+.table-view-table > tbody > tr > td:first-child::before {
+  counter-increment: section;
+  content: counter(section) ". ";
+}

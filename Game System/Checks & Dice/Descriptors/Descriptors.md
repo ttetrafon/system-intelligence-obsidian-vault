@@ -7,6 +7,9 @@ All effects have one or more descriptors that define some common characteristics
 Descriptors come in the following categories:
 
 ### Ability Types
+
+^8add01
+
 All abilities are defined mainly with their type.
 ```dataview
 LIST

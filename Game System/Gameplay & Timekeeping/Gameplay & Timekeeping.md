@@ -69,7 +69,7 @@ An encounter level (EL) is equal to the opponents' [[../Characters/Tiers/Experie
 A turn is a single phase within an encounter. During a turn, decisions are made and actions are attempted. The logic of the turn is to split actions into meaningful groups and not micromanage the passage of time, as it should be at least somewhat abstract like all other resolution mechanics in the game.
 All participants describe what they will attempt, in order from lower to higher [[../Characters/Tiers/Experience Tier (ET)|tier]], and make a number of checks equal to their tier. If tiers are tied, the opponents should first describe what they are doing and the players can go after. Elite opponents instead roll initiate against the players to decide who goes first, but consider the PCs always in a better position to the common enemies.
 
-![[../Characters/Aspects, Skills, & Perks/skills/Initiative|Initiative]]
+![[../Characters/Aspects, Skills, & Perks/skills/Initiative (DEX, REA, WIS)|Initiative (DEX, REA, WIS)]]
 
 The players, plus any elite and/or mythic opponents, then make their checks - the [[../Checks & Dice/Checks & Dice#Success & Failure|difficulty]] of your checks is decided by the situation and your opponents' attributes & skills - and depending on the results the GM describes how the turn has been resolved.
 

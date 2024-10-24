@@ -4,7 +4,7 @@ An obsidian vault containing the full system intelligence TTRPG, plus automation
 
 ## Plugins Used
 
-- Core:
+### Core
   - Backlinks
   - Bookmarks
   - Canvas
@@ -19,7 +19,8 @@ An obsidian vault containing the full system intelligence TTRPG, plus automation
   - Search
   - Tags view
   - Templates
-- Community:
+
+### Community
   - Advanced Canvas
   - Advanced Tables
   - Backlink Cache

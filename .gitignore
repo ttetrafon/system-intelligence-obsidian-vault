@@ -130,6 +130,9 @@ dist
 .pnp.*
 
 # Obsidian
-.obsidian/
+.obsidian/icons
+.obsidian/plugins
+.obsidian/themes
+.obsidian/*.json
 .trash/
 .vscode/

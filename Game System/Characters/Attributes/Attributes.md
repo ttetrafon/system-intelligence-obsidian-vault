@@ -12,7 +12,7 @@ The vast majority of checks during the game use your attributes. Attribute check
 > For example, you make a Sneak check with DEX 75 while trying to hide from an monster which is prowling the city streets while you hear echoes of a party luring the creature in. You have a Valorous (d12) - Cowardly (d6) trait, so may suffer a -1 penalty on your degree of success because of your current Valorous score. If the same situation repeated in the woods, where nobody would be in direct danger, you wouldn't suffer any penalty or gain any bonus due to your current Cowardly score.
 
 ## Category/Trait Score
-Each category also has its own score, equal to double the sum of its attributes mods, increased again by double the respective defensive attribute in that category (END, WIL, RES).
+Each category ([[#Body]]/[[#Mind]]/[[#Soul]]) also has its own score, equal to double the sum of its attributes mods, increased again by double the respective defensive attribute in that category (END, WIL, RES).
 > For example, your Mind score is equal to 2*Ima + 2*Mem + 2*Per + 2*Rea + 4*Wil.
 
 - [!] A trait score is updated immediately when any of its attributes changes.

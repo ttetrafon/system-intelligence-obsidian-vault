@@ -1,5 +1,4 @@
 ---
-"30": 37
 tags:
   - creature
   - character
@@ -34,8 +33,8 @@ empResult: ""
 preResult: ""
 resResult: ""
 wisResult: ""
-size: 5
-encumbrance: 1024
+size: 7
+encumbrance: 16384
 LUCK: d8
 luckTarget: 1
 luckResult: ""
@@ -53,7 +52,7 @@ tierExperienceResult: ""
 tierMythicResult: ""
 tierDivineResult: ""
 magicAptitudeResult: ""
-technologyKnowledgeResult: "task TechnologyKnowledge (roll 75): 15 -> 20"
+technologyKnowledgeResult: ""
 ---
 %% Info-box controls for later %%
 ```meta-bind-button
@@ -95,7 +94,7 @@ actions:
 ---
 
 > [!info]+ Training
-> ... (all the next sessions will be collapsed inside here)
+> ... (all following sessions will be collapsed inside here)
 
 ### Randomise Character
 ```meta-bind-button
