@@ -35,6 +35,7 @@ NoteType: Obsidian
 - [Supercharge Links](https://github.com/mdelobelle/obsidian_supercharged_links) ^f3b800
 	- [showcase](https://forum.obsidian.md/t/supercharged-links-showcase/18219)
 - [Templater](https://github.com/SilentVoid13/Templater) ^37f10b
+	- Can define folders where templates will be used automatically.
 - [Update Relative Links](https://github.com/val3344/obsidian-update-relative-links)
 - [Various Compliments](https://tadashi-aikawa.github.io/docs-obsidian-various-complements-plugin/) ^ecf214
 

@@ -1,8 +1,7 @@
 ---
 tags:
   - rules
-  - health
-  - boon
+  - health/boon
 ---
 #### Description
 

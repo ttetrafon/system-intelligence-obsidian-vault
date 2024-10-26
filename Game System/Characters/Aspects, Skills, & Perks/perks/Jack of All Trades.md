@@ -1,8 +1,7 @@
 ---
 tags:
   - rules
-  - perk
-  - self
+  - perk/self
 rank: "0"
 ---
 ## [[../../Game System/Checks & Dice/Descriptors/Ex|Ex]] V

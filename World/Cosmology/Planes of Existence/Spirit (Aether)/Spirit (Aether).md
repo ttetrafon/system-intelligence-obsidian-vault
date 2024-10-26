@@ -1,5 +1,5 @@
 ---
 tags:
+  - rules
   - cosmology
-  - world
 ---

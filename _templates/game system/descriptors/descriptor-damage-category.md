@@ -1,0 +1,4 @@
+---
+tags:
+  - descriptor/damage-category
+---

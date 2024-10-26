@@ -13,7 +13,7 @@ Descriptors come in the following categories:
 All abilities are defined mainly with their type.
 ```dataview
 LIST
-FROM #descriptor-ability-type AND -"_templates"
+FROM #descriptor/ability-type AND -"_templates"
 SORT file.name ASC
 ```
 
@@ -21,7 +21,7 @@ SORT file.name ASC
 All effects fall under three categories.
 ```dataview
 LIST
-FROM #descriptor-effect-type AND -"_templates"
+FROM #descriptor/effect-type AND -"_templates"
 SORT file.name ASC
 ```
 
@@ -29,7 +29,7 @@ SORT file.name ASC
 Tags are used to categorise everything in the game by providing a common background for actions, effects, etc.
 ```dataview
 LIST
-FROM #descriptor-designator AND -"_templates"
+FROM #descriptor/designator AND -"_templates"
 SORT file.name ASC
 ```
 
@@ -37,7 +37,7 @@ SORT file.name ASC
 All ❗damage falls under one of the following categories.
 ```dataview
 LIST
-FROM #descriptor-damage-category AND -"_templates"
+FROM #descriptor/damage-category AND -"_templates"
 SORT file.name ASC
 ```
 
@@ -47,27 +47,27 @@ All creatures are assigned a variety of descriptors which define their common ch
 #### Types
 ```dataview
 LIST
-FROM #descriptor-creature-type AND -"_templates"
+FROM #descriptor/creature/type AND -"_templates"
 SORT file.name ASC
 ```
 
 #### Subtypes
 ```dataview
 LIST
-FROM #descriptor-creature-subtype AND -"_templates"
+FROM #descriptor/creature/subtype AND -"_templates"
 SORT file.name ASC
 ```
 
 #### Characterisations
 ```dataview
 LIST
-FROM #descriptor-creature-characterisation AND -"_templates"
+FROM #descriptor/creature/characterisation AND -"_templates"
 SORT file.name ASC
 ```
 
 #### Dietary Habits
 ```dataview
 LIST
-FROM #descriptor-creature-dietary-habit AND -"_templates"
+FROM #descriptor/creature/dietary-habit AND -"_templates"
 SORT file.name ASC
 ```

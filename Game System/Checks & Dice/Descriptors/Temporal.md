@@ -1,7 +1,6 @@
 ---
 tags:
-  - descriptor
-  - descriptor-designator
+  - descriptor/designator
 ---
 All effects that have to do with time.
 

@@ -1,8 +1,7 @@
 ---
 tags:
   - rules
-  - health
-  - drug
+  - health/drug
 ---
 #### Description
 

@@ -1,6 +1,5 @@
 ---
 tags:
-  - descriptor
-  - descriptor-designator
+  - descriptor/designator
 ---
 …

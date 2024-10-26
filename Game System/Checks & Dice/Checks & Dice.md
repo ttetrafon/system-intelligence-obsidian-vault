@@ -49,7 +49,14 @@ Many times during your adventuring, you may fail to do something. In such cases,
 > For example, you may have failed a TEC check to unlock a door, trying with your lockpicks to force the lock open. You may decide that you will take a more logical
 
 ## Difficulty & Degree of Success/Failure (DoS/DoF)
-The difficulty is determined by the situation at hand, and is similar to a check's success level; **trivial** (failure), **regular**, **difficult**, **hard**, **extreme**, **critical**, and **impossible**.
+The difficulty is determined by the situation at hand, and is similar to a check's success level
+- **trivial** (failure)
+- **regular**
+- **difficult**
+- **hard**
+- **extreme**
+- **critical**
+- **impossible**
 > Balancing on a tight rope usually requires a hard success, while balancing on the same rope while a strong wind is blowing requires an extreme success. Avoiding the attack of a viper requires a hard success on your Dodge, but avoiding a street urchin's attempt to hit you with its fists is a trivial action.
 
 The degree of success of a check is equal to the number of steps you achieved besides the check's difficulty, including the initial difficulty.
@@ -62,7 +69,7 @@ In both cases. for each advantage or disadvantage you roll one additional tens d
 > Later, you suffer a -2 penalty. You roll two additional tens dice for 30, 50, 70, and 3. You keep the worst, which results in a check of 73, a regular success for your score.
 
 Advantages and disadvantages are added together to determine the final bonus or penalty on your check.
-> If you gained at advantage 3 and disadvantage 2, then your check would enjoy at advantage 1.
+> If you gained at advantage 3 and disadvantage 2, then your check would enjoy advantage 1.
 
 
 # Mentors

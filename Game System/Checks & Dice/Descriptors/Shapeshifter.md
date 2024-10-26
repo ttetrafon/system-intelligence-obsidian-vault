@@ -1,7 +1,5 @@
 ---
 tags:
-  - descriptor
-  - descriptor-creature
-  - descriptor-creature-characterisation
+  - descriptor/creature/characterisation
 ---
 You possess some innate ability to change your physical body at your whim.

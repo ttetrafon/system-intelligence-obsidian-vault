@@ -1,0 +1,4 @@
+---
+tags:
+  - descriptor/ability-type
+---

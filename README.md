@@ -1,5 +1,4 @@
-# system-intelligence-obsidian-vault
-
+# System Intelligence Obsidian Vault
 An obsidian vault containing the full system intelligence TTRPG, plus automation to help run the game.
 
 ## Plugins Used

@@ -1,8 +1,7 @@
 ---
 tags:
   - rules
-  - health
-  - poison
+  - health/poison
 ---
 #### Description
 

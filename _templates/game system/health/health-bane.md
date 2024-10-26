@@ -1,8 +1,7 @@
 ---
 tags:
   - rules
-  - health
-  - bane
+  - health/bane
 ---
 #### Description
 

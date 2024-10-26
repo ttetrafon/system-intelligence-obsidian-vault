@@ -1,0 +1,4 @@
+---
+tags:
+  - descriptor/creature/type
+---

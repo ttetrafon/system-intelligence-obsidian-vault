@@ -41,7 +41,7 @@ Penalties from wounds and injuries apply to the related [[../Attributes/Attribut
 Boons are positive conditions affecting you at the time.
 ```dataview
 LIST
-FROM #health AND #boon AND -"_templates"
+FROM #health/boon AND -"_templates"
 SORT file.name ASC
 ```
 
@@ -49,7 +49,7 @@ SORT file.name ASC
 Banes are short-term negative effects that may affect your performance negatively or limit you in some way.
 ```dataview
 LIST
-FROM #health AND #bane AND -"_templates"
+FROM #health/bane AND -"_templates"
 SORT file.name ASC
 ```
 
@@ -57,7 +57,7 @@ SORT file.name ASC
 Conditions are banes that have a specific duration, or have specific requirements to be lifted, or are triggered under specific circumstances.
 ```dataview
 LIST
-FROM #health AND #condition AND -"_templates"
+FROM #health/condition AND -"_templates"
 SORT file.name ASC
 ```
 
@@ -65,7 +65,7 @@ SORT file.name ASC
 A disease is something anything causes by foreign organisms attacking you from the inside, like a virus or bacteria.
 ```dataview
 LIST
-FROM #health AND #disease AND -"_templates"
+FROM #health/disease AND -"_templates"
 SORT file.name ASC
 ```
 
@@ -73,7 +73,7 @@ SORT file.name ASC
 Poisons are substances that cause adverse effects when delivered to your body, mind, or soul.
 ```dataview
 LIST
-FROM #health AND #poison AND -"_templates"
+FROM #health/poison AND -"_templates"
 SORT file.name ASC
 ```
 
@@ -81,9 +81,23 @@ SORT file.name ASC
 Drugs, like poisons, are substances that cause both beneficial and adverse effects to the one using them, but they come with the danger of addiction every time a drug is used.
 ```dataview
 LIST
-FROM #health AND #drug AND -"_templates"
+FROM #health/drug AND -"_templates"
 SORT file.name ASC
 ```
+
+
+# Recovery
+Recovering from wounds and injuries requires [[../../Gameplay & Timekeeping/Resting|resting]] or [[../../Checks & Dice/Descriptors/Healing|Healing]] magic/technology to be used.
+A ***recovery check*** is an appropriate [[#Damage|defensive check]], as if you were trying to resist the effect. For [[#Wounds & Injuries|injuries]], the [[../../Checks & Dice/Checks & Dice#Difficulty & Degree of Success/Failure (DoS/DoF)|difficulty]] of the recovery check is [[../../Checks & Dice/Checks & Dice#Hard Success (3)|hard]], and the degree of success determines how many points of injury are recovered. For [[#Wounds & Injuries|wounds]], the difficulty is [[../../Checks & Dice/Checks & Dice#Regular Success (1)|regular]].
+Recovery from [[#Banes|banes]], [[#Boons|boons]], and [[#Conditions|conditions]] is similar, but happens much faster, at specific intervals, or after taking specific actions, as defined in each boon, bane, or condition.
+
+Recovery can happen in various levels and circumstances. Some may be described by the following.
+- [[../Aspects, Skills, & Perks/skills/First Aid (PER, TEC, MEM)|First Aid (PER, TEC, MEM)]]
+- ...
+- [[../Aspects, Skills, & Perks/perks/Fast Healing (body)|Fast Healing (body)]]
+- [[../Aspects, Skills, & Perks/perks/Fast Healing (mind)|Fast Healing (mind)]]
+- [[../Aspects, Skills, & Perks/perks/Fast Healing (soul)|Fast Healing (soul)]]
+- [[../Aspects, Skills, & Perks/perks/Regeneration|Regeneration]]
 
 # Effect Description
 All effects are described by the following properties.
@@ -117,4 +131,4 @@ The time scale the effect is reapplied on its own. You must again resist the eff
 The effect does not get applied immediately but after the incubation period ends.
 
 ##### TL, ML
-The effect's [[../../Technology/Technology#Technology Level (TL)|TL]] and [[../../Magic/Magic#Magic Level (ML)|ML]].
+The effect's [[../../Technology/Technology#Technology Level (TL)|TL]] and [[../../Occult/Occult#Magic Level (ML)|ML]].

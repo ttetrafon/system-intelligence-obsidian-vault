@@ -1,8 +1,7 @@
 ---
 tags:
   - rules
-  - health
-  - disease
+  - health/disease
 ---
 #### Description
 

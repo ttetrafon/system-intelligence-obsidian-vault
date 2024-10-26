@@ -1,9 +1,8 @@
 ---
 tags:
   - rules
-  - skill
-  - simple
-  - combat
-skill-type: simple
+  - skill/simple/combat
+  - skill/simple/social
+  - skill/simple/subterfuge
 ---
-An initiative check decides when an action happens faster than some other, so it may interrupt or even deny the second action. Depending on the situation, this is a ❗DEX, ❗REA, or ❗WIS check.
+An initiative check decides when an action happens faster than some other, so it may interrupt or even deny the second action.

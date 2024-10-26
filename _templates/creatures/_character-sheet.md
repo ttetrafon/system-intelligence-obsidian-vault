@@ -39,12 +39,12 @@ LUCK: d8
 luckTarget: 1
 luckResult: ""
 TierExperience: 34
-TierMythic: 9
+TierMythic: 10
 TierDivine: 6
 MagicAptitude: 34
-TechnologyKnowledge: 20
+TechnologyKnowledge: 21
 ET: 3
-MT: 0
+MT: 1
 DT: 0
 MA: 3
 TK: 2
@@ -53,6 +53,21 @@ tierMythicResult: ""
 tierDivineResult: ""
 magicAptitudeResult: ""
 technologyKnowledgeResult: ""
+locationPlane: ---
+locationFragment: 
+locationGalaxy: 
+locationSystem: 
+locationPlanet: 
+locationSatellite: 
+locationContinent: 
+locationRegion: 
+locationSettlement: 
+locationDistrict: 
+locationNeighbourhood: 
+locationBuilding: 
+locationPOI: 
+locationSection: 
+locationRoom: 
 ---
 %% Info-box controls for later %%
 ```meta-bind-button
@@ -72,13 +87,13 @@ actions:
 
 
 # General
-- [[../../Game System/Characters/Tiers/Experience Tier (ET)|ET]]: `VIEW[{ET}]`
-- [[../../Game System/Characters/Tiers/Mythic Tier (MT)|MT]]: `VIEW[{MT}]`
-- [[../../Game System/Characters/Tiers/Divine Tier (DT)|DT]]: `VIEW[{DT}]`
-- [[../../Game System/Characters/Tiers/Magic Aptitude (MA)|MA]]: `VIEW[{MA}]`
-- [[../../Game System/Characters/Tiers/Technology Knowledge (TK)|TK]]: `VIEW[{TK}]`
+- [[../../Game System/Characters/Tiers/Experience Tier (ET)|ET]]: `VIEW[{ET}]`; `INPUT[number:TierExperience]`; `BUTTON[progress-et]`; `VIEW[{tierExperienceResult}]`
+- [[../../Game System/Characters/Tiers/Mythic Tier (MT)|MT]]: `VIEW[{MT}]`; `INPUT[number:TierMythic]`; `BUTTON[progress-mt]`; `VIEW[{tierMythicResult}]`
+- [[../../Game System/Characters/Tiers/Divine Tier (DT)|DT]]: `VIEW[{DT}]`; `INPUT[number:TierDivine]`; `BUTTON[progress-dt]`; `VIEW[{tierDivineResult}]`
+- [[../../Game System/Characters/Tiers/Magic Aptitude (MA)|MA]]: `VIEW[{MA}]`; `INPUT[number:MagicAptitude]`; `BUTTON[progress-ma]`; `VIEW[{magicAptitudeResult}]`
+- [[../../Game System/Characters/Tiers/Technology Knowledge (TK)|TK]]: `VIEW[{TK}]`; `INPUT[number:TechnologyKnowledge]`; `BUTTON[progress-tk]`; `VIEW[{technologyKnowledgeResult}]`
 - [[../../Game System/Characters/Characteristics/Size/Size|Size]]: `INPUT[inlineSelect(option(1, diminutive), option(2, fine), option(3, tiny), option(4, small), option(5, medium), option(6, large), option(7, huge), option(8, enormous), option(9, gargantuan), option(10, colossal), option(11, mammoth), option(12, titanic), defaultValue(5)):size]` ([[../../Game System/Characters/Characteristics/Encumbrance|encumbrance]] `VIEW[{encumbrance} / 4]`/`VIEW[{encumbrance} / 2]`/`VIEW[{encumbrance} * 3 / 4]`/`VIEW[{encumbrance}]`)
-- [[../../Game System/Checks & Dice/Bonuses & Penalties/Luck|Luck]]: `VIEW[{LUCK}]`
+- [[../../Game System/Checks & Dice/Bonuses & Penalties/Luck|Luck]]: `INPUT[resource-score][:LUCK]`; `BUTTON[spend-luck]` `INPUT[resource-target][:luckTarget]` `BUTTON[gain-luck]`; `VIEW[{luckResult}]`
 
 # [[../../Game System/Characters/Attributes/Attributes|Attributes]]
 
@@ -89,12 +104,13 @@ actions:
 | [[../../Game System/Characters/Attributes/Endurance (END)\|END]]  | `VIEW[{END}]` | `BUTTON[roll-end]` | `VIEW[{endResult}]` | [[../../Game System/Characters/Attributes/Perception (PER)\|PER]]  | `VIEW[{PER}]` | `BUTTON[roll-per]` | `VIEW[{perResult}]` |  [[../../Game System/Characters/Attributes/Presence (PRE)\|PRE]]  | `VIEW[{PRE}]` | `BUTTON[roll-pre]` | `VIEW[{preResult}]` |
 |   [[../../Game System/Characters/Attributes/Might (MIG)\|MIG]]    | `VIEW[{MIG}]` | `BUTTON[roll-mig]` | `VIEW[{migResult}]` |   [[../../Game System/Characters/Attributes/Reason (REA)\|REA]]    | `VIEW[{REA}]` | `BUTTON[roll-rea]` | `VIEW[{reaResult}]` |  [[../../Game System/Characters/Attributes/Resolve (RES)\|RES]]   | `VIEW[{RES}]` | `BUTTON[roll-res]` | `VIEW[{resResult}]` |
 | [[../../Game System/Characters/Attributes/Technique (TEC)\|TEC]]  | `VIEW[{TEC}]` | `BUTTON[roll-tec]` | `VIEW[{tecResult}]` |  [[../../Game System/Characters/Attributes/Willpower (WIL)\|WIL]]  | `VIEW[{WIL}]` | `BUTTON[roll-wil]` | `VIEW[{wilResult}]` |   [[../../Game System/Characters/Attributes/Wisdom (WIS)\|WIS]]   | `VIEW[{WIS}]` | `BUTTON[roll-wis]` | `VIEW[{wisResult}]` |
+# [[../../Game System/Characters/Health/Health|Health]]
 
 
 ---
-
-> [!info]+ Training
-> ... (all following sessions will be collapsed inside here)
+---
+---
+# Training
 
 ### Randomise Character
 ```meta-bind-button
@@ -112,41 +128,25 @@ actions:
     }
 ```
 
-### [[../../Game System/Characters/Tiers/Tiers|Tiers]]
-|                                                                                             |            Current Score            |        Gain XP        |              *result*               |
-| ------------------------------------------------------------------------------------------- | :---------------------------------: | :-------------------: | :---------------------------------: |
-| [[../../Game System/Characters/Tiers/Experience Tier (ET)\|Experience Tier (ET)]]           |   `INPUT[number:TierExperience]`    | `BUTTON[progress-et]` |   `VIEW[{tierExperienceResult}]`    |
-| [[../../Game System/Characters/Tiers/Mythic Tier (MT)\|Mythic Tier (MT)]]                   |     `INPUT[number:TierMythic]`      | `BUTTON[progress-mt]` |     `VIEW[{tierMythicResult}]`      |
-| [[../../Game System/Characters/Tiers/Divine Tier (DT)\|Divine Tier (DT)]]                   |     `INPUT[number:TierDivine]`      | `BUTTON[progress-dt]` |     `VIEW[{tierDivineResult}]`      |
-| [[../../Game System/Characters/Tiers/Magic Aptitude (MA)\|Magic Aptitude (MA)]]             |    `INPUT[number:MagicAptitude]`    | `BUTTON[progress-ma]` |    `VIEW[{magicAptitudeResult}]`    |
-| [[../../Game System/Characters/Tiers/Technology Knowledge (TK)\|Technology Knowledge (TK)]] | `INPUT[number:TechnologyKnowledge]` | `BUTTON[progress-tk]` | `VIEW[{technologyKnowledgeResult}]` |
-
-
-
 ### [[../../Game System/Characters/Attributes/Attributes|Attributes]]
-
-| [[../../Game System/Characters/Attributes/Attributes\|Attributes]]               |        Current Score        |
-|:-------------------------------------------------------------------------------- |:---------------------------:|
-| [[../../Game System/Characters/Attributes/Appearance (APP)\|Appearance (APP)]]   | `INPUT[number-input][:APP]` |
-| [[../../Game System/Characters/Attributes/Dexterity (DEX)\|Dexterity (DEX)]]     | `INPUT[number-input][:DEX]` |
-| [[../../Game System/Characters/Attributes/Endurance (END)\|Endurance (END)]]     | `INPUT[number-input][:END]` |
-| [[../../Game System/Characters/Attributes/Might (MIG)\|Might (MIG)]]             | `INPUT[number-input][:MIG]` |
-| [[../../Game System/Characters/Attributes/Technique (TEC)\|Technique (TEC)]]     | `INPUT[number-input][:TEC]` |
-| [[../../Game System/Characters/Attributes/Imagination (IMA)\|Imagination (IMA)]] | `INPUT[number-input][:IMA]` |
-| [[../../Game System/Characters/Attributes/Memory (MEM)\|Memory (MEM)]]           | `INPUT[number-input][:MEM]` |
-| [[../../Game System/Characters/Attributes/Perception (PER)\|Perception (PER)]]   | `INPUT[number-input][:PER]` |
-| [[../../Game System/Characters/Attributes/Reason (REA)\|Reason (REA)]]           | `INPUT[number-input][:REA]` |
-| [[../../Game System/Characters/Attributes/Willpower (WIL)\|Willpower (WIL)]]     | `INPUT[number-input][:WIL]` |
-| [[../../Game System/Characters/Attributes/Conviction (CON)\|Conviction (CON)]]   | `INPUT[number-input][:CON]` |
-| [[../../Game System/Characters/Attributes/Empathy (EMP)\|Empathy (EMP)]]         | `INPUT[number-input][:EMP]` |
-| [[../../Game System/Characters/Attributes/Presence (PRE)\|Presence (PRE)]]       | `INPUT[number-input][:PRE]` |
-| [[../../Game System/Characters/Attributes/Resolve (RES)\|Resolve (RES)]]         | `INPUT[number-input][:RES]` |
-| [[../../Game System/Characters/Attributes/Wisdom (WIS)\|Wisdom (WIS)]]           | `INPUT[number-input][:WIS]` |
+[[../../Game System/Characters/Attributes/Appearance (APP)\|Appearance (APP)]] : `INPUT[number-input][:APP]`
+[[../../Game System/Characters/Attributes/Dexterity (DEX)\|Dexterity (DEX)]]: `INPUT[number-input][:DEX]`
+[[../../Game System/Characters/Attributes/Endurance (END)\|Endurance (END)]]: `INPUT[number-input][:END]`
+[[../../Game System/Characters/Attributes/Might (MIG)\|Might (MIG)]]: `INPUT[number-input][:MIG]`
+[[../../Game System/Characters/Attributes/Technique (TEC)\|Technique (TEC)]]: `INPUT[number-input][:TEC]`
+[[../../Game System/Characters/Attributes/Imagination (IMA)\|Imagination (IMA)]]: `INPUT[number-input][:IMA]`
+[[../../Game System/Characters/Attributes/Memory (MEM)\|Memory (MEM)]]: `INPUT[number-input][:MEM]`
+[[../../Game System/Characters/Attributes/Perception (PER)\|Perception (PER)]]: `INPUT[number-input][:PER]`
+[[../../Game System/Characters/Attributes/Reason (REA)\|Reason (REA)]]: `INPUT[number-input][:REA]`
+[[../../Game System/Characters/Attributes/Willpower (WIL)\|Willpower (WIL)]]: `INPUT[number-input][:WIL]`
+[[../../Game System/Characters/Attributes/Conviction (CON)\|Conviction (CON)]]: `INPUT[number-input][:CON]`
+[[../../Game System/Characters/Attributes/Empathy (EMP)\|Empathy (EMP)]]: `INPUT[number-input][:EMP]`
+[[../../Game System/Characters/Attributes/Presence (PRE)\|Presence (PRE)]]: `INPUT[number-input][:PRE]`
+[[../../Game System/Characters/Attributes/Resolve (RES)\|Resolve (RES)]]: `INPUT[number-input][:RES]`
+[[../../Game System/Characters/Attributes/Wisdom (WIS)\|Wisdom (WIS)]]: `INPUT[number-input][:WIS]`
 
 ### [[../../Game System/Checks & Dice/Resources|Resources]]
-|                                                             | Current Value                  |                                    *check*                                     |       *result*       |
-| :---------------------------------------------------------: | ------------------------------ | :----------------------------------------------------------------------------: | :------------------: |
-| [[../../Game System/Characters/Characteristics/Luck\|Luck]] | `INPUT[resource-score][:LUCK]` | `BUTTON[spend-luck]` `INPUT[resource-target][:luckTarget]` `BUTTON[gain-luck]` | `VIEW[{luckResult}]` |
+[[../../Game System/Characters/Characteristics/Luck\|Luck]]: 
 
 
 

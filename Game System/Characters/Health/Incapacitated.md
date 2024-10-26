@@ -1,8 +1,7 @@
 ---
 tags:
   - rules
-  - health
-  - condition
+  - health/condition
 ---
 #### Description
 You cannot take any actions at all and you cannot perceive your surroundings or communicate at all.

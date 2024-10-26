@@ -1,6 +1,5 @@
 ---
 tags:
-  - descriptor
-  - descriptor-ability-type
+  - descriptor/ability-type/ex
 ---
 Extraordinary means that it is neither magical not technological in nature.

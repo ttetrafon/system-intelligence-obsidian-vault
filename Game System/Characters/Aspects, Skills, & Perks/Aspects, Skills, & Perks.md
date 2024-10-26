@@ -1,3 +1,7 @@
+---
+tags:
+  - rules
+---
 # Aspects
 An aspect is a profession, hobby, career, discipline, or anything similar that defines a skillset you have acquired during your life or adventuring. Each aspect includes a number of skills which define it, but an aspect's skill list is not limited to the ones presented below. Aspects can be used instead of skills, for a more generic progression system, absconding the need to keep track of specific skills.
 
@@ -10,6 +14,7 @@ Many aspects apply only to a specific domain (organisation, culture, civilisatio
 You can add extra domains for an aspect as perks under that aspect.
 
 ## Aspect Lists
+
 ### Academics
 
 
@@ -108,35 +113,73 @@ While in training, skill checks are attempted by using the median of the two low
 When trained, you use the median of all three associated attribute scores to make skill checks.
 
 ## Skill Lists
-### Adventuring
 
-
-### Combat
+### [[../../Artistry/Artistry|Artistry]]
 ```dataview
 LIST
-FROM #skill AND #combat AND -"_templates"
+FROM (#skill/simple/artistry OR #skill/complex/artistry) AND -"_templates"
 SORT file.name ASC
 ```
 
-### Crafting
+### [[../../Combat/Combat|Combat]]
+```dataview
+LIST
+FROM (#skill/simple/combat OR #skill/complex/combat) AND -"_templates"
+SORT file.name ASC
+```
 
+### [[../../Exploration/Exploration|Exploration]]
+```dataview
+LIST
+FROM (#skill/simple/exploration OR #skill/complex/exploration) AND -"_templates"
+SORT file.name ASC
+```
 
-### Knowledge
+### [[../../Occult/Occult|Occult]]
+```dataview
+LIST
+FROM (#skill/simple/occult OR #skill/complex/occult) AND -"_templates"
+SORT file.name ASC
+```
 
+### [[../../Science/Science|Science]]
+```dataview
+LIST
+FROM (#skill/simple/science OR #skill/complex/science) AND -"_templates"
+SORT file.name ASC
+```
 
-### Social
+### [[../../Social/Social|Social]]
+```dataview
+LIST
+FROM (#skill/simple/social OR #skill/complex/social) AND -"_templates"
+SORT file.name ASC
+```
 
+### [[../../Subterfuge/Subterfuge|Subterfuge]]
+```dataview
+LIST
+FROM (#skill/simple/subterfuge OR #skill/complex/subterfuge) AND -"_templates"
+SORT file.name ASC
+```
+
+### [[../../Technology/Technology|Technology]]
+```dataview
+LIST
+FROM (#skill/simple/technology OR #skill/complex/technology) AND -"_templates"
+SORT file.name ASC
+```
 
 
 # Perks
 Perks are special abilities that augment your aspects and skills. They are gained through your life experiences, although sometimes you may train to gain one.
-
-Perks have ranks (N), which define their power, and [[Experience & Training|how difficult is to gain the perk]].
+Perks have ranks (N), which define their effect and [[Experience & Training|how difficult is to gain the perk]].
 
 ## Perk Lists
+
 ### Self
 ```dataview
 LIST
-FROM #perk AND #self AND -"_templates"
+FROM #perk/self AND -"_templates"
 SORT file.name ASC
 ```

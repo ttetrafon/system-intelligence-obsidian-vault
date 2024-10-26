@@ -1,6 +1,5 @@
 ---
 tags:
-  - descriptor
-  - descriptor-designator
+  - descriptor/designator
 ---
 All effects related to metal. Metal is opposing [[Acid.md|acid]].

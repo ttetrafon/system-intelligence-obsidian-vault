@@ -1,14 +1,9 @@
 ---
 tags:
-  - descriptor
-  - descriptor-creature
-  - descriptor-creature-type
-  - descriptor-effect-type
   - bonus
+  - descriptor/creature/type
 ---
 Spirits are all the creatures that spawn in the [[../../../World/Cosmology/Planes of Existence/Spirit (Aether)/Spirit (Aether)|Spirit World]], be it ❗demons, ❗devils, ❗fey, and so on. These are all patterns that exist by forming vessels for themselves by the energy of the planes itself. This also describes all effects related to the patterns, or souls, of all creatures.
-
-Spirit effects directed to a target's [[../../Characters/Attributes/Attributes#Soul|soul]], or essence in general.
 
 - A spirit, being an energy manifestation, cannot appear on its own on the prime world, instead it needs to ❗possess a vessel there.
 Possession can happen though only in two ways, a vessel wills the possession to happen or the vessel has been marked by the spirit while it was possessing another vessel. Marking a vessel needs to be done in a way that signifies the spirit in question.

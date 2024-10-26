@@ -1,6 +1,5 @@
 ---
 tags:
-  - descriptor
-  - descriptor-designator
+  - descriptor/designator
 ---
-All effects that manipulate or affect the blood of [[../../Creatures/Creatures.md|creatures]], whatever type they may be.
+All effects that manipulate or affect the blood of [[../../../World/Creatures/Creatures|creatures]], whatever type they may be.
