@@ -1,10 +1,10 @@
 ---
 tags:
   - world
-Type: fragment
-Plane: Aether
-Fragment: Shallow Aether
-Galaxy: 
+Type: galaxy
+Plane: Prime
+Fragment: 
+Galaxy: Tadpole Galaxy
 System: 
 Planet: 
 Satellite: 
@@ -72,16 +72,16 @@ return engine.markdown.create(res);
 ```
 
 # Description
-
+![# Tadpole Galaxy](https://en.wikipedia.org/wiki/NGC_4622)
 
 
 
 ---
 ```dataview
-TABLE WITHOUT ID link(file.name) as "Location", Type, Galaxy, System, Planet, Satellite, Continent, Region, Settlement, District, Neighbourhood, Building, POI, Section, Room
+TABLE WITHOUT ID link(file.name) as "Location", Type, System, Planet, Satellite, Continent, Region, Settlement, District, Neighbourhood, Building, POI, Section, Room
 FROM #world AND "World/World Description"
-WHERE Plane = "Aether" AND Fragment = "Shallow Aether" AND file.name != "Shallow Aether"
-SORT Galaxy ASC, System ASC, Planet ASC, Satellite ASC, Continent ASC, Region ASC, Settlement ASC, District ASC, Neighbourhood ASC, Building ASC, POI ASC, Section ASC, Room ASC
+WHERE Plane = "Prime" AND Galaxy = "Tadpole Galaxy" AND file.name != "Tadpole Galaxy"
+SORT System ASC, Planet ASC, Satellite ASC, Continent ASC, Region ASC, Settlement ASC, District ASC, Neighbourhood ASC, Building ASC, POI ASC, Section ASC, Room ASC
 ```
 
 ---

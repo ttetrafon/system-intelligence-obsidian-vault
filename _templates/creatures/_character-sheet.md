@@ -2,7 +2,6 @@
 tags:
   - creature
   - character
-  - character-sheet
 APP: 33
 DEX: 48
 END: 24
@@ -93,7 +92,7 @@ actions:
 - [[../../Game System/Characters/Tiers/Magic Aptitude (MA)|MA]]: `VIEW[{MA}]`; `INPUT[number:MagicAptitude]`; `BUTTON[progress-ma]`; `VIEW[{magicAptitudeResult}]`
 - [[../../Game System/Characters/Tiers/Technology Knowledge (TK)|TK]]: `VIEW[{TK}]`; `INPUT[number:TechnologyKnowledge]`; `BUTTON[progress-tk]`; `VIEW[{technologyKnowledgeResult}]`
 - [[../../Game System/Characters/Characteristics/Size/Size|Size]]: `INPUT[inlineSelect(option(1, diminutive), option(2, fine), option(3, tiny), option(4, small), option(5, medium), option(6, large), option(7, huge), option(8, enormous), option(9, gargantuan), option(10, colossal), option(11, mammoth), option(12, titanic), defaultValue(5)):size]` ([[../../Game System/Characters/Characteristics/Encumbrance|encumbrance]] `VIEW[{encumbrance} / 4]`/`VIEW[{encumbrance} / 2]`/`VIEW[{encumbrance} * 3 / 4]`/`VIEW[{encumbrance}]`)
-- [[../../Game System/Checks & Dice/Bonuses & Penalties/Luck|Luck]]: `INPUT[resource-score][:LUCK]`; `BUTTON[spend-luck]` `INPUT[resource-target][:luckTarget]` `BUTTON[gain-luck]`; `VIEW[{luckResult}]`
+- [[../../Game System/Characters/Characteristics/Luck|Luck]]:  `INPUT[resource-score][:LUCK]`; `BUTTON[spend-luck]` `INPUT[resource-target][:luckTarget]` `BUTTON[gain-luck]`; `VIEW[{luckResult}]`
 
 # [[../../Game System/Characters/Attributes/Attributes|Attributes]]
 
@@ -146,14 +145,14 @@ actions:
 [[../../Game System/Characters/Attributes/Wisdom (WIS)\|Wisdom (WIS)]]: `INPUT[number-input][:WIS]`
 
 ### [[../../Game System/Checks & Dice/Resources|Resources]]
-[[../../Game System/Characters/Characteristics/Luck\|Luck]]: 
-
+...
 
 
 
 ---
 - [!] Do not write under this line!
 %% The following are helper functions and will be invisible. %%
+%% Checks %%
 ```meta-bind-button
 label: "🎲"
 hidden: true
@@ -364,6 +363,7 @@ actions:
 	    "attribute": "WIS"
     }
 ```
+%% Stat calculations %%
 ```meta-bind-js-view
 {MIG} as var1
 {DEX} as var2
@@ -383,6 +383,7 @@ hidden
 let enc = Math.max(Math.floor(context.bound.var1 / 10), Math.floor(context.bound.var2 / 10)) * Math.pow(4, context.bound.size - 1);
 return enc;
 ```
+%% Resources %%
 ```meta-bind-button
 label: "+"
 icon: ""
@@ -415,6 +416,7 @@ actions:
 	    "resource": "LUCK"
     }
 ```
+%% Experience %%
 ```meta-bind-js-view
 {TierExperience} as var1
 save to {ET}
@@ -530,3 +532,4 @@ actions:
 	    "result": "technologyKnowledgeResult"
     }
 ```
+%% ... %%

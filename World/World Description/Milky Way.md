@@ -72,7 +72,7 @@ return engine.markdown.create(res);
 ```
 
 # Description
-
+![Milky Way](https://en.wikipedia.org/wiki/Milky_Way)
 
 
 
@@ -80,7 +80,7 @@ return engine.markdown.create(res);
 ```dataview
 TABLE WITHOUT ID link(file.name) as "Location", Type, System, Planet, Satellite, Continent, Region, Settlement, District, Neighbourhood, Building, POI, Section, Room
 FROM #world AND "World/World Description"
-WHERE Plane = "Prime" AND Galasy = "Milky Way"
+WHERE Plane = "Prime" AND Galaxy = "Milky Way" AND file.name != "Milky Way"
 SORT Plane ASC, Fragment ASC, Galaxy ASC, System ASC, Planet ASC, Satellite ASC, Continent ASC, Region ASC, Settlement ASC, District ASC, Neighbourhood ASC, Building ASC, POI ASC, Section ASC, Room ASC
 ```
 

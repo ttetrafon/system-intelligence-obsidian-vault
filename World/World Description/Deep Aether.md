@@ -80,10 +80,9 @@ return engine.markdown.create(res);
 ```dataview
 TABLE WITHOUT ID link(file.name) as "Location", Type, Galaxy, System, Planet, Satellite, Continent, Region, Settlement, District, Neighbourhood, Building, POI, Section, Room
 FROM #world AND "World/World Description"
-WHERE Plane = "Spirit" AND Fragment = "Deep Aether"
+WHERE Plane = "Aether" AND Fragment = "Deep Aether" AND file.name != "Deep Aether"
 SORT Galaxy ASC, System ASC, Planet ASC, Satellite ASC, Continent ASC, Region ASC, Settlement ASC, District ASC, Neighbourhood ASC, Building ASC, POI ASC, Section ASC, Room ASC
 ```
-
 ---
 # Categorisation
 **Type**: `INPUT[location-type][:Type]`

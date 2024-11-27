@@ -5,7 +5,7 @@ aat-render-enabled: true
 timelines:
   - universal
 ---
-> [!quote|mark] [[../../../NPCs/specific/Evius Zotosh|Evius Zotosh]] <br>History of the Universe
+> [!quote|mark] [[../../../NPCs/specific/Evius Zotosh|Evius Zotosh]]<br>History of the Universe
 > ...
 
 
