@@ -1,4 +1,4 @@
 ---
 tags:
-  - rules/adventuring
+  - rules/adventuring/domain
 ---

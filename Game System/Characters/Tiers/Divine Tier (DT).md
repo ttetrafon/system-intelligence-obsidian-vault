@@ -1,6 +1,5 @@
 ---
 tags:
-  - rules
-  - tier
+  - rules/characters/tier
 ---
 ...

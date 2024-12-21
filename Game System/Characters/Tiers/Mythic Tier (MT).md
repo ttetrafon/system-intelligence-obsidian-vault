@@ -1,7 +1,6 @@
 ---
 tags:
-  - rules
-  - tier
+  - rules/characters/tier
 ---
 Your (experience) tier has a numerical value of 0, I, II, III, IV, V, VI, etc. It determines your general experience and renown all over the world and directly affects your checks against challenges of different tiers.
 

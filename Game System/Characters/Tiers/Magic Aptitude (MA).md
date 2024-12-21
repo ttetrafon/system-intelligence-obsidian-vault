@@ -1,7 +1,6 @@
 ---
 tags:
-  - rules
-  - tier
+  - rules/characters/tier
 ---
 Your MA describes how much you know about magic in general.
 

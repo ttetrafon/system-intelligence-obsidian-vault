@@ -1,7 +1,6 @@
 ---
 tags:
-  - rules
-  - tier
+  - rules/characters/tier
 ---
 
 Your TK escribes how much you know about technology in general.
