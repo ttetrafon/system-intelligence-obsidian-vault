@@ -1,5 +1,0 @@
----
-tags:
-  - rules
-  - adventuring-domain
----

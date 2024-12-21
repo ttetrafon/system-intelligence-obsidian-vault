@@ -1,5 +1,5 @@
 ---
 tags:
-  - bonus
-  - penalty
+  - rules/gameplay/bonus
+  - rules/gameplay/penalty
 ---

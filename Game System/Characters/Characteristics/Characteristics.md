@@ -1,3 +1,11 @@
-Besides your [[../Attributes/Attributes|attributes]] & [[../Aspects, Skills, & Perks/aspects, skills, & perks]], a number of characteristics are either derived from other stats or assigned randomly and are used to fully flesh your character.
-- [[../../Checks & Dice/Bonuses & Penalties/Age|Age]]
-- [[Size/Size|Size]]
+---
+tags:
+  - rules/characters
+---
+Besides your [[../Attributes/Attributes|attributes]] & [[../Aspects/Aspects|aspects]], a number of characteristics are either derived from other stats or assigned randomly and are used to fully flesh your character.
+
+```dataview
+LIST
+FROM #rules/characters/characteristic  AND -"_templates"
+SORT file.name ASC
+```

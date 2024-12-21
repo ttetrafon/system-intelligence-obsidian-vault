@@ -1,6 +1,6 @@
 ---
 tags:
-  - characteristic
+  - rules/characters/characteristic
 ---
 Your character belongs to one of the following age categories; you do not keep close track of your age.
 
@@ -21,5 +21,3 @@ Regardless of the age category you belong to, if you are really long lived you g
 - +1d10/100000 years
 
 #### Related Aspects, Skills & Perks
-- [[../Aspects, Skills, & Perks/perks/Timeless Body|Timeless Body]]
-
