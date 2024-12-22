@@ -20,4 +20,9 @@ Regardless of the age category you belong to, if you are really long lived you g
 - +1d10/10000 years, up to 1000000 years
 - +1d10/100000 years
 
-#### Related Aspects, Skills & Perks
+#### Related Perks
+```dataview
+LIST
+FROM #rules/characters/characteristic/age AND -"_templates"
+SORT file.name ASC
+```

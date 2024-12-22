@@ -5,7 +5,7 @@ tags:
 Whenever you want to do something non-trivial, a check is required. Actions are performed by rolling a check and comparing the result with the target [[Checks & Dice#Difficulty & Degree of Success/Failure (DoS/DoF)|difficulty]].
 
 # Check Success & Failure
-A check is made with a number of dice, usually including an [[../Characters/Attributes/Attributes|attribute]], an [[../Characters/Aspects/Aspects|aspect]], and sometimes one of your [[../Characters/Morality|morals]].
+A check is made with a number of dice, usually including an [[../Characters/Attributes/Attributes|attribute]], an [[../Characters/Aspects/Aspects|aspect]], and sometimes one of your [[../Characters/Morality/Morality|morals]].
 You roll all dice together but consider each one independently. For each 3 full points in each one you count 1 success (or reduce 1 for penalty dice).
 The total of these individual results is your check result.
 > For example, you rolled 1d10+1d6+1d4 and got 7, 3, 4 respectively, which are +2 +1 +1=4 successes in total.

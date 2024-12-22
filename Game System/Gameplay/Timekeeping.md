@@ -84,11 +84,12 @@ Possible activities are [[../Equipment/Crafting/Crafting|crafting]], ❗training
 
 Downtime is split in [[#Cycle (week)|cycles]] which are an abstract way to measure the passage of time.
 
+- [I] The number of downtime periods available to you is decided by the GM and may or may not be revealed at the start of downtime.
+
+### Downtime Activities
 You are allowed to take a number of downtime activities within each cycle equal to your ❗experience tier (minimum 1). You can take an extra one, but you may suffer from ❗exhaustion at the beginning of the next cycle. If you are already exhausted at the beginning of a downtime cycle, your exhaustion may increase at its end if you perform any downtime activities besides taking only light activities or resting.
 
 *Sometimes downtime periods are intertwined with adventuring, allowing you to progress on your downtime activities while actively adventuring. It's usually better to decide what the players did during their downtime at the end of each cycle, resolving whatever needed as a [[#Planning & Flashbacks|flashback]].*
-
-The number of downtime periods available to you is decided by the GM and may or may not be revealed at the start of downtime.
 
 # Planning & Flashbacks
 While adventuring, you need to prepare for your adventures as a player and character both.

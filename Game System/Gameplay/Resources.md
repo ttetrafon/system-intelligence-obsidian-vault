@@ -2,26 +2,29 @@
 tags:
   - rules/gameplay
 ---
-Everything in this game is an abstract resource, from your [[../Characters/Attributes/Attributes|Attributes|attribute]] and [[../Characters/Aspects/Aspects|Aspects|aspect]] scores, to your wealth, to the number of arrows you have at hand.
+Everything in this game is an abstract resource, from your [[../Characters/Attributes/Attributes|attribute]] and [[../Characters/Aspects/Aspects|aspect]] scores, to your wealth, to the number of arrows you have at hand.
 > For example, you have a wealth score instead of counting exactly how much money you have.
 
 These scores are counted using dice, in the following order:
-- d4
-- d6
-- d8
-- d10
-- d12
-- d20
-- d20+d4
-- d20+d6
-- d20+d8
-- d20+d12
-- d20+d20
-- 2d20+d4
-- …
+1. d4
+2. d6
+3. d8
+4. d10
+5. d12
+6. d20
+7. d20+d4
+8. d20+d6
+9. d20+d8
+10. d20+d12
+11. d20+d20
+12. 2d20+d4
+13. …
+
+When the actual score doesn't matter, the levels of the resource are written as I, II, III, IV, V, …
+> For example, your [[../Characters/Tiers/Experience Tier (ET)|experience tier]] is a resource that increases through adventuring, but its actual score does not matter, so when you are at tier 3 it is written as ET III.
 
 # Resource Checks
-Oftentimes you may need to make a resource check (like [[../Characters/Morality|morality]], [[../Equipment/Crafting/Crafting|crafting]], and ❗haggling checks). The result of a resource check modifies the accompanying attribute check.
+Oftentimes you may need to make a resource check (like [[../Characters/Morality/Morality|morality]], [[../Equipment/Crafting/Crafting|crafting]], and ❗haggling checks). The result of a resource check modifies the accompanying attribute check.
 - [!] Note that in some situations, the result of this check will be a penalty instead.
 
 > Having successfully sneaked into the palace, you find yourself behind a guard that you cannot pass around without them noticing you. You decide to assassinate them on the spot, and your check to cut their throat gives you a DoS 1. Your violent/peaceful morals though are d6/d12 - you make a violent check for 3 (result 0) and a peaceful for 9 (result 2), which is a penalty of -2 on your degree of success, turning your success into a failure.

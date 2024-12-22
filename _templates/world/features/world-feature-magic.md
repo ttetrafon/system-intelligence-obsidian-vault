@@ -1,0 +1,4 @@
+---
+tags:
+  - world/feature/magic
+---
