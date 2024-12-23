@@ -29,6 +29,10 @@ Oftentimes you may need to make a resource check (like [[../Characters/Morality/
 
 > Having successfully sneaked into the palace, you find yourself behind a guard that you cannot pass around without them noticing you. You decide to assassinate them on the spot, and your check to cut their throat gives you a DoS 1. Your violent/peaceful morals though are d6/d12 - you make a violent check for 3 (result 0) and a peaceful for 9 (result 2), which is a penalty of -2 on your degree of success, turning your success into a failure.
 
+# Resource Modification as Check Result
+Sometimes you may make a [[Gameplay|check]] to modify a resource. The [[Gameplay#Difficulty & Degree of Success/Failure (DoS/DoF)|DoS]] of the initial check is then used as the target for the resource's [[#Expenditure|expenditure]] or [[#Accumulation|accumulation]] check.
+> For example, a [[../Adventuring/Social/Social#First Encounter/Impression|first impressions]] check is like this.
+
 # Expenditure
 When you spend some resource you make one expenditure check (or more). You roll your resource die, and if you roll the minimum, you reduce the resource by 1 step. If you roll an 1 on a d4, your resource is fully expended instead.
 

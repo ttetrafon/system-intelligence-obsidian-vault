@@ -1,10 +1,9 @@
 ---
 tags:
-  - rules
-  - size
+  - rules/characters/size
 value: 10
-dimensions: "1km"
-weight: "5000T"
+dimensions: 1km
+weight: 5000T
 bulk: 500000
 example: ancient dragon, carrier, cargo spaceship
 ---

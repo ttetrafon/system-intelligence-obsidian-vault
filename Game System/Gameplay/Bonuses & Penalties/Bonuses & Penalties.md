@@ -5,9 +5,9 @@ tags:
 
 
 You may gain one or more bonuses or suffer one or more penalties on an action. Each bonus/penalty makes your action easier/more difficult.
-Bonuses and penalties are in the form of ***XdN***. You make your [[../Checks & Dice|check]] as normal, and then roll the bonuses or penalties and increase or reduce the total result the same way your normal check works.
+Bonuses and penalties are in the form of ***XdN***. You make your [[../Gameplay|check]] as normal, and then roll the bonuses or penalties and increase or reduce the total result the same way your normal check works.
 
-Bonuses and penalties are usually derived directly by the [[../Checks & Dice#Difficulty & Degree of Success/Failure (DoS/DoF)|DoS]] of another check or some other value, at the following rate:
+Bonuses and penalties are usually derived directly by the [[../Gameplay#Difficulty & Degree of Success/Failure (DoS/DoF)|DoS]] of another check or some other value, at the following rate:
 1. 1d4
 2. 1d6
 3. 1d8

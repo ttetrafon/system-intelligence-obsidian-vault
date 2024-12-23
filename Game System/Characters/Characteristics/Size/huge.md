@@ -1,9 +1,8 @@
 ---
 tags:
-  - rules
-  - size
+  - rules/characters/size
 value: 7
-dimensions: 20m
+dimensions: 20m.
 weight: 10T
 bulk: 5000
 example: small truck, bus, brown bear

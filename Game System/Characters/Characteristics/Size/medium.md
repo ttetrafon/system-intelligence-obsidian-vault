@@ -1,9 +1,8 @@
 ---
 tags:
-  - rules
-  - size
+  - rules/characters/size
 value: 5
-dimensions: 2m
+dimensions: 2m.
 weight: 100kg
 bulk: 300
 example: human, dwarf, bike

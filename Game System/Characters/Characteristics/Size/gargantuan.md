@@ -1,10 +1,9 @@
 ---
 tags:
-  - rules
-  - size
+  - rules/characters/size
 value: 9
-dimensions: "200m"
-weight: "1000T"
+dimensions: 200m.
+weight: 1000T
 bulk: 100000
 example: ship, liner spaceship
 ---

@@ -2,7 +2,7 @@
 tags:
   - rules/gameplay
 ---
-Whenever you want to do something non-trivial, a check is required. Actions are performed by rolling a check and comparing the result with the target [[Checks & Dice#Difficulty & Degree of Success/Failure (DoS/DoF)|difficulty]].
+Whenever you want to do something non-trivial, a check is required. Actions are performed by rolling a check and comparing the result with the target [[Gameplay#Difficulty & Degree of Success/Failure (DoS/DoF)|difficulty]].
 
 # Check Success & Failure
 A check is made with a number of dice, usually including an [[../Characters/Attributes/Attributes|attribute]], an [[../Characters/Aspects/Aspects|aspect]], and sometimes one of your [[../Characters/Morality/Morality|morals]].
@@ -45,12 +45,12 @@ Adventuring with more experienced people is always helpful. When you make checks
 
 # Opposed Checks
 When you are attempting an opposed check, you make your check normally. Your opponent also makes a check normally.
-The one with the better [[Checks & Dice#Difficulty & Degree of Success/Failure (DoS/DoF)|DoS]] wins. A tie either means that nothing happens or goes to the initiator of the action where appropriate.
+The one with the better [[Gameplay#Difficulty & Degree of Success/Failure (DoS/DoF)|DoS]] wins. A tie either means that nothing happens or goes to the initiator of the action where appropriate.
 *For a player facing game, players may roll their opponents' checks as [[Bonuses & Penalties/Bonuses & Penalties|penalties]] on their own checks.*
 
 # Check Chains
 Sometimes you need to make multiple different checks to succeed on a task because each one of them is required to perform the next.
-You make checks in order against the same difficulty. Success or failure in these checks impose a  [[Bonuses & Penalties/Situational|situational bonus/penalty]] equal to the [[Checks & Dice#Difficulty & Degree of Success/Failure (DoS/DoF)|DoS/DoF]] respectively.
+You make checks in order against the same difficulty. Success or failure in these checks impose a  [[Bonuses & Penalties/Situational|situational bonus/penalty]] equal to the [[Gameplay#Difficulty & Degree of Success/Failure (DoS/DoF)|DoS/DoF]] respectively.
 
 # Group Checks
 Many actions are taken by the whole group simultaneously. This comes into play often during skill challenges, like ❗overland travel, ❗diplomatic encounters, [[../Equipment/Crafting/Crafting|crafting]], and so on.

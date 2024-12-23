@@ -40,28 +40,28 @@ SORT file.name ASC
 ### Creatures
 All creatures are assigned a variety of descriptors which define their common characteristics. The descriptors are split into **creature types**, **creature subtypes**, and **creature dietary habits**. Usually a creature possesses only a single type and may have zero or multiple subtypes, and at least one dietary habit.
 
-#### Types
+#### Creature Types
 ```dataview
 LIST
 FROM #rules/gameplay/descriptor/creature/type AND -"_templates"
 SORT file.name ASC
 ```
 
-#### Subtypes
+#### Creature Subtypes
 ```dataview
 LIST
 FROM #rules/gameplay/descriptor/creature/subtype AND -"_templates"
 SORT file.name ASC
 ```
 
-#### Characterisations
+#### Creature Characterisations
 ```dataview
 LIST
 FROM #rules/gameplay/descriptor/creature/characterisation AND -"_templates"
 SORT file.name ASC
 ```
 
-#### Dietary Habits
+#### Creature Dietary Habits
 ```dataview
 LIST
 FROM #rules/gameplay/descriptor/creature/dietary-habit AND -"_templates"

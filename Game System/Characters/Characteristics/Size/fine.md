@@ -1,7 +1,6 @@
 ---
 tags:
-  - rules
-  - size
+  - rules/characters/size
 value: 2
 dimensions: 5cm
 weight: 0.5kg

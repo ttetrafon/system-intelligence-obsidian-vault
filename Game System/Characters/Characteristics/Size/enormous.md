@@ -1,10 +1,9 @@
 ---
 tags:
-  - rules
-  - size
+  - rules/characters/size
 value: 8
-dimensions: "50m"
-weight: "100T"
+dimensions: 50m.
+weight: 100T
 bulk: 20000
 example: dragon, combat tank, fighter spaceship
 ---

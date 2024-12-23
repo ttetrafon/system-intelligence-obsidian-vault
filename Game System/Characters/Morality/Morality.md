@@ -3,7 +3,7 @@ tags:
   - rules/characters/morality
 ---
 Your actions define who you are and what other perceive of you; your morality and your reputation.
-Morality is usually rolled as part of [[../../Gameplay/Checks & Dice|normal checks]], especially during opposed checks against others.
+Morality is usually rolled as part of [[../../Gameplay/Gameplay|normal checks]], especially during opposed checks against others.
 
 Your morality is counted in many different axes; some complementing, others competing. These axes are determined by the ❗Deck of Dragons.
 
@@ -52,7 +52,7 @@ SORT file.name ASC
 As a player, you are controlling a character in a roleplaying game.
 Sometimes, it is difficult to act appropriately, as you can see consequences as a player that your character shouldn't or can't predict.
 In these cases, the GM may ask you to make a morality check to enforce or stop an action your character is taking.
-In this case you roll both of the moral scores in the axis in question, and the one with the best [[../../Gameplay/Checks & Dice#Difficulty & Degree of Success/Failure (DoS/DoF)|DoS]] wins. You must then follow according to your character's morals and not your own will as a player.
+In this case you roll both of the moral scores in the axis in question, and the one with the best [[../../Gameplay/Gameplay#Difficulty & Degree of Success/Failure (DoS/DoF)|DoS]] wins. You must then follow according to your character's morals and not your own will as a player.
 > For example, you are being given a tour within the mansion of a very wealthy individual, and you are currently in their vault. Something happens and they rush outside forgetting about your existence. You, as a player, decide to wait for them to come back without touching anything. But your character, being generous d6 - greedy d12 is not one to sit and wait while such riches are at hand. The GM asks you to make a generous vs greedy check, and you end up with greedy winning.
 
 Such checks are mostly invoked when your morals are extreme, usually at d12 or d20.

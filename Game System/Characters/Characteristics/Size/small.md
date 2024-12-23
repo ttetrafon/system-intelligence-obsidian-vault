@@ -1,9 +1,8 @@
 ---
 tags:
-  - rules
-  - size
+  - rules/characters/size
 value: 4
-dimensions: 1m
+dimensions: 1m.
 weight: 25kg
 bulk: 100
 example: gnome, halfling

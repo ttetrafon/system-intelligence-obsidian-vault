@@ -4,7 +4,7 @@ tags: rules/characters
 A number of attributes describes your overall prowess with any type of action. Each of them is used to perform different actions and features its own score (d4, d6, d8, …). Attributes are what you usually roll when making checks.
 Attributes are divided in three categories called attribute traits, **Body**, **Mind**, **Spirit**. Each trait is assigned its relevant category score ([[#Body|body]], ,[[#Mind|mind]], [[#Soul|soul]]).
 
-Attributes are always part of any [[../../Gameplay/Checks & Dice|check]] you make during the game.
+Attributes are always part of any [[../../Gameplay/Gameplay|check]] you make during the game.
 
 ## Category/Trait Score
 Each category ([[#Body]]/[[#Mind]]/[[#Soul]]) also has its own score, equal to the median of its attribute scores or [[Endurance (END)|END]]/[[Willpower (WIL)|WIL]]/[[Resolve (RES)|RES]], whichever is higher.

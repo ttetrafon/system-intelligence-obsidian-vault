@@ -8,7 +8,7 @@ In the battlefield especially, size becomes extremely important since it defines
 In practice, your size falls within one of the following categories.
 ```dataview
 TABLE WITHOUT ID link(file.name) as "Size", value as "Value", dimensions as "Dismensions", weight as "Weight", bulk as "Bulk", example as "Examples"
-FROM #size AND -"_templates"
+FROM #rules/characters/size AND -"_templates"
 SORT value ASC
 ```
 
@@ -22,5 +22,5 @@ In some specific situation, like when dealing ❗damage, the size difference is 
 > A human (medium: 5) is trying to break down a door (medium: 5), so no bonus or penalty applies. The same human attempting to break down a wall (large: 6) suffers disadvantage 1 on their check. Later, the human tries to break a small metal straw (tiny 3), and suffers disadvantage 2 as they are not using any tools and applying one's might while handling something that small is difficult. An ogre (large: 6) trying to break down the same door gains advantage 1, and suffers disadvantage 3 when trying to break the same straw.
 
 ## [[../../../Gameplay/Resources|Resources']] Size
-...
+…
 > An arrow is a tiny item. If you have arrows 1d4, you are carrying a tiny item. If you craft more arrows to increase their stockpile to 1d8, the total of your arrows will be considered to be a small item against your encumbrance.

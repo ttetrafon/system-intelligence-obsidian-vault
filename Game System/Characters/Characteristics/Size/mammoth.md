@@ -1,7 +1,6 @@
 ---
 tags:
-  - rules
-  - size
+  - rules/characters/size
 value: 11
 dimensions: 10km
 weight: 20000T

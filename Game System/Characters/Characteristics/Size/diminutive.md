@@ -1,7 +1,6 @@
 ---
 tags:
-  - rules
-  - size
+  - rules/characters/size
 value: 1
 dimensions: 1mm
 weight: 1g

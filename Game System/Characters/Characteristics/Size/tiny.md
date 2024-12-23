@@ -1,7 +1,6 @@
 ---
 tags:
-  - rules
-  - size
+  - rules/characters/size
 value: 3
 dimensions: 25ccm
 weight: 0.5kg
