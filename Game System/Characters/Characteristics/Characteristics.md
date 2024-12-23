@@ -6,6 +6,6 @@ Besides your [[../Attributes/Attributes|attributes]] & [[../Aspects/Aspects|aspe
 
 ```dataview
 LIST
-FROM #rules/characters/characteristic  AND -"_templates"
+FROM #rules/characters/characteristic AND -#rules/characters/perk AND -"_templates"
 SORT file.name ASC
 ```

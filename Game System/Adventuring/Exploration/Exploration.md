@@ -2,6 +2,9 @@
 tags:
   - rules/adventuring/domain
 ---
+
+
+
 # Exploration [[../../Characters/Aspects/Aspects|Aspects]]
 ```dataview
 LIST
