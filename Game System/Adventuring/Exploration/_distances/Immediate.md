@@ -2,7 +2,7 @@
 tags:
   - rules/gameplay/distance
 index: 1
-description: Something within a few steps away from you (up to a few m). You can usually reach within immediate distance as part of a different action.
+description: Something within a few steps away from you (up to a few m). You can usually reach within immediate distance as part of a different action within a turn.
 travel-time: instant
 ---
 `VIEW[{description}][text]`

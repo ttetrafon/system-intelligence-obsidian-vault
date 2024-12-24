@@ -1,6 +1,5 @@
 ---
 tags:
-  - rules
-  - attribute
   - mind
+  - rules/characters/attribute
 ---

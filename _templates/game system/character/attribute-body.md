@@ -1,6 +1,5 @@
 ---
 tags:
-  - rules
-  - attribute
   - body
+  - rules/characters/attribute
 ---

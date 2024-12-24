@@ -1,6 +1,5 @@
 ---
 tags:
-  - rules
-  - attribute
   - spirit
+  - rules/characters/attribute
 ---
