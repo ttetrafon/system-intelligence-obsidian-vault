@@ -11,14 +11,14 @@ SORT index ASC
 
 # Movement
 There are multiple ways you can move. The movement modes that you may possess are the following.
-Each movement mode usually has its own speed rating derived from your species or the way you got the specific movement type and is independent of the others.
 ```dataview
 LIST
 FROM #rules/characters/movement AND -"_templates"
 SORT file.name ASC
 ```
 
-- [I] Each movement type acts as a [[../../Gameplay/Resources|resource]] that affects relevant checks.
+Each movement mode usually has its own [[#Speed|speed]] and [[#Manoeuvrability|manoeuvrability]] rating derived from your species or the way you got the specific movement type; ratings that are independent of the other movement types'.
+These ratings may be used as [[../../Gameplay/Resources#Resource Checks|resources checks]] for relevant actions, as [[../../Gameplay/Bonuses & Penalties/Bonuses & Penalties|bonuses or penalties]].
 
 ## Speed
 Each of your movement types features its own speed.

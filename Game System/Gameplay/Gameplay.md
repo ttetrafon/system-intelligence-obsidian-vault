@@ -2,15 +2,16 @@
 tags:
   - rules/gameplay
 ---
-Whenever you want to do something non-trivial, a check is required. Actions are performed by rolling a check and comparing the result with the target [[Gameplay#Difficulty & Degree of Success/Failure (DoS/DoF)|difficulty]].
+Whenever you want to do something non-trivial, a check is required. Actions are performed by rolling a check and comparing the result with the target difficulty.
 
 # Check Success & Failure
-A check is made with a number of dice, usually including an [[../Characters/Attributes/Attributes|attribute]], an [[../Characters/Aspects/Aspects|aspect]], and sometimes one of your [[../Characters/Morality/Morality|morals]].
-You roll all dice together but consider each one independently. For each 3 full points in each one you count 1 success (or reduce 1 for penalty dice).
+A check is made with a number of dice, usually including an [[../Characters/Attributes/Attributes|attribute]], an [[../Characters/Aspects/Aspects|aspect]], sometimes one of your [[../Characters/Morality/Morality|morals]] and/or other [[Bonuses & Penalties/Bonuses & Penalties|bonuses/penalties]].
+You roll all dice together but consider each one independently. For each 4 full points in each one you count 1 success (or reduce 1 for penalty dice).
 The total of these individual results is your check result.
-> For example, you rolled 1d10+1d6+1d4 and got 7, 3, 4 respectively, which are +2 +1 +1=4 successes in total.
+> For example, you rolled 1d10+1d6+1d4 and got 7, 3, 4 respectively, which are +1+0+1=2 successes in total.
 
-Note that sometimes the moral check may be a hindrance, meaning that you subtract the number of successes on that die from your total.
+Note that sometimes the [[../Characters/Morality/Morality|moral]] check may be a hindrance, meaning that you subtract the number of successes on that die from your total.
+The same applies to [[Bonuses & Penalties/Bonuses & Penalties|penalties]].
 
 # Difficulty & Degree of Success/Failure (DoS/DoF)
 Most often, your check must meet or surpass some difficulty. The difficulty is subtracted by your check's total to calculate the total successes. This final number is the **degree of success**, if positive or zero, or the **degree of failure**, if negative.
@@ -30,7 +31,7 @@ Most often, your check must meet or surpass some difficulty. The difficulty is s
 |   deific    |   20   | A task that only the divines have hopes to succeed on.                  |
 ## Extra Success Effects
 If you get a better success rate than the one required by the task at hand you gain additional benefits. The number of extra effects equals to the degree of success of your check.
-> For example, you are trying to charm a guard to allow you to enter in a restricted facility, which is a demanding task. You scored 5 successes though, so the guard not only allows you to enter the facility but also provides you with information on how to avoid the guard patrols within and gives you visitor named tags so you can avoid secondary identity checks if you are caught.
+> For example, you are trying to charm a guard to allow you to enter in a restricted facility, which is a demanding task (3 successes required). You scored 5 successes though, so the guard not only allows you to enter the facility but also provides you with information on how to avoid the guard patrols within and gives you visitor named tags so you can avoid secondary identity checks if you are caught.
 
 ## Limited Success
 Sometimes you may fail but you would prefer not to. In these occasions you may decide that you succeeded instead but suffer a number of drawbacks equal to your DoF; you can decide what the consequences are yourself, but the GM must approve of these.
@@ -93,13 +94,13 @@ Sometimes you may need to perform some action while doing something else. When t
 # Tasks (Long-Term Activities)
 A task is a complex endeavour that takes time and requires multiple checks.
 
-###### Time Interval
+##### Time Interval
 Tasks take time which is split into time intervals. These vary, from a few seconds each to centuries, depending on the task at hand.
 
-###### Complexity
+##### Complexity
 Each task is described by its complexity, which is a specific die (like a resource).
 
-###### Progress
+##### Progress
 Progress on a task starts at 0. At the end of each [[#Time Interval|time interval]], you make a resource accumulation check with a target equal to the DoS of a relevant check increased by your tier.
 The task is finished when your [[#Progress|progress]] reaches the task's [[#Complexity|complexity]].
 
