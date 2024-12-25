@@ -105,3 +105,8 @@ Progress on a task starts at 0. At the end of each [[#Time Interval|time interva
 The task is finished when your [[#Progress|progress]] reaches the task's [[#Complexity|complexity]].
 
 ### Task Descriptions
+```dataview
+LIST
+FROM #rules/adventuring/task AND -"_templates"
+SORT file.name ASC
+```
