@@ -16,19 +16,19 @@ The same applies to [[Bonuses & Penalties/Bonuses & Penalties|penalties]].
 # Difficulty & Degree of Success/Failure (DoS/DoF)
 Most often, your check must meet or surpass some difficulty. The difficulty is subtracted by your check's total to calculate the total successes. This final number is the **degree of success**, if positive or zero, or the **degree of failure**, if negative.
 
-| Difficulty  | Target | Description                                                             |
-|:-----------:|:------:|:----------------------------------------------------------------------- |
-|   routine   |   0    | Anyone can do this basically every time.                                |
-|   simple    |   1    | Typical task requiring focus. Most people can usually do this.          |
-|  standard   |   2    | Requires full attention. Post people have a mediocre chance to succeed. |
-|  demanding  |   3    | Trained people have a 50/50 chance to succeed.                          |
-|  difficult  |   4    | Even trained people will fail sometimes.                                |
-| challenging |   6    | Gifted people with training have some chance of success.                |
-| formidable  |   8    | Even highly trained people almost never succeed.                        |
-| impossible  |   10   | Impossible without great effort or extremely specialised training.      |
-|   heroic    |   12   | A task worthy of tales for years afterwards.                            |
-|  immortal   |   15   | A task worthy of legends that last lifetimes.                           |
-|   deific    |   20   | A task that only the divines have hopes to succeed on.                  |
+| Difficulty  | Target | Description                                                             | Information Availability |
+| :---------: | :----: | :---------------------------------------------------------------------- | :----------------------: |
+|   routine   |   0    | Anyone can do this basically every time.                                |     common knowledge     |
+|   simple    |   1    | Typical task requiring focus. Most people can usually do this.          |       widely known       |
+|  standard   |   2    | Requires full attention. Post people have a mediocre chance to succeed. |     generally known      |
+|  demanding  |   3    | Trained people have a 50/50 chance to succeed.                          |      somewhat known      |
+|  difficult  |   4    | Even trained people will fail sometimes.                                |       specialized        |
+| challenging |   6    | Gifted people with training have some chance of success.                |                          |
+| formidable  |   8    | Even highly trained people almost never succeed.                        |          hidden          |
+| impossible  |   10   | Impossible without great effort or extremely specialised training.      |                          |
+|   heroic    |   12   | A task worthy of tales for years afterwards.                            |     almost forgotten     |
+|  immortal   |   15   | A task worthy of legends that last lifetimes.                           |                          |
+|   deific    |   20   | A task that only the divines have hopes to succeed on.                  |        forgotten         |
 ## Extra Success Effects
 If you get a better success rate than the one required by the task at hand you gain additional benefits. The number of extra effects equals to the degree of success of your check.
 > For example, you are trying to charm a guard to allow you to enter in a restricted facility, which is a demanding task (3 successes required). You scored 5 successes though, so the guard not only allows you to enter the facility but also provides you with information on how to avoid the guard patrols within and gives you visitor named tags so you can avoid secondary identity checks if you are caught.
@@ -104,3 +104,4 @@ Each task is described by its complexity, which is a specific die (like a resour
 Progress on a task starts at 0. At the end of each [[#Time Interval|time interval]], you make a resource accumulation check with a target equal to the DoS of a relevant check increased by your tier.
 The task is finished when your [[#Progress|progress]] reaches the task's [[#Complexity|complexity]].
 
+### Task Descriptions

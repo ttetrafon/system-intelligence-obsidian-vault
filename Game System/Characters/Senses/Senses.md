@@ -32,7 +32,7 @@ SORT file.name ASC
 # Senses Perks
 ```dataview
 LIST
-FROM #rules/characters/perk AND #rules/characters/senses AND -"_templates"
+FROM #rules/characters/perk AND #rules/characters/vision AND -"_templates"
 SORT file.name ASC
 ```
 

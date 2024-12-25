@@ -1,3 +1,7 @@
+---
+tags:
+  - rules/gameplay
+---
 Time keeping sets the pace of the game. The game is split into two distinctive parts, adventuring and downtime.
 
 ### Quarter Days
@@ -11,6 +15,12 @@ With this in mind you can easily calculate how fast the time passes when the adv
 ### Cycle (week)
 The most important time measure is the cycle. A cycle denotes a time period of about one week on Earth. Large scale events and actions, like crafting and organisation evolution, always happen between cycles.
 Cycles are tightly tied to [[#Downtime|downtime periods]].
+
+### Month
+A number of cycles, usually 4-5, comprise a month.
+
+### Year
+Usually defined as a full circle of a planet around a start, a year includes a specific number of months and cycles.
 
 # Timers (Clocks)
 A simple way to create tension is to use timers. These are abstract countdowns that run out on actions, not on time itself.
