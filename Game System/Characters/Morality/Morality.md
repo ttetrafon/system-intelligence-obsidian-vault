@@ -59,7 +59,7 @@ Such checks are mostly invoked when your morals are extreme, usually at d12 or d
 
 ## Morality Changes
 At the end of each scene, you can declare that one or more of your traits have changed. Your GM must approve of the change.
-If so, you make an [[../../Gameplay/Resources#Accumulation|accumulation]] check to increase that morality score.
+If so, you make an [[../../Gameplay/Resources/Resources#Accumulation|accumulation]] check to increase that morality score.
 
 Also, the GM may also declare that you must roll to change a morality score based on your actions during a scene or session, regardless of your wishes.
 
@@ -72,4 +72,4 @@ A morality change situation can have an impact on your morality score. Each of t
 > During your adventuring (you are generous d4 - greedy d20), you have given alms to a poor you took pity upon. Giving alms is of lesser impact, so you roll d4 for 1, which means you increase your generous score to d6. At the same time, your greedy score drops to d12.
 
 ### Forced Morality Change
-During downtime you can spend time in various activities with the purpose of increasing or lowering one of your morality trait scores. You make a check once per cycle as per the guidelines above. Each attempt to change your morals takes one [[../../Gameplay/Timekeeping#Downtime|downtime activity]].
+During downtime you can spend time in various activities with the purpose of increasing or lowering one of your morality trait scores. You make a check once per cycle as per the guidelines above. Each attempt to change your morals takes one [[../../Gameplay/Timekeeping/Timekeeping#Downtime|downtime activity]].

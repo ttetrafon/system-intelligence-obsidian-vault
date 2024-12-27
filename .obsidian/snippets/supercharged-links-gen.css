@@ -139,7 +139,7 @@ div[data-id="3cd6-4d17"] div.setting-item-description::before,
 }
 
 div[data-id="a6b7-6a30"] div.setting-item-description::before,
-.data-link-icon[data-link-tags*="health" i]::before {
+.data-link-icon[data-link-tags*="rules/characters/health" i]::before {
     content: var(--a6b7-6a30-before);
 }
 
@@ -564,7 +564,7 @@ settings:
         quotes: true
     - 
         id: a6b7-6a30
-        title: tag is health
+        title: tag is rules/characters/health
         description: Example note
         type: heading
         collapsed: true

@@ -67,10 +67,10 @@ An encounter is a single event or interaction between groups of characters, crea
 > While in the tunnels under the stronghold, the players were ambushed by mutant rats which they failed to spot in time. This is an encounter.
 
 #### Encounter Level (EL) 
-An encounter level (EL) is equal to the opponents' [[../Characters/Tiers/Experience Tier (ET)|ETs]] total.
+An encounter level (EL) is equal to the opponents' [[../../Characters/Tiers/Experience Tier (ET)|ETs]] total.
 
 #### Party Level (PL)
-Similarly, your party level (PL) is equal to your group's [[../Characters/Tiers/Experience Tier (ET)|ETs]] total.
+Similarly, your party level (PL) is equal to your group's [[../../Characters/Tiers/Experience Tier (ET)|ETs]] total.
 
 #### Encounter Resolution
 An encounter's resolution can be structured when needed; especially when the encounter happens between groups with opposing and/or exclusive goals.
@@ -79,18 +79,23 @@ To succeed on an encounter, you take [[#Turn|turns]] until you beat the encounte
 ### Turn
 A turn is a single phase within an encounter. During a turn, decisions are made and actions are attempted. The logic of the turn is to split actions into meaningful groups and not micromanage the passage of time, as it should be at least somewhat abstract like all other resolution mechanics in the game.
 
-All participants describe what they will attempt, in order from lower to higher [[../Characters/Tiers/Tiers|tier]], and make a number of checks equal to their [[../Characters/Tiers/Experience Tier (ET)|ET]].
+All participants describe what they will attempt, in order from lower to higher [[../../Characters/Tiers/Tiers|tier]], and make a number of checks equal to their [[../../Characters/Tiers/Experience Tier (ET)|ET]].
 If tiers are tied, the opponents should first describe what they are doing and the players can go after. Elite opponents instead roll [[#Initiative|initiative]] against the players to decide who goes first.
 
 After all checks are made, the collective [[Gameplay#Difficulty & Degree of Success/Failure (DoS/DoF)|DoS]] of both groups is determined. Each group then uses their own score to either move the [[#Encounter Resolution|encounter's resolution]] towards their own side.
-Individual results though apply ❗damage and/or ❗effects to enemies and allies as described in the planning phase, while defensive actions, ❗equipment, and ❗character traits/abilities are used to mitigate ❗damage and ❗effects.
 
-- [N] Sometimes, ❗damage/❗effects applied to specific enemies may result in them falling out of the encounter. In such cases, the [[#Encounter Level (EL)|EL]] and/or [[#Party Level (PL)|PL]] are immediately adjusted as needed.
+#### Damage
+Individual results though apply damage to enemies and allies as described in the planning phase
+
+If damage is not mitigated through actions, equipment (like armour), and/or abilities, it results in [[../../Characters/Health/Health#Injury|injury]]. Depending on the specifics, the damage is directed towards a specific [[../../Characters/Attributes/Attributes|attribute]] or towards invoking some ❗effect. The [[Gameplay#Difficulty & Degree of Success/Failure (DoS/DoF)|DoS]] of the relevant check, which is called ***damage***, is then used as the difficulty to resist the effect or the target to suffer injury.
+
+- [N] Sometimes, [[../../Characters/Health/Health#Injury|injuries]]/❗effects applied to specific enemies may result in them falling out of the encounter. In such cases, the [[#Encounter Level (EL)|EL]] and/or [[#Party Level (PL)|PL]] are immediately adjusted as needed.
 
 > The players (tier II) have stumbled upon a raider (4 raiders * tier I = EL 4) checkpoint on a rarely travelled bridge. The encounter begins with the raiders demanding a toll. 
+> ...
 
 #### Initiative
-An initiative check decides when an action happens faster than some other, so it may interrupt or even deny the second action. Depending on the situation, this is a [[../Characters/Attributes/Dexterity (DEX)|DEX]], [[../Characters/Attributes/Reason (REA)|REA]], or [[../Characters/Attributes/Wisdom (WIS)|WIS]] check.
+An initiative check decides when an action happens faster than some other, so it may interrupt or even deny the second action. Depending on the situation, this is a [[../../Characters/Attributes/Dexterity (DEX)|DEX]], [[../../Characters/Attributes/Reason (REA)|REA]], or [[../../Characters/Attributes/Wisdom (WIS)|WIS]] check.
 
 #### Effects & Turns
 Non-instantaneous effects that last for multiple turns, encounters, scenes, or even adventures and whose target can shake them off are resolved at the end of each turn/encounter/scene/etc.
@@ -102,7 +107,7 @@ In this cases, the unawares cannot take any actions during the first [[#Turn|tur
 
 # Downtime
 Downtime happens in-between adventuring phases. It is time for free play without much need of checks, and it when players can undertake downtime activities.
-Possible activities are [[../Equipment/Crafting/Crafting|crafting]], ❗training, ❗researching, ❗working, ❗recuperating, ❗foraging, ❗scraping, and so on.
+Possible activities are [[../../Equipment/Crafting/Crafting|crafting]], ❗training, ❗researching, ❗working, ❗recuperating, ❗foraging, ❗scraping, and so on.
 
 Downtime is split in [[#Cycle (week)|cycles]] which are an abstract way to measure the passage of time.
 

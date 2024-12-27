@@ -5,7 +5,7 @@ tags:
 When you interact with technology or magic you don't know, i.e. of a tier higher than your current ❗TK/❗ML you suffer huge disadvantages on your skill checks.
 
 Regardless of your current aptitude tier though you may gain familiarity with specific equipment or effects by solely using them for some time.
-Familiarity is a [[../../Gameplay/Resources|score]] you train until you reach the target.
+Familiarity is a [[../../Gameplay/Resources/Resources|score]] you train until you reach the target.
 The target is usually equal to the difference between your own ❗TK/❗MA and the target's ❗TL/❗ML respectively, unless otherwise defined by the GM due to other factors (like complexity or ease of use).
 > For example...
 

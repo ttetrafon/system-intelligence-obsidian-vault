@@ -17,11 +17,11 @@ These can be at any scale, from talking to a merchant bartering their prices, to
 - **Helpful** (d12): Will take risks to help you, protect you, heal you, advise you, and even fight alongside you.
 - **Fanatic** (d20): Will die to support you.
 
-Disposition is a [[../../Gameplay/Resources|resource]] that changes due to interactions with you, during social encounters or through your fame, or infamy.
+Disposition is a [[../../Gameplay/Resources/Resources|resource]] that changes due to interactions with you, during social encounters or through your fame, or infamy.
 
 ### First Impression
 Usually, NPCs start at indifferent, unless there is a reason for them not to.
-When you first meet with someone, make a *first impressions* [[../../Gameplay/Resources#Resource Modification as Check Result|check]] (relevant [[#Social ../../Characters/Aspects/Aspects Aspects|social aspect]] + [[../../Characters/Attributes/Presence (PRE)|PRE]]) to modify their initial attitude towards the direction you want.
+When you first meet with someone, make a *first impressions* [[../../Gameplay/Resources/Resources#Resource Modification as Check Result|check]] (relevant [[#Social ../../Characters/Aspects/Aspects Aspects|social aspect]] + [[../../Characters/Attributes/Presence (PRE)|PRE]]) to modify their initial attitude towards the direction you want.
 
 # Social Encounters
 A social encounter can either be a simple happening or a more involved process.
@@ -34,10 +34,10 @@ Actions taken in a social encounter are called social manoeuvres.
 
 ## Social Manoeuvres/Skills
 A social manoeuvre is anything you do to change the disposition of others, regardless of scale.
-The type of manoeuvre can lead to either a permanent or temporary change of [[../../Adventuring/Social/Social#Disposition|disposition]]. Temporary changes usually last for a [[../../Gameplay/Timekeeping#Scene|scene]] or an [[../../Gameplay/Timekeeping#Encounter|encounter]] and at its end the target's disposition either reverts to its initial value or it suffers a similar but opposite change.
+The type of manoeuvre can lead to either a permanent or temporary change of [[../../Adventuring/Social/Social#Disposition|disposition]]. Temporary changes usually last for a [[../../Gameplay/Timekeeping/Timekeeping#Scene|scene]] or an [[../../Gameplay/Timekeeping/Timekeeping#Encounter|encounter]] and at its end the target's disposition either reverts to its initial value or it suffers a similar but opposite change.
  > For example, you have used your weapon to intimidate a guard to allow you into a locked down facility. Their disposition changes to helpful for the time being, but as soon as you leave them out of sight they will turn to hostile.
 
-When commanding others, either by authority, inspiration, or planning, you make can make a check that will provide some bonuses, equal to your  [[../../Gameplay/Gameplay#Difficulty & Degree of Success/Failure (DoS/DoF)|degree of success]], that your allies can use later within the same [[../../Gameplay/Timekeeping#Turn|turn]]/[[../../Gameplay/Timekeeping#Encounter|encounter]].
+When commanding others, either by authority, inspiration, or planning, you make can make a check that will provide some bonuses, equal to your  [[../../Gameplay/Gameplay#Difficulty & Degree of Success/Failure (DoS/DoF)|degree of success]], that your allies can use later within the same [[../../Gameplay/Timekeeping/Timekeeping#Turn|turn]]/[[../../Gameplay/Timekeeping/Timekeeping#Encounter|encounter]].
 These bonuses can be either:
 - A +1 [[../../Gameplay/Bonuses & Penalties/Morale|morale]] or [[../../Gameplay/Bonuses & Penalties/Synergy|synergy]] [[../../Gameplay/Bonuses & Penalties/Bonuses & Penalties|bonus]] on any related check.
 - Redirection of all damage received by one ally to another.

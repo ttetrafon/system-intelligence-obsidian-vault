@@ -11,4 +11,4 @@ Each subject in the tome is considered a resource, which can be used to increase
 - [N] The expenditure is personal, other people can study the tome too and gain the benefits.
 
 - ***❗TL/❗ML***: `VIEW[{TL}][text]`/`VIEW[{ML}][text]`
-- ***[[../../Game System/Gameplay/Timekeeping|Time Interval]]***: `VIEW[{time-interval}][text]`
+- ***[[../Gameplay/Timekeeping/Timekeeping|Time Interval]]***: `VIEW[{time-interval}][text]`

@@ -91,6 +91,10 @@ You can usually attempt untrained checks with [[../Characters/Aspects/Aspects|as
 Sometimes you may need to perform some action while doing something else. When the actions are mutually exclusive, you suffer a cumulative 1 [[Bonuses & Penalties/Synergy|synergy penalty]] for each action you are performing.
 > You are driving your bike while being followed and shot at by a rival gang's car. You are simultaneously zip within the traffic and shoot your pistol towards them, which means you suffer a -2 synergy penalty in both your drive and combat checks.
 
+A [[../Adventuring/Adventuring#Concentration|concentration check]] can be used to alleviate multitasking penalties, if successful. The difficulty of this check is equal to the number of simultaneous actions you are attempting to take.
+- On a success, reduce multitasking penalties by the concentration's check [[#Difficulty & Degree of Success/Failure (DoS/DoF)|DoS]].
+- On a failure, increase the multitasking penalties by the concentration's check [[#Difficulty & Degree of Success/Failure (DoS/DoF)|DoF]].
+
 # Tasks (Long-Term Activities)
 A task is a complex endeavour that takes time and requires multiple checks.
 
