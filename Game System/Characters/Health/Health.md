@@ -89,7 +89,16 @@ Exhaustion applies directly to each [[../Attributes/Attributes#Category/Trait Sc
 Each time you suffer fatigue, you must succeed on an appropriate ❗defensive check. If you fail, you suffer exhaustion, or your current exhaustion may increase - make an [[../../Gameplay/Resources/Resources#Accumulation|accumulation]] check on your current exhaustion score.
 
 # Damage Immunity, Resistance, & Vulnerability
+If you have immunity to a [[../../Gameplay/Descriptors (Tags)/Descriptors (Tags)#Descriptive Tags|descriptor]] or [[../../Gameplay/Descriptors (Tags)/Descriptors (Tags)#Damage Categories|damage type]] you ignore all [[../../Gameplay/Timekeeping/Timekeeping#Damage|damage]] associated with it.
 
+Similarly to immunity, a resistance directly reduces incoming [[../../Gameplay/Timekeeping/Timekeeping#Damage|damage]] by acting as a [[../../Gameplay/Bonuses & Penalties/Bonuses & Penalties|bonus]] on your [[../Attributes/Attributes#Defensive Check|defensive checks]].
+The bonus level and type both depend on the source.
+> For example, if you have fire resistance 3 from your ❗Cloak of the Elements, you gain a +1d8 [[../../Gameplay/Bonuses & Penalties/Enhancement|enhancement]] bonus on your defensive checks to shrug off incoming fire damage.
+
+Vulnerability is like resistance, but acts as a [[../../Gameplay/Bonuses & Penalties/Bonuses & Penalties|penalty]] on your [[../Attributes/Attributes#Defensive Check|defensive checks]].
+
+# Death
+…
 
 # Health Related Perks
 ```dataview

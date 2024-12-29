@@ -13,6 +13,9 @@ Each category ([[#Body]]/[[#Mind]]/[[#Soul]]) also has its own score, equal to t
 
 - [I] A trait score is updated immediately when any of its attributes changes.
 
+### Defensive Check
+Whenever you suffer [[../../Gameplay/Timekeeping/Timekeeping#Damage|damage]] you are allowed an appropriate defensive check. The defensive check is a [[#Category/Trait Score|trait]] check. The [[../../Gameplay/Gameplay#Difficulty & Degree of Success/Failure (DoS/DoF)|DoS]] of this check reduces the damage on 1-1 rate, which may reduce the severity of the incoming [[../Health/Health#Injury|injury]]/[[../Health/Health#Effects|effect]], or even outright negate it.
+
 # Body
 ```dataview
 LIST

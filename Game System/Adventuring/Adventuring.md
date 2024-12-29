@@ -23,3 +23,25 @@ LIST
 FROM #rules/adventuring/domain AND -"_templates"
 SORT file.name ASC
 ```
+
+# Adventuring Activities
+
+## Foraging, Salvaging, Scrapping, Disenchanting…
+All these are resolved in a similar way. You make an appropriate [[../Gameplay/Gameplay|check]] and spend the time required in each activity.
+The [[../Gameplay/Gameplay#Difficulty & Degree of Success/Failure (DoS/DoF)|DoS]] of this check is then used as that target of an [[../Gameplay/Resources/Resources#Accumulation|accumulation]] check for the appropriate [[../Gameplay/Resources/Resources|resource(s)]].
+
+#### Disenchanting
+Disenchanting is destroying pre-existing ❗enchantments to get the materials back.
+
+#### Foraging
+Foraging is about harvesting natural materials, food, and/or clean water in the wilderness.
+
+#### Hunting
+Hunting is taking down prey, either by attacking directly or setting traps up.
+
+#### Salvaging
+Salvaging describes all activities required to strip useful materials from pre-existing constructions, like buildings or derelict vehicles.
+
+#### Scrapping
+Scrapping is disassembling equipment to their base material.
+
