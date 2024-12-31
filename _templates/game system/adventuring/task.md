@@ -8,4 +8,4 @@ TL: 0
 …
 
 - ***❗TL/❗ML***: `VIEW[{TL}][text]`/`VIEW[{ML}][text]`
-- ***[[../../Game System/Gameplay/Timekeeping/Timekeeping|Time Interval]]***: `VIEW[{time-interval}][text]`
+- ***[[../../../Game System/Gameplay/Timekeeping/Timekeeping|Time Interval]]***: `VIEW[{time-interval}][text]`
