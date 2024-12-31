@@ -37,6 +37,7 @@ FROM #rules/gameplay/descriptor/damage-category AND -"_templates"
 SORT file.name ASC
 ```
 
+
 ### Creatures
 All creatures are assigned a variety of descriptors which define their common characteristics. The descriptors are split into **creature types**, **creature subtypes**, and **creature dietary habits**. Usually a creature possesses only a single type and may have zero or multiple subtypes, and at least one dietary habit.
 

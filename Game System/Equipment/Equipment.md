@@ -1,7 +1,8 @@
 ---
 tags:
-  - rules/characters/characteristic
+  - rules/equipment
 ---
+# Encumbrance
 Encumbrance is determined by your [[Size/Size|size]] and ❗species, and then modified by your [[../Attributes/Attributes|attributes]].
 
 Carried and worn items occupy a number of slots equal to their [[Size/Size|size]].

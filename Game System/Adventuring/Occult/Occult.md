@@ -18,6 +18,19 @@ FROM #rules/adventuring/occult/spellcasting-paradigm AND -"_templates"
 SORT file.name ASC
 ```
 
+… Runes
+```dataview
+LIST
+FROM #rules/adventuring/occult/seed-rune AND -"_templates"
+SORT file.name ASC
+```
+```dataview
+LIST
+FROM #rules/adventuring/occult/power-rune AND -"_templates"
+SORT file.name ASC
+```
+
+
 # Occult Skills
 
 ## Eerie
