@@ -20,7 +20,7 @@ Effects share the following properties:
 - [[#Vector]]
 - [[#Repeat (interval, target)]]
 - [[#Incubation (time)]]
-- ❗TL/❗ML
+- [[../../Adventuring/Technology/Technology#Technology Level (TL)|TL]]/[[../../Adventuring/Occult/Occult#Magic Level (ML)|ML]]
 
 If you are targeted with an effect you are already suffering from, you suffer an [[../../Gameplay/Bonuses & Penalties/Injury|injury]] [[../../Gameplay/Bonuses & Penalties/Bonuses & Penalties|penalty]] on your defensive check equal to the effect's current [[#Severity|severity]].
 If you fail the defensive check, you roll an [[../../Gameplay/Resources/Resources#Accumulation|accumulation]] check on the effect's severity level. The target is usually set by what imposed the effect.
@@ -87,6 +87,15 @@ When fatigue accumulates, you suffer exhaustion.
 
 Exhaustion applies directly to each [[../Attributes/Attributes#Category/Trait Score|attribute category]] as a [[../../Gameplay/Bonuses & Penalties/Bonuses & Penalties|penalty]] ([[../../Gameplay/Resources/Resources|resource]]).
 Each time you suffer fatigue, you must succeed on an appropriate ❗defensive check. If you fail, you suffer exhaustion, or your current exhaustion may increase - make an [[../../Gameplay/Resources/Resources#Accumulation|accumulation]] check on your current exhaustion score.
+
+# Recovery
+Recovering from [[#Injury|injuries]] and [[#Effects|effects]] requires [[Resting|rest]] and/or [[Healing|healing]] magic/technology to be used.
+
+For [[#Injury|injuries]], a recovery check is simply an [[../../Gameplay/Resources/Resources#Accumulation|accumulation]] check at the current damaged [[../Attributes/Attributes|attribute]] score.
+
+For other [[#Effects|effects]], recovery is an [[../../Gameplay/Resources/Resources#Expenditure|expenditure]] check instead, at the current effect's severity.
+Most times, you can make recover checks only when allowed to.
+
 
 # Damage Immunity, Resistance, & Vulnerability
 If you have immunity to a [[../../Gameplay/Descriptors (Tags)/Descriptors (Tags)#Descriptive Tags|descriptor]] or [[../../Gameplay/Descriptors (Tags)/Descriptors (Tags)#Damage Categories|damage type]] you ignore all [[../../Gameplay/Timekeeping/Timekeeping#Damage|damage]] associated with it.
