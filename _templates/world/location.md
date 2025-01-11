@@ -17,7 +17,14 @@ Building:
 POI: 
 Section: 
 Room: 
+description: ...
+random-encounters-level-none: 1
+random-encounters-level-natural-feature: 4
+random-encounters-level-local-fauna-flora: 10
+random-encounters-level-intelligents: 16
+random-encounters-level-unnatural-feature: 20
 ---
+# Description
 ```meta-bind-js-view
 {Type} as type
 {Plane} as plane
@@ -70,19 +77,75 @@ res += context.bound.section != "" ? ` -> [[${context.bound.section}]]` : "";
 res += context.bound.room != "" ? ` -> [[${context.bound.room}]]` : "";
 return engine.markdown.create(res);
 ```
+```meta-bind
+INPUT[editor:description]
+```
 
-# Description
-
-
-
+# Random Encounters {1d20}
+##### None {`VIEW[{random-encounters-level-none}][text]`}
+##### Natural Feature: {`VIEW[{random-encounters-level-natural-feature}][text]`}
+```meta-bind-js-view
 
 ---
+let res = `
+\`\`\`dataview
+LIST
+FROM #world/feature AND #world/location AND -"_templates"
+SORT file.name ASC
+\`\`\`
+`
+return engine.markdown.create(res);
+```
+##### Local Flora/Fauna: {`VIEW[{random-encounters-level-local-fauna-flora}][text]`}
+```meta-bind-js-view
+
+---
+let res = `
+\`\`\`dataview
+LIST
+FROM #creatures AND #world/location AND -"_templates"
+SORT file.name ASC
+\`\`\`
+`
+return engine.markdown.create(res);
+```
+##### Intelligent Life: {`VIEW[{random-encounters-level-intelligents}][text]`}
+```meta-bind-js-view
+
+---
+let res = `
+\`\`\`dataview
+LIST
+FROM #creatures AND #world/location AND -"_templates"
+SORT file.name ASC
+\`\`\`
+`
+return engine.markdown.create(res);
+```
+##### Unnatural Feature: {`VIEW[{random-encounters-level-unnatural-feature}][text]`}
+```meta-bind-js-view
+
+---
+let res = `
+\`\`\`dataview
+LIST
+FROM #world/feature AND #world/location AND -"_templates"
+SORT file.name ASC
+\`\`\`
+`
+return engine.markdown.create(res);
+```
+
+# Sublocations
+
 ```dataview
 TABLE WITHOUT ID link(file.name) as "Location", Type, Plane, Fragment, Galaxy, System, Planet, Satellite, Continent, Region, Settlement, District, Neighbourhood, Building, POI, Section, Room
 FROM #world AND "World/World Description"
 WHERE Plane = "Prime" AND file.name != ""
 SORT Plane ASC, Fragment ASC, Galaxy ASC, System ASC, Planet ASC, Satellite ASC, Continent ASC, Region ASC, Settlement ASC, District ASC, Neighbourhood ASC, Building ASC, POI ASC, Section ASC, Room ASC
 ```
+
+
 ---
 # Categorisation
 **Type**: `INPUT[location-type][:Type]`

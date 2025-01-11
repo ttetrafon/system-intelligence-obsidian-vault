@@ -1,6 +1,6 @@
 ---
 tags:
-  - world
+  - world/location
 Type: fragment
 Plane: Aether
 Fragment: Shallow Aether
@@ -16,8 +16,15 @@ Neighbourhood:
 Building: 
 POI: 
 Section: 
-Room: 
+Room:
+description: ...
+random-encounters-level-none: 1
+random-encounters-level-natural-feature: 4
+random-encounters-level-local-fauna-flora: 10
+random-encounters-level-intelligents: 16
+random-encounters-level-unnatural-feature: 20
 ---
+# Description
 ```meta-bind-js-view
 {Type} as type
 {Plane} as plane
@@ -71,7 +78,6 @@ res += context.bound.room != "" ? ` -> [[${context.bound.room}]]` : "";
 return engine.markdown.create(res);
 ```
 
-# Description
 
 
 

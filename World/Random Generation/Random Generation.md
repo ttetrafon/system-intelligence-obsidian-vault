@@ -1,9 +1,15 @@
 ---
 tags:
-  - rules
+  - world/worldbuilding/generation/random
 ---
 
-
+# Random Encounters
+Each location should have the following list for random encounters generation. Each item should be assigned a range of numbers between 1-20 (1d20) - the default presented below - adjusted as needed depending on the location.
+- none: 1
+- natural feature: 4
+- local flora/fauna: 10
+- intelligent life: 16
+- unnatural feature: 20
 
 
 ## Tricks 

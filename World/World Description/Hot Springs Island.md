@@ -1,14 +1,14 @@
 ---
 tags:
-  - world/location
-Type: galaxy
-Plane: Prime
-Fragment: 
-Galaxy: Comet Galaxy
+  - world
+Type: continent
+Plane: Aether
+Fragment: Deep Aether
+Galaxy: 
 System: 
 Planet: 
 Satellite: 
-Continent: 
+Continent: Hot Springs Island
 Region: 
 Settlement: 
 District: 
@@ -17,7 +17,9 @@ Building:
 POI: 
 Section: 
 Room: 
-description: "![Comet Galaxy](https://en.wikipedia.org/wiki/Comet_Galaxy)"
+description: |-
+  # ...
+  ...
 random-encounters-level-none: 1
 random-encounters-level-natural-feature: 4
 random-encounters-level-local-fauna-flora: 10
@@ -77,18 +79,45 @@ res += context.bound.section != "" ? ` -> [[${context.bound.section}]]` : "";
 res += context.bound.room != "" ? ` -> [[${context.bound.room}]]` : "";
 return engine.markdown.create(res);
 ```
-
-
-
-
-
----
-```dataview
-TABLE WITHOUT ID link(file.name) as "Location", Type, System, Planet, Satellite, Continent, Region, Settlement, District, Neighbourhood, Building, POI, Section, Room
-FROM #world AND "World/World Description"
-WHERE Plane = "Prime" AND Galaxy = "Comet Galaxy" AND file.name != "Comet Galaxy"
-SORT System ASC, Planet ASC, Satellite ASC, Continent ASC, Region ASC, Settlement ASC, District ASC, Neighbourhood ASC, Building ASC, POI ASC, Section ASC, Room ASC
+```meta-bind
+INPUT[editor:description]
 ```
+
+# Random Encounters {1d20}
+##### None {1}
+##### Natural Feature: {4}
+```dataview
+LIST
+FROM #world/feature AND #world/location AND -"_templates"
+SORT file.name ASC
+```
+##### Local Flora/Fauna: {10}
+```dataview
+LIST
+FROM #creatures AND #world/location AND -"_templates"
+SORT file.name ASC
+```
+##### Intelligent Life: {16}
+```dataview
+LIST
+FROM #creatures AND #world/location AND -"_templates"
+SORT file.name ASC
+```
+##### Unnatural Feature: {20}
+```dataview
+LIST
+FROM #world/feature AND #world/location AND -"_templates"
+SORT file.name ASC
+```
+
+# Sublocations
+```dataview
+TABLE WITHOUT ID link(file.name) as "Location", Region, Settlement, District, Neighbourhood, Building, POI, Section, Room
+FROM #world AND "World/World Description"
+WHERE Continent = "Hot Spring Islands" AND file.name != "Hot Springs Island"
+SORT Continent ASC, Region ASC, Settlement ASC, District ASC, Neighbourhood ASC, Building ASC, POI ASC, Section ASC, Room ASC
+```
+
 
 ---
 # Categorisation

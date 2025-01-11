@@ -1,10 +1,10 @@
 ---
 tags:
-  - world
+  - world/location
 Type: galaxy
 Plane: Prime
 Fragment: 
-Galaxy: Cartwheel Galaxy
+Galaxy: Hoag's Object
 System: 
 Planet: 
 Satellite: 
@@ -17,7 +17,14 @@ Building:
 POI: 
 Section: 
 Room: 
+description: "![Hoag's Object](https://en.wikipedia.org/wiki/Hoag%27s_Object)"
+random-encounters-level-none: 1
+random-encounters-level-natural-feature: 4
+random-encounters-level-local-fauna-flora: 10
+random-encounters-level-intelligents: 16
+random-encounters-level-unnatural-feature: 20
 ---
+# Description
 ```meta-bind-js-view
 {Type} as type
 {Plane} as plane
@@ -71,8 +78,7 @@ res += context.bound.room != "" ? ` -> [[${context.bound.room}]]` : "";
 return engine.markdown.create(res);
 ```
 
-# Description
-![Hoag's Object](https://en.wikipedia.org/wiki/Hoag%27s_Object)
+
 
 
 

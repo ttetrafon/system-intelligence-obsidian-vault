@@ -1,6 +1,6 @@
 ---
 tags:
-  - world
+  - world/location
 Type: galaxy
 Plane: Prime
 Fragment: 
@@ -17,7 +17,14 @@ Building:
 POI: 
 Section: 
 Room: 
+description: "![Andromeda Galaxy](https://en.wikipedia.org/wiki/Andromeda_Galaxy)"
+random-encounters-level-none: 1
+random-encounters-level-natural-feature: 4
+random-encounters-level-local-fauna-flora: 10
+random-encounters-level-intelligents: 16
+random-encounters-level-unnatural-feature: 20
 ---
+# Description
 ```meta-bind-js-view
 {Type} as type
 {Plane} as plane
@@ -70,11 +77,9 @@ res += context.bound.section != "" ? ` -> [[${context.bound.section}]]` : "";
 res += context.bound.room != "" ? ` -> [[${context.bound.room}]]` : "";
 return engine.markdown.create(res);
 ```
-
-# Description
-![Andromeda Galaxy](https://en.wikipedia.org/wiki/Andromeda_Galaxy)
-
-
+```meta-bind
+INPUT[editor:description]
+```
 
 ---
 ```dataview
@@ -84,6 +89,7 @@ WHERE Plane = "Prime" AND Galaxy = "Andromeda Galaxy" AND file.name != "Andromed
 SORT System ASC, Planet ASC, Satellite ASC, Continent ASC, Region ASC, Settlement ASC, District ASC, Neighbourhood ASC, Building ASC, POI ASC, Section ASC, Room ASC
 ```
 
+---
 ---
 # Categorisation
 **Type**: `INPUT[location-type][:Type]`
