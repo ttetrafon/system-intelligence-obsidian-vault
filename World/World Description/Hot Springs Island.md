@@ -17,14 +17,15 @@ Building:
 POI: 
 Section: 
 Room: 
-description: |-
-  # ...
-  ...
 random-encounters-level-none: 1
 random-encounters-level-natural-feature: 4
 random-encounters-level-local-fauna-flora: 10
 random-encounters-level-intelligents: 16
 random-encounters-level-unnatural-feature: 20
+random-encounters-natural-features-query: "#world/feature AND #world/location"
+random-encounters-local-flora-fauna-query: "#creatures AND #world/location"
+random-encounters-intelligents-query: "#creatures AND #world/location"
+random-encounters-unnatural-features-query: "#world/feature AND #world/location"
 ---
 # Description
 ```meta-bind-js-view
@@ -79,43 +80,72 @@ res += context.bound.section != "" ? ` -> [[${context.bound.section}]]` : "";
 res += context.bound.room != "" ? ` -> [[${context.bound.room}]]` : "";
 return engine.markdown.create(res);
 ```
-```meta-bind
-INPUT[editor:description]
-```
+The Hot Springs Island was once an idyllic paradise where the old elves lived their lives peacefully and people from all over the cosmos came to visit.
+The, one day a rift to the Spirit World opened and
+
 
 # Random Encounters {1d20}
-##### None {1}
-##### Natural Feature: {4}
-```dataview
+##### None {`VIEW[{random-encounters-level-none}][text]`}
+##### Natural Feature: {`VIEW[{random-encounters-level-natural-feature}][text]`}
+```meta-bind-js-view
+{random-encounters-natural-features-query} as query
+---
+let res = `
+\`\`\`dataview
 LIST
-FROM #world/feature AND #world/location AND -"_templates"
+FROM (${context.bound.query}) AND -"_templates"
 SORT file.name ASC
+\`\`\`
+`
+return engine.markdown.create(res);
 ```
-##### Local Flora/Fauna: {10}
-```dataview
+##### Local Flora/Fauna: {`VIEW[{random-encounters-level-local-fauna-flora}][text]`}
+```meta-bind-js-view
+{random-encounters-local-flora-fauna-query} as query
+---
+let res = `
+\`\`\`dataview
 LIST
-FROM #creatures AND #world/location AND -"_templates"
+FROM (${context.bound.query}) AND -"_templates"
 SORT file.name ASC
+\`\`\`
+`
+return engine.markdown.create(res);
 ```
-##### Intelligent Life: {16}
-```dataview
+##### Intelligent Life: {`VIEW[{random-encounters-level-intelligents}][text]`}
+```meta-bind-js-view
+{random-encounters-intelligents-query} as query
+---
+let res = `
+\`\`\`dataview
 LIST
-FROM #creatures AND #world/location AND -"_templates"
+FROM (${context.bound.query}) AND -"_templates"
 SORT file.name ASC
+\`\`\`
+`
+return engine.markdown.create(res);
 ```
-##### Unnatural Feature: {20}
-```dataview
+##### Unnatural Feature: {`VIEW[{random-encounters-level-unnatural-feature}][text]`}
+```meta-bind-js-view
+{random-encounters-unnatural-features-query} as query
+---
+let res = `
+\`\`\`dataview
 LIST
-FROM #world/feature AND #world/location AND -"_templates"
+FROM (${context.bound.query}) AND -"_templates"
 SORT file.name ASC
+\`\`\`
+`
+return engine.markdown.create(res);
 ```
 
 # Sublocations
+
 ```dataview
-TABLE WITHOUT ID link(file.name) as "Location", Region, Settlement, District, Neighbourhood, Building, POI, Section, Room
+TABLE WITHOUT ID link(file.name) as "Location", Type, Plane, Fragment, Galaxy, System, Planet, Satellite, Continent, Region, Settlement, District, Neighbourhood, Building, POI, Section, Room
 FROM #world AND "World/World Description"
-WHERE Continent = "Hot Spring Islands" AND file.name != "Hot Springs Island"
-SORT Continent ASC, Region ASC, Settlement ASC, District ASC, Neighbourhood ASC, Building ASC, POI ASC, Section ASC, Room ASC
+WHERE Plane = "Prime" AND file.name != ""
+SORT Plane ASC, Fragment ASC, Galaxy ASC, System ASC, Planet ASC, Satellite ASC, Continent ASC, Region ASC, Settlement ASC, District ASC, Neighbourhood ASC, Building ASC, POI ASC, Section ASC, Room ASC
 ```
 
 
