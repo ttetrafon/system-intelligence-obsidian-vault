@@ -30,7 +30,7 @@ SORT index ASC
 ```
 
 ## Manoeuvrability
-You manoeuvrability determines your ability to perform while moving, your ability to turn while moving at full speed, and generally your movement capabilities, including your acceleration.
+You manoeuvrability determines your ability to perform manoeuvres while moving, your ability to turn while moving at full speed, and generally your movement capabilities, including your acceleration.
 ```dataview
 LIST
 FROM #rules/gameplay/manoeuvrability AND -"_templates"

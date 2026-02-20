@@ -15,7 +15,7 @@ The TL plays a role in how you can use your skills with such advanced technologi
 7. ***Fusion & Neural Technology (Kardashev I)***: Controlled fusion allows for unlimited energy. Implants that integrate with our neural systems flawlessly have seen the light of the day.
 8. ***Plasma (Cold Fusion) & Nanomaterials Technology (Kardashev II)***: Greater understanding of electricity allow for the controlled use of plasma. Living nanomaterials start being produced, while the first true AI makes an appearance.
 9. ***Void Technology (Kardashev III)***: Combination of matter and energy into materials with exotic properties allow for advancements only dreamed of before. At this stage, true space exploration begins.
-10. ***Mass Effect (Warp) Technology Kardashev IV***: Fields can be used for propulsion of projectiles (used as weapons) to whole spaceships, allowing for effective interstellar travel for the first time - although still done in limited distance jumps.
+10. ***Mass Effect (Warp) Technology (Kardashev IV)***: Fields can be used for propulsion of projectiles (used as weapons) to whole spaceships, allowing for effective interstellar travel for the first time - although still done in limited distance jumps.
 11. **Spacetime Unification (Hyperjump) Technology (Kardashev Ω)**: Almost instantaneous travel across great distances can be achieved. The technological impact of this technology on all sides of life is beyond fantasy and can even surpass magical abilities.
 12. ***Meta-Physics***: All knowledge and technology refined in such perfection that anything is possible, as long as it follows the laws of nature.
 
