@@ -6,7 +6,7 @@ tags:
 ## [[Su|Su]] II
 ## [[Te|Te]] II
 You are naturally resistant to all [[Su|magical]] effects and damage.
-Whenever an invoker, including yourself, attempts to affect you with magic, they suffer a [[../../Gameplay/Bonuses & Penalties/Bonuses & Penalties|penalty]] on their [[../../Adventuring/Occult/Occult#Spellcasting|spellcraft]] check equal to your SR.
+Whenever an invoker, including yourself, attempts to affect you with magic, they suffer a [[Bonuses & Penalties|penalty]] on their [[Occult#Spellcasting|spellcraft]] check equal to your SR.
 
 You ignore spell resistance only when using personal abilities that are from the same origin with your spell resistance.
 > A demon lord has natural spell resistance IX. They also can invoke various effects, like ❗haste, naturally. When doing so, they will ignore their SR.

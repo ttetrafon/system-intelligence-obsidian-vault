@@ -4,4 +4,4 @@ tags:
   - spirit
   - idea
 ---
-Soul effects directed to a target's [[../../Characters/Attributes/Attributes#Soul|soul]], or essence in general.
+Soul effects directed to a target's [[Attributes#Soul|soul]], or essence in general.

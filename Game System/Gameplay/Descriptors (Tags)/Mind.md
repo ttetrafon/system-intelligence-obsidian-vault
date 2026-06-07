@@ -4,4 +4,4 @@ tags:
   - mind
   - idea
 ---
-Effects directed to a target's [[../../Characters/Attributes/Attributes#Mind|mind]], or mental form in general.
+Effects directed to a target's [[Attributes#Mind|mind]], or mental form in general.

@@ -7,4 +7,4 @@ You can make checks in any aspect you are untrained, considering you are at novi
 This includes even specialist tasks when appropriate, as long as may had at least some exposure to them in your background or your adventuring life.
 
 ###### Requirements
-- At least one aspect at d8 level in every [[../../Adventuring/Adventuring#Adventuring Domains|adventuring domain]].
+- At least one aspect at d8 level in every [[Adventuring#Adventuring Domains|adventuring domain]].

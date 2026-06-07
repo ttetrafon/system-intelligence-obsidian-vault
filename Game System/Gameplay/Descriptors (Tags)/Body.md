@@ -4,4 +4,4 @@ tags:
   - body
   - idea
 ---
-Effects directed to a target's [[../../Characters/Attributes/Attributes#Body|body]], or physical form in general.
+Effects directed to a target's [[Attributes#Body|body]], or physical form in general.

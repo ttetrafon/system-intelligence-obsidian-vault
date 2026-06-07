@@ -2,7 +2,7 @@
 tags:
   - rules/gameplay
 ---
-Everything in this game is an abstract resource, [[../Characters/Aspects/Aspects.md|aspect]] scores, to your [[|wealth]], to the number of arrows you have at hand.
+Everything in this game is an abstract resource, [[Aspects|aspect]] scores, to your [[|wealth]], to the number of arrows you have at hand.
 
 > For example, you have a wealth score instead of counting exactly how much money you have.
 

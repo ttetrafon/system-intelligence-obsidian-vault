@@ -10,6 +10,6 @@ You can identify different shades, with their intensity correlating directly to 
 
 The target's age desaturates a life aura to the point it looks washed-out despite still being vibrant.
 
-Furthermore, this sense paints differently the living creature [[../../Gameplay/Descriptors (Tags)/Descriptors (Tags)#Creature Types|types]] and [[../../Gameplay/Descriptors (Tags)/Descriptors (Tags)#Creature Subtypes|subtypes]], meaning you can easily differentiate between them.
+Furthermore, this sense paints differently the living creature [[Descriptors (Tags)#Creature Types|types]] and [[Descriptors (Tags)#Creature Subtypes|subtypes]], meaning you can easily differentiate between them.
 
 - ***Default Range***: ❗immediate

@@ -1,0 +1,11 @@
+---
+tags:
+  - rules/characters
+---
+Besides your [[Attributes.md|attributes]] & [[Aspects.md|aspects]], a number of characteristics are either derived from other stats or assigned randomly and are used to fully flesh your character.
+
+```dataview
+LIST
+FROM #rules/characters/characteristic AND -#rules/characters/perk AND -"_templates"
+SORT file.name ASC
+```

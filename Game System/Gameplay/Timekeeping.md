@@ -139,7 +139,7 @@ An encounter is always resolved as a [[Adventuring#Skill Challenges (Encounters)
 
 # Downtime
 Downtime happens in-between adventuring phases. It is time for free play without much need of checks, and it when players can undertake downtime activities.
-Possible activities are [[../Equipment/Crafting/Crafting.md|crafting]], ❗training, ❗researching, ❗working, ❗recuperating, ❗foraging, ❗scraping, and so on.
+Possible activities are [[Crafting|crafting]], ❗training, ❗researching, ❗working, ❗recuperating, ❗foraging, ❗scraping, and so on.
 
 Downtime is split in [[#Cycle (week)|cycles]] which are an abstract way to measure the passage of time.
 
