@@ -4,7 +4,7 @@ tags:
 ---
 
 
-#### Related Perks
+# Related Perks
 ```dataview
 LIST
 FROM #rules/characters/characteristic/age AND -"_templates"

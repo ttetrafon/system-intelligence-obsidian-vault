@@ -3,6 +3,7 @@ tags:
   - rules/adventuring/domain
 ---
 # Distances
+
 ```dataview
 TABLE WITHOUT ID link(file.name) as "Distance", travel-time as "Magic/Tech Travel Time", description as Description
 FROM #rules/gameplay/distance and -"_templates"
@@ -43,6 +44,17 @@ LIST
 FROM #rules/characters/aspect/exploration AND -"_templates"
 SORT file.name ASC
 ```
+
+# Visibility
+
+Depending on the environmental conditions, an area will be considered **bright**, **lightly obscured**, **heavily obscured**, or **dark**, for each of the senses you may have (not the same descriptor will apply to all senses).
+
+- A **bright** area is perfect for the senses.
+- A **lightly obscured** area (dim light, patchy fog, moderate foliage, etc) imposes disadvantage on all senses checks based on the sense that is blocked, and limits their range to short.
+- A **heavily obscured** area (darkness, opaque fog, dense foliage, etc) appropriate senses to an immediate range. Senses checks also suffer disadvantage.
+- A **dark** area completely blocks all sensory input, even within immediate range.
+
+> For example, a dense fog cloud is considered dark for [[Sight|sight]], heavily obscured for [[Hearing|sound]] and [[Game System/Characters/Characteristics/Senses/Blood|blood]], lightly obscured for [[Heat|heat]] and [[Electromagnetism|electromagnetism]], and bright for all other senses.
 
 # Difficult Terrain
 Some terrains and effects may slow you down.

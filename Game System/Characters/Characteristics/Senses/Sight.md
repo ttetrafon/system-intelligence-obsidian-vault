@@ -6,4 +6,4 @@ The light that is reflected by your environment allows you to see everything cle
 
 This type of vision is blocked by all non-transparent barriers.
 
-- ***Default Range***: ❗extreme
+- ***Default Range***: [[Extreme|extreme]]
