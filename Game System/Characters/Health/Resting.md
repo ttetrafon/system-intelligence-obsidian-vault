@@ -10,9 +10,10 @@ There are multiple types of rest, depending on the time you spend and the enviro
 - 
 
 ### Short Rest
-A short rest is a [[../../Gameplay/Timekeeping/Timekeeping#Scene|scene]] where you take a breather, and usually lasts a couple of hours.
 
-You can take a short rest as many times as you want during a day, but not in consecutive [[../../Gameplay/Timekeeping/Timekeeping#Scene|scenes]].
+A short rest is a [[Timekeeping#Scene|scene]] where you take a breather, and usually lasts a couple of hours.
+
+You can take a short rest as many times as you want during a day, but not in consecutive [[Timekeeping#Scene|scenes]].
 
 ###### Natural Healing
 - 
@@ -20,18 +21,20 @@ You can take a short rest as many times as you want during a day, but not in con
 - 
 
 ### Long Rest
-A long rest takes approximately a [[../../Gameplay/Timekeeping/Timekeeping#Quarter Days|quarter day]] and can take place during adventuring.
 
-You can take a long rest only once per [[../../Gameplay/Timekeeping/Timekeeping|day]]. If you are in a protected environment, you can instead take a long rest that lasts for 2 quarter days. This vastly increases the benefits of your rest.
+A long rest takes approximately a [[Timekeeping#Quarter Days|quarter day]] and can take place during adventuring.
+
+You can take a long rest only once per [[Timekeeping|day]]. If you are in a protected environment, you can instead take a long rest that lasts for 2 quarter days. This vastly increases the benefits of your rest.
 
 If a long rest is interrupted, you do not gain its benefits.
 
-A long rest is considered a [[../../Gameplay/Timekeeping/Timekeeping#Scene|scene]] of its own.
+A long rest is considered a [[Timekeeping#Scene|scene]] of its own.
 
 ###### Natural Healing
 - 
 
 ### Relaxed Rest
-A relaxed rest is taken during downtime and counts a one [[../../Gameplay/Timekeeping/Timekeeping#Downtime Activities|downtime activity]] that can only be combined with other non-strenuous downtime activities.
+
+A relaxed rest is taken during downtime and counts a one [[Timekeeping#Downtime Activities|downtime activity]] that can only be combined with other non-strenuous downtime activities.
 
 If a relaxed rest is interrupted, you gain the benefits of an extended [[#Long Rest|long rest]] instead.

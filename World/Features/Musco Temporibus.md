@@ -8,4 +8,4 @@ A form of moss-like plant. Appears where the Ethereal overlaps with the Material
 - Allied groups are transported together.
 
 The flowers, when ready to blossom, emit eerie sounds, not unlike a song. At that time, anyone sleeping in proximity will have strange, alien dreams of other worlds where other patches have grown.
-- These dreams cause [[../../Game System/Characters/Attributes/Memory (MEM)|MEM]] and [[../../Game System/Characters/Attributes/Reason (REA)|REA]] [[../../Game System/Gameplay/Timekeeping/Timekeeping#Damage|damage]].
+- These dreams cause [[../../Game System/Characters/Attributes/Memory (MEM)|MEM]] and [[../../Game System/Characters/Attributes/Reason (REA)|REA]] [[Timekeeping#Damage|damage]].

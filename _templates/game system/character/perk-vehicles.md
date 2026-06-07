@@ -2,9 +2,9 @@
 tags:
   - rules/characters/perk/vehicles
 ---
-## [[../../../../Game System/Gameplay/Descriptors (Tags)/Ex|Ex]] N
-## [[../../../../Game System/Gameplay/Descriptors (Tags)/Su|Su]] N
-## [[../../../../Game System/Gameplay/Descriptors (Tags)/Te|Te]] N
+## [[Ex|Ex]] N
+## [[Su|Su]] N
+## [[Te|Te]] N
 
 
 ###### Requirements

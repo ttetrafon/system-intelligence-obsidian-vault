@@ -19,7 +19,7 @@ To create a character, follow these steps:
 4. [[Characteristics/Characteristics|Characteristics]]
 	1. [[Characteristics/Luck|Luck]]: 
 	2. [[Characteristics/Size/Size|Size]]: 
-5. [[Characteristics/Age|Age]] & Background
+5. [[Game System/Characters/Characteristics/Age/Age|Age]] & Background
 	1. Decide the age you will start adventuring. Depending on your ancestry and childhood, gain the appropriate background aspect(s).
 	2. Then go through the background intervals until you reach that age. For each background interval, decide what your character will be doing in broad strokes.
 	3. For each age category you advance, describe your plans for that age bracket, and follow the steps according to your choices.

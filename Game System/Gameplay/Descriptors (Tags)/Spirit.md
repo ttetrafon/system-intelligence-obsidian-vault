@@ -1,6 +1,7 @@
 ---
 tags:
   - rules/gameplay/descriptor/creature/type
+  - idea
 ---
 Spirits are all the creatures that spawn in the [[../../../World/Cosmology/Planes of Existence/Spirit (Aether)/Spirit (Aether)|Spirit World]], be it ❗demons, ❗devils, ❗fey, and so on. These are all patterns that exist by forming vessels for themselves by the energy of the planes itself. This also describes all effects related to the patterns, or souls, of all creatures.
 

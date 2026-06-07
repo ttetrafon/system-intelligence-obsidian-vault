@@ -1,6 +1,7 @@
 ---
 tags:
   - rules/gameplay/descriptor/creature/type
+  - idea
 ---
 A construct is an animated object or artificially constructed creature.
 Constructs include magically animated creatures, scientific creations, and spontaneous emergence.

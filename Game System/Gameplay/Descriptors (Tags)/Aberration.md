@@ -1,6 +1,7 @@
 ---
 tags:
   - rules/gameplay/descriptor/creature/type
+  - idea
 ---
 An aberration has a bizarre anatomy, strange abilities, and alien mindset, or any combination of the three.
 Aberrations are usually plain weird. They are either the results of magical experiments, or, more often than not, the result of the influence of magical energies on the mundane world.

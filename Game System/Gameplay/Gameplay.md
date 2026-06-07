@@ -2,88 +2,128 @@
 tags:
   - rules/gameplay
 ---
+# Checks
+
+During gameplay you roll 2d12 against a target determined by the situation. Actions and tasks are performed by rolling a check and comparing the result your current score - rolling under the score is a success.
+
+> You are trying to move stealthily to enter the courtyard of a facility without the guards spotting you. Your effective score is 17, so you need to roll 17 or under to succeed.
+
+# Effective Score
+
+Most action/task targets are composed of an [[Adventuring#Adventuring Domains|adventuring realm]], an [[Aspects|aspect]], and a [[Morality|morality score]].
+
+> In the example above, you are using *skullduggery* 7 (adventuring realm), thievery 8 (aspect), and control 2 (moral), for a total of 17.
+
+# Difficulty
+
+You roll 2d12 and compare the result with the action's difficulty, which is derived (round down) from the score relevant to the action ([[Adventuring#Adventuring Realms|adventuring realm]] + [[Aspects|aspect]] + [[Bonuses & Penalties|bonuses]] - [[Bonuses & Penalties|penalties]]).
+
+| *difficulty* | *target (score \* …)* | *regular effect* | *hard effect* | *extreme effect* |
+| ------------ | --------------------- | ---------------- | ------------- | ---------------- |
+| failure      | > score               | -1               | -2            | -4               |
+| regular      | <= score x1           | 1                | -1            | -2               |
+| hard         | <= score x1/2         | 2                | 1             | -1               |
+| extreme      | <= score x1/4         | 4                | 2             | 1                |
+| impossible   | extreme critical      | -                | -             | -                |
+
+## Critical & Fumble
+
+When you roll doubles you get a critical or a fumble, depending on if the roll is a success or a failure.
+
+A double roll of 12s is a usually fumble, unless your effective score is 24 or more, in which case double 12s is just a failure.
+
+# Effect
+
+The lower you roll, the better in general, meaning you have succeeded with greater effect. Your check's effect is shown on the table above, and depends on the action's difficulty.
+
+The effect as a number affects the results of your action as well as their magnitude.
+
+> On your stealth check above, if you roll 18-20 you will fail, 9-17 you succeed with effect 1, 5-8 you succeed with effect 2, and 2-4 you succeed with effect 4.
+
+A critical success adds 4 to your effect.
+
+A fumble similarly subtracts 4 from your effect.
+
 ## Extra Success Effects
-If you get a better success rate than the one required by the task at hand you gain additional benefits. The number of extra effects equals to the degree of success of your check.
-> For example, you are trying to charm a guard to allow you to enter in a restricted facility, which is a demanding task (3 successes required). You scored 5 successes though, so the guard not only allows you to enter the facility but also provides you with information on how to avoid the guard patrols within and gives you visitor named tags so you can avoid secondary identity checks if you are caught.
+
+Your final effect determines how well you succeeded, and translates either in a better outcome or a number of positive outcomes equal to the check's effect.
 
 ## Limited Success
-Sometimes you may fail but you would prefer not to. In these occasions you may decide that you succeeded instead but suffer a number of drawbacks equal to your DoF; you can decide what the consequences are yourself, but the GM must approve of these.
-> While climbing on a mountain you have reached a difficult (4) stretch on the path to move through. You make your athletics check but you fail by 1. You can declare that you succeeded to climb the stretch but you lost your rope during your attempt or you suffered some harm, thinking that proceeding on your path is better than failing.
 
-## Retrying: Changing Approach
-Many times during your adventuring, you may fail to do something. In such cases, you can attempt to change how you approached the solution. You may retry, as long as you have the time to do so and you can describe how you are approaching the task at hand differently than before. The change can be either internal or external, meaning that you may use a different method (different attribute or aspect) or the situation has changed somehow.
-> For example, you may have failed a TEC check to unlock a door, trying with your lockpicks to force the lock open. You may decide that you will take a more analytical approach and roll with REA instead.
+When you fail, unless (i.e.: negative effect), you may instead decree that you succeeded, albeit at some cost.
 
-# Mentors
-Adventuring with more experienced people is always helpful. When you make checks that another character in your group is better at, you gain a +1 synergy bonus on your check. Your mentor does not need to be present at the time of the check; it's just that you are picking the know-how from them due to proximity.
+You must decide that you suffered a number of drawbacks equal to the check's negative effect.
 
-# Opposed Checks
-When you are attempting an opposed check, you make your check normally. Your opponent also makes a check normally.
-The one with the better [[Gameplay#Difficulty & Degree of Success/Failure (DoS/DoF)|DoS]] wins. A tie either means that nothing happens or goes to the initiator of the action where appropriate.
-*For a player facing game, players may roll their opponents' checks as [[Bonuses & Penalties/Bonuses & Penalties|penalties]] on their own checks.*
+❗The GM must always approve this.
 
-# Check Chains
-Sometimes you need to make multiple different checks to succeed on a task because each one of them is required to perform the next.
-You make checks in order against the same difficulty. Success or failure in these checks impose a  [[Bonuses & Penalties/Situational|situational bonus/penalty]] equal to the [[Gameplay#Difficulty & Degree of Success/Failure (DoS/DoF)|DoS/DoF]] respectively.
+> Failing on your stealth check above means you got spotted. You decide that you would prefer to avoid being seen, and propose that you had to leave your shotgun behind as a drawback, converting your failure to success.
 
-# Group Checks
-Many actions are taken by the whole group simultaneously. This comes into play often during skill challenges, like ❗overland travel, ❗diplomatic encounters, [[../Equipment/Crafting/Crafting|crafting]], and so on.
-In these cases all individuals must attempt a roll and gather the results in a pool. You start by cancelling the best success with the worst failure, until only successes or failures are left. The best success or the worst failure at this point determines how well the group has done on the task.
-> You are trying to sneak past some sentries as a group. All of you make a stealth check and get the following results: 1, 4, -3, -2, and 1. After the 4 cancels the -3 and the 1 cancel's the -2, you are left with a 1, which means that you managed to sneak past the guards effectively.
+# Retry
 
-# Cooperative Rolls (Help Others)
-One or more characters can attempt to help you when you are performing an action if possible, as long as they are trained to do similar stuff; although they can still be not as well trained as you.
-Such actions require that all cooperating characters take the same time to perform the action. In some circumstances, having helpers reduces the total time required for the action.
+You can retry failed actions as long as you:
 
-Each helper can augment your check in one of the following ways:
-- Replace any of your [[../Characters/Attributes/Attributes|attribute]] or [[../Characters/Aspects/Aspects|aspect]] scores with their own, if theirs is better.
-- Provide a [[Bonuses & Penalties/Bonuses & Penalties|bonus die]] from any relevant to the task [[../Characters/Aspects/Aspects|aspect]] they possess.
-- Reduce the time required by the [[#Tasks (Long-Term Activities)|task]] at hand appropriately.
+- have enough time,
+- can specify how/if you changed your approach to the action at hand,
+- and have enough resources/consumables if needed.
 
-# Combined Checks
-Sometimes, you and your allies will perform the same action at the same time, so that the result is greater than its parts.
-> For example, attacking a resilient foe simultaneously so the total of your attacks has a chance to bypass their defences can be a combined check.
+Generally, the difficulty of an action remains the same unless it makes sense to increase, as determined by the GM.
 
-In this case start by the greater degree of success, and then add half the other degrees of success (min +1).
+> Failing your stealth check from the previous examples is something you cannot retry, unless you leave the area and come back later - although it will be more difficult as the guards will be aware of your infiltration attempt.
 
-# Careful Action (Taking Time) & Trivial Actions
-When you can take your time to perform an action, or when you are not under immediate threat, you are considered to have rolled the maximum possible result for your current scores.
-If the difficulty of the check is lower than your maximum possible [[#Difficulty & Degree of Success/Failure (DoS/DoF)|DoS]], you succeed automatically.
+> After you managed to infiltrate the facility, you find a locked door. Your first attempt to open it fails, but barely so nothing has gone (more) wrong. You can retry this immediately, and as many times as you want, as long as no guard comes to check while you are working on the lock and no alarm has been triggered.
 
-# Untrained Checks
-A lot of times you can attempt checks towards tasks that you do not have trained in properly. You make these checks with a 1d12 experience penalty.
 
-Generally, you may attempt untrained checks in for tasks you may have some exposure to due to your background, way of like, or even the time period you live in.
-> As a modern person of the 20th century, you know how to drive but you never gave it much thought. Suddenly you find yourself into a mountain road with a rock avalanche rolling towards you. You can still attempt road vehicle checks to avoid the falling rocks and survive, but you do so by rolling with a -2 experience penalty.
+# Advantage & Disadvantage \#
 
-You can usually attempt untrained checks with [[../Characters/Aspects/Aspects|aspects]] that belong to the same category with any [[../Characters/Aspects/Aspects|aspect]] you already have a score of d10 or more.
+You may gain advantage or disadvantage in cases where bonuses/penalties are needed but they aren’t specified.
 
-- [N] If you are currently training on something, you instead suffer a 1d8 penalty instead.
+Advantage/disadvantage may be applied multiple times (#) in some cases. In such cases you roll # extra d12 dice and keep the two best/worst dice respectively.
 
-# Multitasking
-Sometimes you may need to perform some action while doing something else. When the actions are mutually exclusive, you suffer a cumulative 1 [[Bonuses & Penalties/Synergy|synergy penalty]] for each action you are performing.
-> You are driving your bike while being followed and shot at by a rival gang's car. You are simultaneously zip within the traffic and shoot your pistol towards them, which means you suffer a -2 synergy penalty in both your drive and combat checks.
+When penalised with disadvantage, you cannot get the effect of [[#Critical & Fumble|critical success]].
 
-A [[../Adventuring/Adventuring#Concentration|concentration check]] can be used to alleviate multitasking penalties, if successful. The difficulty of this check is equal to the number of simultaneous actions you are attempting to take.
-- On a success, reduce multitasking penalties by the concentration's check [[#Difficulty & Degree of Success/Failure (DoS/DoF)|DoS]].
-- On a failure, increase the multitasking penalties by the concentration's check [[#Difficulty & Degree of Success/Failure (DoS/DoF)|DoF]].
+Similarly, when benefited from advantage you cannot suffer a [[#Critical & Fumble|fumble]].
 
-# Tasks (Long-Term Activities)
-A task is a complex endeavour that takes time and requires multiple checks.
+If you simultaneously enjoy advantage and suffer disadvantage, you subtract the lower value from the higher, and that is the # of advantage/disadvantage you use for your check.
 
-##### Time Interval
-Tasks take time which is split into time intervals. These vary, from a few seconds each to centuries, depending on the task at hand.
+# Types of Checks
 
-##### Complexity
-Each task is described by its complexity, which is a specific die (like a resource).
+## Opposed Checks
 
-##### Progress
-Progress on a task starts at 0. At the end of each [[#Time Interval|time interval]], you make a resource accumulation check with a target equal to the DoS of a relevant check increased by your tier.
-The task is finished when your [[#Progress|progress]] reaches the task's [[#Complexity|complexity]].
+When you are making checks against some other creature, you both make a check and the greater effect wins.
 
-### Task Descriptions
-```dataview
-LIST
-FROM #rules/adventuring/task AND -"_templates"
-SORT file.name ASC
-```
+Alternatively, especially when pitted against generic creatures or minions, only you make a check, with the [[Gameplay#Difficulty|difficulty]] determined by the target's [[Experience Tier (ET)|ET]], and in special occasions, [[Perks|perks]].
+
+- [[Experience Tier (ET)|ET]] lower or equal: regular
+- higher [[Experience Tier (ET)|ET]]: hard
+
+## Group Checks
+
+Sometimes your whole group will need to make a check. In this case, you all make a check individually.
+
+The result of the group action, is the median of all your results.
+
+## Cooperative Checks (Help)
+
+When helping others, you can either:
+
+- replace one of the initiator's scores, if your own is better
+- provide a bonus from some aspect or perk the initiator does not possess
+- provide advantage 1 to the initiator
+
+Note that possible [[Bonuses & Penalties|penalties]] are derived from all those cooperating, although penalties of the same type do not stack - only the highest applies.
+
+## Team Checks
+
+You and your allies can perform the same action together for greater effect. You all must synchronise and be able to take the action simultaneously for this to work. If done, a combined check uses the total of your checks' results as its effect.
+
+## Careful Action (Taking Time)
+
+You automatically succeed on a check if you have enough time to do it and your active score is enough to succeed at the required difficulty.
+
+## Combined Checks (Multi-Tasking)
+
+Sometimes you need to take multiple actions simultaneously. If the actions are not normally compatible or related, you make a single check against each of the appropriate scores but suffer cumulative disadvantage on it for each action after the first (2 actions impose disadvantage 1, 3 actions impose disadvantage 2, etc).
+
+> You are driving, shooting, and talking on the phone at the same time, you suffer disadvantage 2 on all your check while performing all three actions.
+
+If you have a [[Mythic Tier (MT)|MT]], you can instead take up to MT actions simultaneously without a penalty.

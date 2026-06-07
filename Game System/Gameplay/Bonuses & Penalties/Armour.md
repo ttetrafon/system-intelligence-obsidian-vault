@@ -4,5 +4,6 @@ modified: 2024-10-09T19:39:48+03:00
 tags:
   - rules/gameplay/bonus
   - rules/gameplay/penalty
+  - idea
 ---
 A bonus/penalty from worn armour/clothing.

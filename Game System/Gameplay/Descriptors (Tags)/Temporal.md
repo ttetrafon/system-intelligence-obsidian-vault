@@ -1,6 +1,7 @@
 ---
 tags:
   - rules/gameplay/descriptor/designator
+  - idea
 ---
 All effects that have to do with time.
 

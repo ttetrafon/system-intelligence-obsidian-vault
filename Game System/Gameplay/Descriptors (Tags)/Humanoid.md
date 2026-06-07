@@ -1,6 +1,7 @@
 ---
 tags:
   - rules/gameplay/descriptor/creature/characterisation
+  - idea
 ---
 A humanoid usually has two arms, two legs, and one head, or more generally, a human-like torso, arms, and a head.
 Humanoids usually can speak and have well-developed societies.

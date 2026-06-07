@@ -4,3 +4,5 @@ tags:
   - rules/gameplay/penalty
 ---
 A bonus or penalty due to your current state of mind.
+
+Only applicable to [[|sapient]] creatures.
