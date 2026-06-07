@@ -22,7 +22,7 @@ These ratings may be used as [[../Gameplay/Resources.md#Resource Checks|resource
 
 ## Speed
 Each of your movement types features its own speed.
-Sometimes, the difference in speed between you and your opponents will result in a [[../../Gameplay/Bonuses & Penalties/Speed|speed](../Gameplay/Bonuses%20&%20Penalties/Speed.md) [[../../Gameplay/Bonuses & Penalties/Bonuses & Penalties|bonus/penalty](Bonuses%20&%20Penalties.md) on your actions.
+Sometimes, the difference in speed between you and your opponents will result in a [[../../Gameplay/Bonuses & Penalties/Speed|speed](Speed.md) [[../../Gameplay/Bonuses & Penalties/Bonuses & Penalties|bonus/penalty](Bonuses%20&%20Penalties.md) on your actions.
 ```dataview
 LIST
 FROM #rules/gameplay/speed AND -"_templates"

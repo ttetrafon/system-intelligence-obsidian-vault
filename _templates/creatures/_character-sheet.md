@@ -150,8 +150,10 @@ actions:
 
 
 ---
-- [!] Do not write under this line!
+- {!important} Do not write under this line!
+
 %% The following are helper functions and will be invisible. %%
+
 %% Checks %%
 ```meta-bind-button
 label: "🎲"
@@ -363,6 +365,7 @@ actions:
 	    "attribute": "WIS"
     }
 ```
+
 %% Stat calculations %%
 ```meta-bind-js-view
 {MIG} as var1
@@ -383,6 +386,7 @@ hidden
 let enc = Math.max(Math.floor(context.bound.var1 / 10), Math.floor(context.bound.var2 / 10)) * Math.pow(4, context.bound.size - 1);
 return enc;
 ```
+
 %% Resources %%
 ```meta-bind-button
 label: "+"
@@ -416,6 +420,7 @@ actions:
 	    "resource": "LUCK"
     }
 ```
+
 %% Experience %%
 ```meta-bind-js-view
 {TierExperience} as var1
@@ -532,4 +537,5 @@ actions:
 	    "result": "technologyKnowledgeResult"
     }
 ```
+
 %% ... %%

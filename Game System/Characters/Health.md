@@ -36,7 +36,7 @@ If you have immunity to a [[../../Gameplay/Descriptors (Tags)/Descriptors (Tags)
 
 Similarly to immunity, a resistance directly reduces incoming [[../Gameplay/Timekeeping.md#Damage|damage]] by acting as a [[../../Gameplay/Bonuses & Penalties/Bonuses & Penalties|bonus](Bonuses%20&%20Penalties.md) on your [[Attributes.md#Defensive Check|defensive checks]].
 The bonus level and type both depend on the source.
-> For example, if you have fire resistance 3 from your ❗Cloak of the Elements, you gain a +1d8 [[../../Gameplay/Bonuses & Penalties/Enhancement|enhancement](../Gameplay/Bonuses%20&%20Penalties/Enhancement.md) bonus on your defensive checks to shrug off incoming fire damage.
+> For example, if you have fire resistance 3 from your ❗Cloak of the Elements, you gain a +1d8 [[../../Gameplay/Bonuses & Penalties/Enhancement|enhancement](Enhancement.md) bonus on your defensive checks to shrug off incoming fire damage.
 
 Vulnerability is like resistance, but acts as a [[../../Gameplay/Bonuses & Penalties/Bonuses & Penalties|penalty](Bonuses%20&%20Penalties.md) on your [[Attributes.md#Defensive Check|defensive checks]].
 

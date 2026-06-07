@@ -16,7 +16,7 @@ Most action/task targets are composed of an [[Adventuring.md#Adventuring Domains
 
 # Difficulty
 
-You roll 2d12 and compare the result with the action's difficulty, which is derived (round down) from the score relevant to the action ([[Adventuring.md#Adventuring Realms|adventuring realm]] + [[Aspects|aspect]] + [[Bonuses & Penalties|bonuses](Bonuses%20&%20Penalties.md) - [[Bonuses & Penalties|penalties](Bonuses%20&%20Penalties.md)).
+You roll 2d12 and compare the result with the action's difficulty, which is derived (round down) from the score relevant to the action ([[Adventuring.md#Adventuring Realms|adventuring realm]] + [[Aspects|aspect]] + [[Gameplay#Bonuses & Penalties|bonuses/penalties]].
 
 | *difficulty* | *target (score \* …)* | *regular effect* | *hard effect* | *extreme effect* |
 | ------------ | --------------------- | ---------------- | ------------- | ---------------- |
@@ -72,7 +72,6 @@ Generally, the difficulty of an action remains the same unless it makes sense to
 
 > After you managed to infiltrate the facility, you find a locked door. Your first attempt to open it fails, but barely so nothing has gone (more) wrong. You can retry this immediately, and as many times as you want, as long as no guard comes to check while you are working on the lock and no alarm has been triggered.
 
-
 # Advantage & Disadvantage \#
 
 You may gain advantage or disadvantage in cases where bonuses/penalties are needed but they aren’t specified.
@@ -85,16 +84,39 @@ Similarly, when benefited from advantage you cannot suffer a [[#Critical & Fumbl
 
 If you simultaneously enjoy advantage and suffer disadvantage, you subtract the lower value from the higher, and that is the # of advantage/disadvantage you use for your check.
 
+# Bonuses & Penalties
+
+Bonuses and penalties are applied directly, with bonuses added while penalties subtracted, to the [[../Gameplay.md#Effective Score|effective score]] used to determine success of a check.
+
+## Bonus/Penalty Types
+
+Each bonus or penalty has a specific type.
+
+Bonuses or penalties of the same type do not stack, only the highest applies, but different types are rolled separately.
+
+> For example, a magical cloak you wear provides you a +2 enhancement bonus on your thievery checks. A companion of yours casts a spell that makes hiding more effective, providing an enhancement bonus of +3. When trying to infiltrate the camp of your enemies you only benefit from the +3 bonus.
+
+If you have a bonus or penalty of the same type simultaneously, you use their difference to find out if you gain a bonus or suffer a penalty on your actions.
+
+> You are still wearing your magical cloak that provides a +2 enhancement bonus on your thievery checks, but you are trying to hide from your pursuers in the town square under an effect that outlines you with magical light which imposes a -4 penalty on your thievery checks. This means that you suffer a -2 enhancement penalty on your final roll.
+
+### Bonus/Penalty Tags
+```dataview
+LIST
+FROM (#rules/gameplay/bonus OR #rules/gameplay/penalty) AND -#idea AND -"_templates"
+SORT file.name ASC
+```
+
 # Types of Checks
 
 ## Opposed Checks
 
 When you are making checks against some other creature, you both make a check and the greater effect wins.
 
-Alternatively, especially when pitted against generic creatures or minions, only you make a check, with the [[../..//Game%20System/Gameplay.md#Difficulty|difficulty]] determined by the target's [[Experience Tier (ET)|ET](Characters/Tiers/Experience%20Tier%20(ET).md), and in special occasions, [[Perks|perks]].
+Alternatively, especially when pitted against generic creatures or minions, only you make a check, with the [[../..//Game%20System/Gameplay.md#Difficulty|difficulty]] determined by the target's [[Experience Tier (ET)|ET]], and in special occasions, [[Perks|perks]].
 
-- [[Experience Tier (ET)|ET](Characters/Tiers/Experience%20Tier%20(ET).md) lower or equal: regular
-- higher [[Experience Tier (ET)|ET](Characters/Tiers/Experience%20Tier%20(ET).md): hard
+- [[Experience Tier (ET)|ET]] lower or equal: regular
+- higher [[Experience Tier (ET)|ET]]: hard
 
 ## Group Checks
 
@@ -110,7 +132,7 @@ When helping others, you can either:
 - provide a bonus from some aspect or perk the initiator does not possess
 - provide advantage 1 to the initiator
 
-Note that possible [[Bonuses & Penalties|penalties](Bonuses%20&%20Penalties.md) are derived from all those cooperating, although penalties of the same type do not stack - only the highest applies.
+- {!i} Note that possible [[Bonuses & Penalties|penalties]] are derived from all those cooperating, although penalties of the same type do not stack - only the highest applies.
 
 ## Team Checks
 
@@ -126,4 +148,4 @@ Sometimes you need to take multiple actions simultaneously. If the actions are n
 
 > You are driving, shooting, and talking on the phone at the same time, you suffer disadvantage 2 on all your check while performing all three actions.
 
-If you have a [[Mythic Tier (MT)|MT](Characters/Tiers/Mythic%20Tier%20(MT).md), you can instead take up to MT actions simultaneously without a penalty.
+If you have a [[Mythic Tier (MT)|MT]], you can instead take up to MT actions simultaneously without a penalty.

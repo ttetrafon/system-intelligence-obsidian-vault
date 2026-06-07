@@ -13,7 +13,7 @@ SORT value ASC
 ```
 
 ## Size Difference & Checks
-Under many circumstances, like combat, the comparison between your size and your target's provides/imposes a  [[../../../Gameplay/Bonuses & Penalties/Size|size bonus/penalty](../../Gameplay/Bonuses%20&%20Penalties/Size.md) to your checks, equal to the difference in size between you and the target.
+Under many circumstances, like combat, the comparison between your size and your target's provides/imposes a  [[../../../Gameplay/Bonuses & Penalties/Size|size bonus/penalty](Game%20System/Gameplay/Descriptors%20(Tags)/bonuses%20&%20penalties/Size.md) to your checks, equal to the difference in size between you and the target.
 
 In some specific situation, like when dealing ❗damage, the size difference is simply applied as a modifier to the action.
 

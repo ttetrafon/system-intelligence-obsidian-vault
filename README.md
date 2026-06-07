@@ -59,6 +59,7 @@ An obsidian vault containing the full system intelligence TTRPG, plus automation
   - selectors:
     - Tag: rules/gameplay/bonus (link text, before text)
     - Tag: rules/gameplay/penalty (link text, before text)
+    - Tag: rules/characters/tier (link text, before text)
 - SupSub
 - Templater
 - Update Relative Links

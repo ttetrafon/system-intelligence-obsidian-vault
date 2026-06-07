@@ -4,4 +4,4 @@ tags:
   - rules/gameplay/health
 ---
 ## [[Ex|Ex]] I
-You gain an [[../../Gameplay/Bonuses & Penalties/Inherent|inherent]] [[Bonuses & Penalties|bonus]] on all [[Attributes#Body|Body]] ❗defensive checks.
+You gain an [[Inherent|inherent]] [[Bonuses & Penalties|bonus]] on all [[Attributes#Body|Body]] ❗defensive checks.
