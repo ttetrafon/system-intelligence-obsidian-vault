@@ -2,10 +2,12 @@
 tags:
   - rules/characters/sense
 ---
-You can sense the presence of [[Game System/Gameplay/Descriptors (Tags)/Spirit|spirits]], both in adjacent ❗planes of existence and while they are ❗possessing corporeal creatures.
-You also get a sense of ❗teleportation paths, as well as passages and rifts to the [[Spirit (Aether)|Spirit (Aether) World](../../../../World/Cosmology/Planes%20of%20Existence/Spirit%20(Aether).md).
-Finally, you can extend your spirit sense into the Spirit World, allowing your other senses to pierce the barrier between the worlds and get glimpses of the Spirit World itself, but at the same ti[[Perception (PER)|PER]]ne is limited (disadvantage on all [[../Attributes/Perception (PER)|PER]] checks).
+You can sense the presence of [[Game System/Gameplay/Descriptors (Tags)/Spirit|spirits]], both in adjacent [[planes of existence]] and while they are [[possessing]] corporeal creatures.
+
+You also get a sense of [[teleportation]] paths and [[psychic trails]], as well as passages and rifts to the [[Aether]].
+
+Finally, you can extend your spirit sense into the Aether, allowing your other senses to pierce the barrier between the worlds and get glimpses of the Aether itself, but at the same time all your senses towards your current surroundings are [[Exploration#Visibility|obscured]] 6.
 
 Spirit sense is blocked by solid materials, even transparent ones.
 
-- ***Default Range***: ❗short
+- ***Default Range***: [[Short|short]]

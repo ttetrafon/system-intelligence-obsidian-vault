@@ -132,28 +132,3 @@ The EL the total [[Experience Tier (ET)|ET]] of all enemies/obstacles/etc modifi
 The PL is the total [[Experience Tier (ET)|ET]] of all players and allies.
 
 An encounter is always resolved as a [[Adventuring#Skill Challenges (Encounters)|skill challenge]].
-
-
---------------------------
---------------------------
-
-# Downtime
-Downtime happens in-between adventuring phases. It is time for free play without much need of checks, and it when players can undertake downtime activities.
-Possible activities are [[Crafting|crafting]], ❗training, ❗researching, ❗working, ❗recuperating, ❗foraging, ❗scraping, and so on.
-
-Downtime is split in [[#Cycle (week)|cycles]] which are an abstract way to measure the passage of time.
-
-- [I] The number of downtime periods available to you is decided by the GM and may or may not be revealed at the start of downtime.
-
-### Downtime Activities
-You are allowed to take a number of downtime activities within each cycle equal to your ❗experience tier (minimum 1). You can take an extra one, but you may suffer from ❗exhaustion at the beginning of the next cycle. If you are already exhausted at the beginning of a downtime cycle, your exhaustion may increase at its end if you perform any downtime activities besides taking only light activities or resting.
-
-*Sometimes downtime periods are intertwined with adventuring, allowing you to progress on your downtime activities while actively adventuring. It's usually better to decide what the players did during their downtime at the end of each cycle, resolving whatever needed as a [[#Planning & Flashbacks|flashback]].*
-
-# Planning & Flashbacks
-While adventuring, you need to prepare for your adventures as a player and character both.
-Due to the nature of TTRPGs you can never have enough information, and most of the time it's impossible to prepare as the character you are playing would do in a given situation.
-To cover for such problems, flashbacks can be introduced at any time during adventuring that a character would make sense to have been prepared for a specific eventuality.
-> You are trying to infiltrate a secure compound and during your adventure you are stopped by a guard. At that time you decide that having prepared for the infiltration you may have found about the guards working on security. You recall a flashback, in which you look for information about this specific guard. During the flashback you manage to find some evidence of wrongdoing, resulting in something to use against the guard.
-
-- [!] Anything you do during a flashback may affect you or the world retroactively, albeit at a limited level with the GM having the final say.
