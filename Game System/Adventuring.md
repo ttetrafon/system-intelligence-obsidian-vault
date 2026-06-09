@@ -3,15 +3,16 @@ tags:
   - rules/adventuring
 ---
 # Actions
+
 An action is something you do that does not have a trivial chance of success due to circumstances, limited knowledge, etc.
 
 All actions require a [[Gameplay.md#Checks|check]] (sometimes more) to be resolved.
 
 Actions always belong to (just) one of the following three categories:
 
-- **Physical**: primarily related to body functions
-- **Mental**: primarily related to one's mind
-- **Spiritual**: primarily related to one's soul
+- **Physical ([[Body]])**: primarily related to body functions
+- **Mental ([[Mind]])**: primarily related to one's mind
+- **Spiritual ([[Soul]])**: primarily related to one's soul
 
 ## Skill Challenges (Encounters)
 
@@ -70,9 +71,11 @@ You generally attempt checks at specific time intervals, depending on the task. 
 When the task's progress reaches its complexity, the task is finished.
 
 # Adventuring Realms
+
 ```dataview
 LIST
-FROM #rules/adventuring/domain [[Gameplay|check]]me ASC
+FROM #rules/adventuring/realm AND -"_templates"
+SORT file.name ASC
 ```
 
 # Adventuring Activities

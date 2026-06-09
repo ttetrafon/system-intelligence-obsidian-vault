@@ -1,6 +1,6 @@
 ---
 tags:
-  - rules/adventuring/domain
+  - rules/adventuring/realm
 ---
 # Art Disciplines
 ### Acting

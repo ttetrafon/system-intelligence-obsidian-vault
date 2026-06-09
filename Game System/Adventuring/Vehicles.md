@@ -1,6 +1,6 @@
 ---
 tags:
-  - rules/adventuring/domain
+  - rules/adventuring/realm
 ---
 # Vehicle [[../Characters/Aspects.md|Aspects]]
 ```dataview

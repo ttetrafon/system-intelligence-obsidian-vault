@@ -1,6 +1,6 @@
 ---
 tags:
-  - rules/adventuring/domain
+  - rules/adventuring/realm
 ---
 # Magic Level (ML)
 All magical effects and items are described by their ML. This is a number (I - XX, or even more) that describes how complex the effect is, and how knowledgeable you have to be to effectively interact with it.

@@ -1,6 +1,6 @@
 ---
 tags:
-  - rules/adventuring/domain
+  - rules/adventuring/realm
 ---
 # Technology Level (TL)
 The TL of your equipment describes how advanced they are; the higher the TL, the more advanced an item is. The advancement between technology levels is exponential.

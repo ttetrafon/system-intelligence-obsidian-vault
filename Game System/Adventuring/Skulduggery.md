@@ -1,6 +1,6 @@
 ---
 tags:
-  - rules/adventuring/domain
+  - rules/adventuring/realm
 ---
 # Skulduggery Skills
 Skulduggery focuses on everything relating to subterfuge, from straightforward criminal activity, to spying, and to sabotaging.

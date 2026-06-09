@@ -2,4 +2,4 @@
 tags:
   - rules/characters/aspect/combat
 ---
-Covers all combat in larger scales.
+Combat in large scale, including vehicles and terrain.

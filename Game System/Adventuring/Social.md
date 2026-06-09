@@ -1,6 +1,6 @@
 ---
 tags:
-  - rules/adventuring/domain
+  - rules/adventuring/realm
 ---
 A social encounter happens when you are interacting or conversing with other intelligent beings.
 
@@ -22,6 +22,9 @@ Disposition is a [[../Gameplay/Resources.md|resource]] that changes due to inter
 ### First Impression
 Usually, NPCs start at indifferent, unless there is a reason for them not to.
 When you first meet with someone, make a *first impressions* [[../Gameplay/Resources.md#Resource Modification as Check Result|check]] (relevant [[#Social ../../Characters/Aspects/Aspects Aspects|social aspect]] + [[../../Characters/Attributes/Presence (PRE)|PRE](../Characters/Attributes/Presence%20(PRE).md)) to modify their initial attitude towards the direction you want.
+
+### Etiquette
+Knowledge of etiquette allows to act properly in any situation, to avoid misunderstandings and gain the trust of people of a specific culture.
 
 # Social Encounters
 A social encounter can either be a simple happening or a more involved process.
@@ -46,6 +49,7 @@ In addition, social manoeuvres can generally be used to invoke the following eff
 - ...
 
 # Social [[../Characters/Aspects.md|Aspects]]
+
 ```dataview
 LIST
 FROM #rules/characters/aspect/social AND -"_templates"
@@ -53,6 +57,7 @@ SORT file.name ASC
 ```
 
 # Social Perks
+
 ```dataview
 LIST
 FROM #rules/characters/perk/social AND -"_templates"

@@ -16,9 +16,10 @@ SORT file.name ASC
 ### Effect Types
 
 All effects fall under three categories.
+
 ```dataview
 LIST
-FROM #rules/gameplay/descriptor/effect-type AND -#idea AND -"_templates"
+FROM #rules/gameplay/descriptor/effect-type AND -"_templates"
 SORT file.name ASC
 ```
 

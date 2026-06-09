@@ -1,6 +1,6 @@
 ---
 tags:
-  - rules/adventuring/domain
+  - rules/adventuring/realm
 ---
 # Science Skills
 Regardless of the specific scientific skills and knowledge one may gain when studying any discipline, scientists gain a few other skills shared by all disciplines.

@@ -2,4 +2,4 @@
 tags:
   - rules/characters/aspect/artistry
 ---
-More technology oriented art forms, like cinematography.
+Technology oriented art forms, like cinematography, game design, holo-videography, and so on.
