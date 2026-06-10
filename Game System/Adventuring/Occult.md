@@ -42,3 +42,11 @@ LIST
 FROM #rules/characters/aspect/occult AND -"_templates"
 SORT file.name ASC
 ```
+
+# Occult [[Game System/Characters/Perks|Perks]] & [[Traits]]
+
+```dataview
+LIST
+FROM (#rules/characters/perk/occult OR #rules/characters/trait/occult) AND -"_templates" AND -#idea
+SORT file.name ASC
+``` 

@@ -101,6 +101,7 @@ If you have a bonus or penalty of the same type simultaneously, you use their di
 > You are still wearing your magical cloak that provides a +2 enhancement bonus on your thievery checks, but you are trying to hide from your pursuers in the town square under an effect that outlines you with magical light which imposes a -4 penalty on your thievery checks. This means that you suffer a -2 enhancement penalty on your final roll.
 
 ### Bonus/Penalty Tags
+
 ```dataview
 LIST
 FROM (#rules/gameplay/bonus OR #rules/gameplay/penalty) AND -#idea AND -"_templates"
@@ -113,7 +114,7 @@ SORT file.name ASC
 
 When you are making checks against some other creature, you both make a check and the greater effect wins.
 
-Alternatively, especially when pitted against generic creatures or minions, only you make a check, with the [[../..//Game%20System/Gameplay.md#Difficulty|difficulty]] determined by the target's [[Experience Tier (ET)|ET]], and in special occasions, [[Perks|perks]].
+Alternatively, especially when pitted against generic creatures or minions, only you make a check, with the [[../..//Game%20System/Gameplay.md#Difficulty|difficulty]] determined by the target's [[Experience Tier (ET)|ET]], and in special occasions, [[Game System/Characters/Perks|perks]].
 
 - [[Experience Tier (ET)|ET]] lower or equal: regular
 - higher [[Experience Tier (ET)|ET]]: hard

@@ -2,23 +2,25 @@
 tags:
   - rules/characters
 ---
-Perks are special abilities that augment your [[Attributes.md|attributes]], [[Aspects.md|aspects]], and/or any other [[Characteristics.md|characteristic]]. They are gained through your life experiences, although sometimes you may train to gain one.
-Perks provide a variety of bonuses or alter how things work for you.
+Perks are special features you may have, and can come from anything, from the [[species]] you belong, to [[permanent magical effects]], to [[implants]], and so on.
 
-### Perk Level/Score
-Perks, like [[Attributes.md|attributes]] and [[Aspects.md|aspects]], have a score. Sometimes, they feature a minimum score, which is the score you must train to until you gain the perk's benefits.
-This score, like other [[../Gameplay/Resources.md|resources]], is in the form of N (dX), and defines the level of the perk at the same time.
-> For example, Timeless Body is Su 5, which means it is of ML 5 and requires training up to 
+Each perk has its own [[Resources|resource score]], which determines what benefits it provides. You automatically increase ([[Resources#Expenditure/Accumulation|accumulation check]]) a perk's score after every scene you have met its requirements.
 
-A perk's score also applies as a [[../../Gameplay/Bonuses & Penalties/Bonuses & Penalties|bonus/penalty](Bonuses%20&%20Penalties.md) of the same size where applicable.
+Most perks have a **minimum required score**, which determines the minimum resource value that you need to reach before they start being applicable.
 
-### Perk Listing
+Furthermore, some bonuses from perks are gained at specific scores - marked with [#] in the details.
+
+- **Implants**: Provide the perk at their [[Technology#Technology Level (TL)|TL]] or [[Occult#Magic Level (ML)|ML]] (whichever is higher) score.
+- **Permanent Magical Effects**: Provide the perk at their [[Occult#Magic Level (ML)|ML]] score.
+- **Adventuring**/**Downtime Actions**: Allow an accumulation check to increase the appropriate perks' scores.
+
+When a perk provides a [[Gameplay#Bonuses & Penalties|bonus]] or [[Gameplay#Advantage & Disadvantage|advantage]], it is equal to the perk's current rank (score/10).
+
+### All Perks
+
 ```dataview
 LIST
-FROM #rules/characters/perk AND -"_templates"
+FROM #rules/characters/perk AND -"_templates" AND -#idea
 SORT file.name ASC
 ```
 
-
-##### WIP
-- https://youtu.be/2tbDze2BTpo?list=PLiYs34CsHngybBZiJvbsQpjKYbH1fcmsQ&t=734 for the traits! (background perks maybe?)

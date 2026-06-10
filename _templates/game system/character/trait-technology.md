@@ -1,6 +1,6 @@
 ---
 tags:
-  - rules/characters/perk/exploration
+  - rules/characters/trait/technology
 Ex: 0
 Te: 0
 Su: 0

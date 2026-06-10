@@ -18,6 +18,14 @@ FROM #rules/characters/aspect/exploration AND -"_templates"
 SORT file.name ASC
 ```
 
+# Exploration [[Game System/Characters/Perks|Perks]] & [[Traits]]
+
+```dataview
+LIST
+FROM (#rules/characters/perk/exploration OR #rules/characters/trait/exploration) AND -"_templates" AND -#idea
+SORT file.name ASC
+``` 
+
 # Visibility
 
 Depending on the environmental conditions, an area will be considered **bright**, **lightly obscured**, **heavily obscured**, or **dark**, for each of the senses you may have (not the same descriptor will apply to all senses).

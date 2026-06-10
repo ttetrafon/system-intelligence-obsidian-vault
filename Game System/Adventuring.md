@@ -44,7 +44,7 @@ During each turn, the following are resolved in order:
 - Existing non-instantaneous [[Health#Conditions|conditions]] are resolved.
 - Describe what happened during the turn and apply [[Health#Conditions|conditions]] for received [damage](onenote:Adventuring.one#Combat&section-id={BB36EB49-DF7D-4C75-918C-1839830A0B03}&page-id={4757EE33-5753-4938-B754-7A63CC5EF5B9}&object-id={3A22A001-C8F3-02D4-0900-77B4EB6FF788}&C&base-path=https://d.docs.live.net/73fbda111a4ef6fc/Documents/System%20Intelligence) as appropriate.
 
-## Tasks
+## Tasks (Long Turn Activities)
 
 Tasks are long, sometimes complex, actions that require more involvement than usual.
 

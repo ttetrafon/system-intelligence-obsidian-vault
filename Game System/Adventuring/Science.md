@@ -8,10 +8,17 @@ Regardless of the specific scientific skills and knowledge one may gain when stu
 ### Library Search
 Sometimes, instead of knowing something, you may look for it in some structured or compiled repository of knowledge, like a library, a database, or even the internet. This skill, usually referred as library search, is a skill not many can master but is very useful nevertheless within organised societies.
 
-
 # Science [[../Characters/Aspects.md|Aspects]]
 ```dataview
 LIST
 FROM #rules/characters/aspect/science AND -"_templates"
 SORT file.name ASC
 ```
+
+# Science [[Game System/Characters/Perks|Perks]] & [[Traits]]
+
+```dataview
+LIST
+FROM (#rules/characters/perk/science OR #rules/characters/trait/science) AND -"_templates" AND -#idea
+SORT file.name ASC
+``` 

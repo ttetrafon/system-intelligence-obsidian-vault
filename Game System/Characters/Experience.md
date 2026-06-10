@@ -10,6 +10,6 @@ When you gain the chance to train, select one of the following and attempt an [[
 - [[../Characteristics/Familiarity|Familiarity]]
 - [[../Adventuring/Social/Language.md|Languages]]
 - [[Morality|Morality]]
-- [[Perks|Perks]]
+- [[Game System/Characters/Perks|Perks]]
 
 You can attempt to increase your [[Attributes.md|Attributes]] every time you have successfully increased any other stat from the above. The attribute you may select needs to be related to what has been just increased successfully.

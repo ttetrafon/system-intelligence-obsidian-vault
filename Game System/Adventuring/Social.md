@@ -56,10 +56,10 @@ FROM #rules/characters/aspect/social AND -"_templates"
 SORT file.name ASC
 ```
 
-# Social Perks
+# Social [[Game System/Characters/Perks|Perks]] & [[Traits]]
 
 ```dataview
 LIST
-FROM #rules/characters/perk/social AND -"_templates"
+FROM (#rules/characters/perk/social OR #rules/characters/trait/social) AND -"_templates" AND -#idea
 SORT file.name ASC
-```
+``` 

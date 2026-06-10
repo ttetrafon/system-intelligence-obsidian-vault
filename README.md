@@ -53,7 +53,7 @@ An obsidian vault containing the full system intelligence TTRPG, plus automation
 - Refresh Preview
 - Remove Unused Block IDs
 - Style Settings
-  - export/import into `/___backup/style-settings.json`
+  - export styles to `/___backup/style-settings.json`
 - Supercharged Links
   - target attributes for styling: ...
   - selectors:
@@ -62,10 +62,10 @@ An obsidian vault containing the full system intelligence TTRPG, plus automation
     - Tag: rules/characters/tier (link text, before text)
     - Tag: rules/characters/aspect (link text, before text)
     - Tag: rules/characters/perk (link text, before text)
+    - Tag: rules/characters/trait (link text, before text)
     - Tag: rules/characters/sense (link text, before text)
+    - Tag: rules/adventuring/occult/spellcasting-paradigm (link text, before text)
 - SupSub
 - Templater
 - Update Relative Links
 - Various Compliments
-
-## Setup

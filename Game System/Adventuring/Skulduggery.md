@@ -15,3 +15,11 @@ LIST
 FROM #rules/characters/aspect/skulduggery AND -"_templates"
 SORT file.name ASC
 ```
+
+# Skulduggery [[Game System/Characters/Perks|Perks]] & [[Traits]]
+
+```dataview
+LIST
+FROM (#rules/characters/perk/skulduggery OR #rules/characters/trait/skulduggery) AND -"_templates" AND -#idea
+SORT file.name ASC
+``` 

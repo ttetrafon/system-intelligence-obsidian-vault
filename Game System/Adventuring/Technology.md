@@ -29,6 +29,14 @@ FROM #rules/characters/aspect/technology AND -"_templates"
 SORT file.name ASC
 ```
 
+# Technology [[Game System/Characters/Perks|Perks]] & [[Traits]]
+
+```dataview
+LIST
+FROM (#rules/characters/perk/technology OR #rules/characters/trait/technology) AND -"_templates" AND -#idea
+SORT file.name ASC
+``` 
+
 # Tech Projects
 ```dataview
 TABLE WITHOUT ID link(file.name) as "Project", TL
