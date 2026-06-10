@@ -13,5 +13,5 @@ You gain a bonus on all relevant [[../../Adventuring/Combat.md|combat]] and [[..
 - [[../../Gameplay/Descriptors%20(Tags)/ability%20types/Ex.md|Ex]] `VIEW[{Ex}]` / [[../../Gameplay/Descriptors%20(Tags)/ability%20types/Te.md|Te]] `VIEW[{Te}]` / [[../../Gameplay/Descriptors%20(Tags)/ability%20types/Su.md|Su]] `VIEW[{Su}]` 
 
 #### Requirements
-- [[../../../NPCs.md#Species|Species]]:
+- [[Creatures#Species|Species]]:
 	- ...

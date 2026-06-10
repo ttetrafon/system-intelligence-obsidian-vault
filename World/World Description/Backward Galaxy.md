@@ -3,20 +3,20 @@ tags:
   - world/location
 Type: galaxy
 Plane: Prime
-Fragment: 
+Fragment:
 Galaxy: Backward Galaxy
-System: 
-Planet: 
-Satellite: 
-Continent: 
-Region: 
-Settlement: 
-District: 
-Neighbourhood: 
-Building: 
-POI: 
-Section: 
-Room: 
+System:
+Planet:
+Satellite:
+Continent:
+Region:
+Settlement:
+District:
+Neighbourhood:
+Building:
+POI:
+Section:
+Room:
 random-encounters-level-none: 1
 random-encounters-level-natural-feature: 4
 random-encounters-level-local-fauna-flora: 10
@@ -27,7 +27,7 @@ random-encounters-local-flora-fauna-query: "#creatures AND #world/location"
 random-encounters-intelligents-query: "#creatures AND #world/location"
 random-encounters-unnatural-features-query: "#world/feature AND #world/location"
 ---
-# Description
+# Descriptio
 ```meta-bind-js-view
 {Type} as type
 {Plane} as plane
@@ -97,6 +97,7 @@ SORT file.name ASC
 `
 return engine.markdown.create(res);
 ```
+
 ##### Local Flora/Fauna: {`VIEW[{random-encounters-level-local-fauna-flora}][text]`}
 ```meta-bind-js-view
 {random-encounters-local-flora-fauna-query} as query
@@ -110,6 +111,7 @@ SORT file.name ASC
 `
 return engine.markdown.create(res);
 ```
+
 ##### Intelligent Life: {`VIEW[{random-encounters-level-intelligents}][text]`}
 ```meta-bind-js-view
 {random-encounters-intelligents-query} as query
@@ -123,6 +125,7 @@ SORT file.name ASC
 `
 return engine.markdown.create(res);
 ```
+
 ##### Unnatural Feature: {`VIEW[{random-encounters-level-unnatural-feature}][text]`}
 ```meta-bind-js-view
 {random-encounters-unnatural-features-query} as query
@@ -142,7 +145,7 @@ return engine.markdown.create(res);
 ```dataview
 TABLE WITHOUT ID link(file.name) as "Location", Type, Plane, Fragment, Galaxy, System, Planet, Satellite, Continent, Region, Settlement, District, Neighbourhood, Building, POI, Section, Room
 FROM #world AND "World/World Description"
-WHERE Plane = "Prime" AND file.name != ""
+WHERE Plane = "Prime" AND file.name != "" AND Galaxy = "Backward Galaxy"
 SORT Plane ASC, Fragment ASC, Galaxy ASC, System ASC, Planet ASC, Satellite ASC, Continent ASC, Region ASC, Settlement ASC, District ASC, Neighbourhood ASC, Building ASC, POI ASC, Section ASC, Room ASC
 ```
 

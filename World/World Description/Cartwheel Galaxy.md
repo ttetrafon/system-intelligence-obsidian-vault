@@ -3,7 +3,7 @@ tags:
   - world/location
 Type: galaxy
 Plane: Prime
-Fragment:
+Fragment: ""
 Galaxy: Cartwheel Galaxy
 System:
 Planet:
@@ -47,7 +47,6 @@ random-encounters-unnatural-features-query: "#world/feature AND #world/location"
 {Section} as section
 {Room} as room
 ---
-let res = "###### *Location*: ";
 switch(context.bound.plane) {
 	case "Prime":
 		res += "[[../../World/Cosmology/Planes of Existence/Prime/Prime|Prime]]";
@@ -81,11 +80,10 @@ res += context.bound.section != "" ? ` -> [[${context.bound.section}]]` : "";
 res += context.bound.room != "" ? ` -> [[${context.bound.room}]]` : "";
 return engine.markdown.create(res);
 ```
-```meta-bind
-INPUT[editor:description]
-```
 
 # Random Encounters {1d20}
+
+```
 ##### None {`VIEW[{random-encounters-level-none}][text]`}
 ##### Natural Feature: {`VIEW[{random-encounters-level-natural-feature}][text]`}
 ```meta-bind-js-view
@@ -100,6 +98,7 @@ SORT file.name ASC
 `
 return engine.markdown.create(res);
 ```
+
 ##### Local Flora/Fauna: {`VIEW[{random-encounters-level-local-fauna-flora}][text]`}
 ```meta-bind-js-view
 {random-encounters-local-flora-fauna-query} as query
@@ -113,6 +112,7 @@ SORT file.name ASC
 `
 return engine.markdown.create(res);
 ```
+
 ##### Intelligent Life: {`VIEW[{random-encounters-level-intelligents}][text]`}
 ```meta-bind-js-view
 {random-encounters-intelligents-query} as query
@@ -126,6 +126,7 @@ SORT file.name ASC
 `
 return engine.markdown.create(res);
 ```
+
 ##### Unnatural Feature: {`VIEW[{random-encounters-level-unnatural-feature}][text]`}
 ```meta-bind-js-view
 {random-encounters-unnatural-features-query} as query
@@ -152,19 +153,20 @@ SORT Plane ASC, Fragment ASC, Galaxy ASC, System ASC, Planet ASC, Satellite ASC,
 
 ---
 # Categorisation
-**Type**: `INPUT[location-type][:Type]`
-**Plane**: `INPUT[plane-of-existence][:Plane]`
-**Fragment**: `INPUT[text:Fragment]`
-**Galaxy**: `INPUT[text:Galaxy]`
-**System**: `INPUT[text:System]`
-**Planet**: `INPUT[text:Planet]`
-**Satellite**: `INPUT[text:Satellite]`
-**Continent**: `INPUT[text:Continent]`
-**Region**: `INPUT[text:Region]`
-**Settlement**: `INPUT[text:Settlement]`
-**District**: `INPUT[text:District]`
-**Neighbourhood**: `INPUT[text:Neighbourhood]`
-**Building**: `INPUT[text:Building]`
-**POI**: `INPUT[text:POI]`
-**Section**: `INPUT[text:Section]`
-**Room**: `INPUT[text:Room]`
+
+**Type**: `INPUT[text:Type]` 
+**Plane**: `INPUT[text:Plane]` 
+**Fragment**: `INPUT[text:Fragment]` 
+**Galaxy**: `INPUT[text:Galaxy]` 
+**System**: `INPUT[text:System]` 
+**Planet**: `INPUT[text:Planet]` 
+**Satellite**: `INPUT[text:Satellite]` 
+**Continent**: `INPUT[text:Continent]` 
+**Region**: `INPUT[text:Region]` 
+**Settlement**: `INPUT[text:Settlement]` 
+**District**: `INPUT[text:District]` 
+**Neighbourhood**: `INPUT[text:Neighbourhood]` 
+**Building**: `INPUT[text:Building]` 
+**POI**: `INPUT[text:POI]` 
+**Section**: `INPUT[text:Section]` 
+**Room**: `INPUT[text:Room]` 

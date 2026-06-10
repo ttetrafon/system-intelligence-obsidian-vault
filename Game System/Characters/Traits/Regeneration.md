@@ -16,5 +16,5 @@ Your ability to recover from injuries is uncanny.
 - [[../../Gameplay/Descriptors%20(Tags)/Healing.md|Healing]] 
 
 #### Requirements
-- [[../../../NPCs.md#Species|Species]]:
+- [[Creatures#Species|Species]]:
 - [[|Implants]]:

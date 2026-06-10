@@ -2,43 +2,53 @@
 tags:
   - rules/characters
 ---
-Your overall health is described by your [[Attributes.md#Category/Trait Score|trait scores]] and any debilitations you may be suffering from.
+...
 
 # Injury
-While adventuring, you may get involved into dangerous [[../Gameplay/Timekeeping.md#Encounter|encounters]]. During these you may suffer [[../Gameplay/Timekeeping.md#Damage|damage]], which translates to injury.
-When you are the recipient of damage, you make an [[../Gameplay/Resources.md#Expenditure|expenditure]] check on the relevant [[Attributes.md|attribute's]] current score, with target equal to the damage suffered.
-If the expenditure succeeds, your relevant attribute's current score is reduced by 1 step immediately.
 
-Injuries remain with you until they are healed.
+When you suffer [[|damage]] that does not cause some specific [[#Conditions|condition]], you become injured.
+
+You have three resource scores of damage available, **body**, **mind**, and **spirit**, and incoming damage may be directed to any of them. When you suffer damage #, one of your injury scores increases by that amount automatically.
+
+> During combat, enemy archers have managed to shoot some arrows to you, dealing a total of 3 damage. Your body injury score was at 2 (value of 23). With the extra damage, it changes to 5 (value of 53).
+
+While injured, you suffer a [[Gameplay#Bonuses & Penalties|penalty]] to all relevant [[Gameplay#Checks|checks]] equal to your injury score. Furthermore, as long as you are injured, any check you attempt (relevant to each injury score) rolls under your current injury level makes you [[|incapacitated]] (score equal to the check result).
+
+> During the combat above, you attempt to attack yourself with your sword and roll a 3. You immediately become incapacitated 3 (30), since your roll was lower than your current body injury score of 5. Later, you also roll a 4 on some athletics check, which increases your incapacitated score to 7 (70).
 
 # Conditions
 
-...
+A condition is something that affects a creature for some time, and can be either positive, negative, or both at the same time.
+
+These include:
+- banes
+- boons
+- diseases
+- poisons
+- drugs
+
+You suffer [[damage]] during encounters, from enemies or the environment (combat/social encounters, dangerous terrain, etc) at a ratio of *1 [[Gameplay#Effect|effect]]-to-1 [[damage]]*. This damage can either be directed to your **body**, **mind**, or **soul**, depending on the situation and is immediately translated to some condition(s) at the end of the turn. Because of that, resistances apply only to the total damage and condition scores.
+
+The effective score of a condition equals to *10 x damage* applied to it, as with all [[Resources|resources]].
+
+> Your team of adventurers are in a combat encounter against two goblin skirmishers, a goblin shaman, and two domesticated wolves. During the first turn where your groups approach each other with the intention of going into a mêlée you pepper the goblins with arrows (effects 2 & 1) and with cold magic (effect 2). You decide to cause ???
+
 
 # Exhaustion
-Almost everything you do, either while adventuring or during downtime, causes fatigue.
-When fatigue accumulates, you suffer exhaustion.
 
-Exhaustion applies directly to each [[Attributes.md#Category/Trait Score|attribute category]] as a [[../../Gameplay/Bonuses & Penalties/Bonuses & Penalties|penalty](Bonuses%20&%20Penalties.md) ([[../Gameplay/Resources.md|resource]]).
-Each time you suffer fatigue, you must succeed on an appropriate ❗defensive check. If you fail, you suffer exhaustion, or your current exhaustion may increase - make an [[../Gameplay/Resources.md#Accumulation|accumulation]] check on your current exhaustion score.
+...
+
+# Sanity
+
+...
 
 # Recovery
-Recovering from [[#Injury|injuries]] and [[#Effects|effects]] requires [[Health/Resting.md|rest]] and/or [[../Gameplay/Descriptors%20(Tags)/Healing.md|healing]] magic/technology to be used.
 
-For [[#Injury|injuries]], a recovery check is simply an [[../Gameplay/Resources.md#Accumulation|accumulation]] check at the current damaged [[Attributes.md|attribute]] score.
-
-For other [[#Effects|effects]], recovery is an [[../Gameplay/Resources.md#Expenditure|expenditure]] check instead, at the current effect's severity.
-Most times, you can make recover checks only when allowed to.
-
+...
 
 # Damage Immunity, Resistance, & Vulnerability
-If you have immunity to a [[../../Gameplay/Descriptors (Tags)/Descriptors (Tags)#Descriptive Tags|descriptor](Descriptors%20(Tags).md) or [[../../Gameplay/Descriptors (Tags)/Descriptors (Tags)#Damage Categories|damage type](Descriptors%20(Tags).md) you ignore all [[../Gameplay/Timekeeping.md#Damage|damage]] associated with it.
 
-Similarly to immunity, a resistance directly reduces incoming [[../Gameplay/Timekeeping.md#Damage|damage]] by acting as a [[../../Gameplay/Bonuses & Penalties/Bonuses & Penalties|bonus](Bonuses%20&%20Penalties.md) on your [[Attributes.md#Defensive Check|defensive checks]].
-The bonus level and type both depend on the source.
-> For example, if you have fire resistance 3 from your ❗Cloak of the Elements, you gain a +1d8 [[../../Gameplay/Bonuses & Penalties/Enhancement|enhancement](Enhancement.md) bonus on your defensive checks to shrug off incoming fire damage.
-
-Vulnerability is like resistance, but acts as a [[../../Gameplay/Bonuses & Penalties/Bonuses & Penalties|penalty](Bonuses%20&%20Penalties.md) on your [[Attributes.md#Defensive Check|defensive checks]].
+...
 
 # Death
 …

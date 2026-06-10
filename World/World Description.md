@@ -2,7 +2,8 @@
 tags:
   - rules
 ---
-# [[../Cosmology/Planes of Existence/Prime/Prime|Prime](Prime.md)
+# [[../Cosmology/Planes of Existence/Prime/Prime|Prime]]
+
 ```dataview
 TABLE WITHOUT ID link(file.name) as "Location", Plane, Fragment, Galaxy, System, Planet, Satellite, Continent, Region, Settlement, District, Neighbourhood, Building, POI, Section, Room
 FROM #world AND "World/World Description"
@@ -11,7 +12,8 @@ SORT Fragment ASC, Galaxy ASC, System ASC, Planet ASC, Satellite ASC, Continent 
 ```
 
 
-# [[../Cosmology/Planes of Existence/Spirit (Aether)/Spirit (Aether)|Spirit (Aether)](Spirit%20(Aether).md)
+# [[../Cosmology/Planes of Existence/Spirit (Aether)/Spirit (Aether)|Spirit (Aether)]]
+
 ```dataview
 TABLE WITHOUT ID link(file.name) as "Location", Plane, Fragment, Galaxy, System, Planet, Satellite, Continent, Region, Settlement, District, Neighbourhood, Building, POI, Section, Room
 FROM #world AND "World/World Description"
@@ -20,7 +22,8 @@ SORT Fragment ASC, Galaxy ASC, System ASC, Planet ASC, Satellite ASC, Continent 
 ```
 
 
-# [[../Cosmology/Planes of Existence/Matrix/Matrix|Matrix](World/Cosmology/Planes%20of%20Existence/Matrix.md)
+# [[../Cosmology/Planes of Existence/Matrix/Matrix|Matrix]]
+
 ```dataview
 TABLE WITHOUT ID link(file.name) as "Location", Plane, Fragment, Galaxy, System, Planet, Satellite, Continent, Region, Settlement, District, Neighbourhood, Building, POI, Section, Room
 FROM #world AND "World/World Description"
@@ -29,7 +32,8 @@ SORT Fragment ASC, Galaxy ASC, System ASC, Planet ASC, Satellite ASC, Continent 
 ```
 
 
-# [[../Cosmology/Planes of Existence/Far Realm (Void)/Far Realm (Void)|Far Realm (Void)](Far%20Realm%20(Void).md)
+# [[../Cosmology/Planes of Existence/Far Realm (Void)/Far Realm (Void)|Far Realm (Void)]]
+
 ```dataview
 TABLE WITHOUT ID link(file.name) as "Location", Plane, Fragment, Galaxy, System, Planet, Satellite, Continent, Region, Settlement, District, Neighbourhood, Building, POI, Section, Room
 FROM #world AND "World/World Description"
@@ -39,6 +43,7 @@ SORT Fragment ASC, Galaxy ASC, System ASC, Planet ASC, Satellite ASC, Continent 
 
 
 # Unbound Locations
+
 ```dataview
 TABLE WITHOUT ID link(file.name) as "Location", Fragment, Galaxy, System, Planet, Satellite, Continent, Region, Settlement, District, Neighbourhood, Building, POI, Section, Room
 FROM #world AND "World/World Description"

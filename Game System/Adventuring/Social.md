@@ -20,8 +20,8 @@ These can be at any scale, from talking to a merchant bartering their prices, to
 Disposition is a [[../Gameplay/Resources.md|resource]] that changes due to interactions with you, during social encounters or through your fame, or infamy.
 
 ### First Impression
-Usually, NPCs start at indifferent, unless there is a reason for them not to.
-When you first meet with someone, make a *first impressions* [[../Gameplay/Resources.md#Resource Modification as Check Result|check]] (relevant [[#Social ../../Characters/Aspects/Aspects Aspects|social aspect]] + [[../../Characters/Attributes/Presence (PRE)|PRE](../Characters/Attributes/Presence%20(PRE).md)) to modify their initial attitude towards the direction you want.
+Usually, [[NPCs]] start at indifferent, unless there is a reason for them not to.
+When you first meet with someone, make a *first impressions* [[../Gameplay/Resources.md#Resource Modification as Check Result|check]] (relevant [[#Social ../../Characters/Aspects/Aspects Aspects|social aspect]] + [[|PRE]]) to modify their initial attitude towards the direction you want.
 
 ### Etiquette
 Knowledge of etiquette allows to act properly in any situation, to avoid misunderstandings and gain the trust of people of a specific culture.
