@@ -2,6 +2,9 @@ filters:
   and:
     - file.tags.contains("rules/characters/health")
     - '!file.path.contains("_templates")'
+properties:
+  note.ConditionType:
+    displayName: Condition Type
 views:
   - type: table
     name: All Conditions
@@ -14,8 +17,14 @@ views:
       - Addictive
       - TL
       - ML
+    sort:
+      - property: Condition Type
+        direction: DESC
+      - property: file.name
+        direction: ASC
     columnSize:
-      file.name: 83
+      file.name: 179
+      note.ConditionType: 185
       note.Interval: 142
       note.Vector: 140
       note.Biology: 126

@@ -27,7 +27,7 @@ These include:
 - poisons
 - drugs
 
-You suffer [[damage]] during encounters, from enemies or the environment (combat/social encounters, dangerous terrain, etc) at a ratio of *1 [[Gameplay#Effect|effect]]-to-1 [[damage]]*. This damage can either be directed to your **body**, **mind**, or **soul**, depending on the situation and is immediately translated to some condition(s) at the end of the turn. Because of that, resistances apply only to the total damage and condition scores.
+You suffer [[Combat#Attack & Damage|damage]] during encounters, from enemies or the environment (combat/social encounters, dangerous terrain, etc) at a ratio of \*1 [[Gameplay#Effect|effect]]-to-1 [[Combat#Attack & Damage|damage]]. This damage can either be directed to your **body**, **mind**, or **soul**, depending on the situation and is immediately translated to some condition(s) at the end of the turn. Because of that, resistances apply only to the total damage and condition scores.
 
 The [[Resources#Value & Score|value]] of a condition equals to *10 x damage* applied to it, as with all [[Resources|resources]].
 

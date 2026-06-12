@@ -57,6 +57,7 @@ An obsidian vault containing the full system intelligence TTRPG, plus automation
 - Supercharged Links
   - target attributes for styling: ...
   - selectors:
+    - Tag: rules/gameplay/descriptor/ability-type (link text, before text)
     - Tag: rules/gameplay/bonus (link text, before text)
     - Tag: rules/gameplay/penalty (link text, before text)
     - Tag: rules/characters/tier (link text, before text)

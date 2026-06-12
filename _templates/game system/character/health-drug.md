@@ -8,6 +8,7 @@ ConditionType:
 Interval: "-"
 Vector: "-"
 Biology: "-"
+Addictive: true
 TL: 0
 ML: 0
 ---

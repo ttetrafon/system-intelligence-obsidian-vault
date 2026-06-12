@@ -1,18 +1,19 @@
 ---
 tags:
-  - rules/characters/health/boon
+  - rules/characters/health/bane
 ConditionType:
   - Body
   - Mind
   - Soul
-Interval: "-"
+Interval: Quarter Day
 Vector: "-"
 Biology: "-"
 Addictive: false
 TL: 0
 ML: 0
 ---
-...
+You can only act in a very limited capacity, especially concerning the [[Timekeeping#Scene|scene]] where you became incapacitated.
+[100] You start [[Dying|dying]].
 
 - [[Health#Type (Defence)|Condition Type (defence)]]:  `VIEW[{ConditionType}]` 
 - [[Health#Interval|Interval]]: `VIEW[{Interval}]`

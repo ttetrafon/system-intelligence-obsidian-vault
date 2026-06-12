@@ -1,10 +1,14 @@
 ---
 tags:
   - rules/characters/health/poison
-Condition Type:
-Interval:
-Vector:
-Biology:
+ConditionType:
+  - Body
+  - Mind
+  - Soul
+Interval: "-"
+Vector: "-"
+Biology: "-"
+Addictive: true
 TL: 0
 ML: 0
 ---

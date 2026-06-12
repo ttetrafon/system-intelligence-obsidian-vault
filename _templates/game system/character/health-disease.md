@@ -1,10 +1,14 @@
 ---
 tags:
   - rules/characters/health/disease
-Condition Type:
-Interval:
-Vector:
-Biology:
+ConditionType:
+  - Body
+  - Mind
+  - Soul
+Interval: "-"
+Vector: "-"
+Biology: "-"
+Addictive: false
 TL: 0
 ML: 0
 ---
