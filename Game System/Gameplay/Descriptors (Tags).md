@@ -46,6 +46,7 @@ SORT file.name ASC
 ### Damage Categories
 
 All ❗damage falls under one of the following categories.
+
 ```dataview
 LIST
 FROM #rules/gameplay/descriptor/damage/category AND -"_templates" AND -#idea
@@ -57,13 +58,23 @@ SORT file.name ASC
 All creatures are assigned a variety of descriptors which define their common characteristics. The descriptors are split into **creature types**, **creature subtypes**, and **creature dietary habits**. Usually a creature possesses only a single type and may have zero or multiple subtypes, and at least one dietary habit.
 
 #### Creature Types
+
 ```dataview
 LIST
 FROM #rules/gameplay/descriptor/creature/type AND -"_templates" AND -#idea
 SORT file.name ASC
 ```
 
+#### Creature Biology
+
+```dataview
+LIST
+FROM #rules/gameplay/descriptor/creature/biology AND -"_templates" AND -#idea
+SORT file.name ASC
+```
+
 #### Creature Characterisations
+
 ```dataview
 LIST
 FROM #rules/gameplay/descriptor/creature/characterisation AND -"_templates" AND -#idea
@@ -71,6 +82,7 @@ SORT file.name ASC
 ```
 
 #### Creature Dietary Habits
+
 ```dataview
 LIST
 FROM #rules/gameplay/descriptor/creature/dietary-habit AND -"_templates" AND -#idea

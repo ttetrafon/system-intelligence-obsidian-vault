@@ -5,7 +5,8 @@ tags:
 Your wealth is a [[../Gameplay/Resources.md|recourse]] that gets spent/increased during your life.
 
 # Daily Expenses
-At the start of each [[../Gameplay/Timekeeping.md#Cycle (week)|cycle]] you must decide how much money you will spend to support your lifestyle. This choice does not directly affects your statistics and abilities, but sometimes it will be translated in a [[Bonuses & Penalties|bonus/penalty](../Gameplay/Bonuses%20&%20Penalties.md) (equal to the difference), depending on the situation.
+
+At the start of each [[../Gameplay/Timekeeping.md#Time Passage|cycle]] you must decide how much money you will spend to support your lifestyle. This choice does not directly affects your statistics and abilities, but sometimes it will be translated in a [[|bonus/penalty]].
 
 |  lifestyle   | expenditure target |
 |:------------:|:------------------:|
@@ -20,11 +21,13 @@ At the start of each [[../Gameplay/Timekeeping.md#Cycle (week)|cycle]] you must 
 |   mythical   |         30         |
 
 # Profession
+
 You can practice almost any [[../Characters/Aspects.md|aspect]] you are proficient with as a profession and earn a living from it. You must spend at least half a day, five days a week, to earn a living. Anything less is usually not enough.
 
 At the end of every [[../Gameplay/Timekeeping.md#Cycle (week)|cycle]] you can make a [[../Gameplay/Resources.md#Accumulation|wealth accumulation check]] with difficulty derived from the type of skill used, plus any other modifiers due to the importance of the chosen profession in the area, its rarity, and other circumstances.
 
 # Currency
+
 Many different currencies can be encountered around the cosmos.
 Their base value is determined by how much a person needs to survive comfortably over a [[../Gameplay/Timekeeping.md#Cycle (week)|cycle]].
 

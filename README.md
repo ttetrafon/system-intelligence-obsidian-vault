@@ -47,7 +47,7 @@ An obsidian vault containing the full system intelligence TTRPG, plus automation
 - JS Engine
 - Leaflet
 - Meta Bind
-- Modal Forms
+  - enable JS
 - Multi Properties
 - Progress Clocks
 - Refresh Preview
@@ -65,6 +65,11 @@ An obsidian vault containing the full system intelligence TTRPG, plus automation
     - Tag: rules/characters/trait (link text, before text)
     - Tag: rules/characters/sense (link text, before text)
     - Tag: rules/adventuring/occult/spellcasting-paradigm (link text, before text)
+    - Tag: rules/characters/health/bane (link text, before text)
+    - Tag: rules/characters/health/boon (link text, before text)
+    - Tag: rules/characters/health/disease (link text, before text)
+    - Tag: rules/characters/health/poison (link text, before text)
+    - Tag: rules/characters/health/drug (link text, before text)
 - SupSub
 - Templater
 - Update Relative Links

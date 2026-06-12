@@ -1,0 +1,23 @@
+filters:
+  and:
+    - file.tags.contains("rules/characters/health")
+    - '!file.path.contains("_templates")'
+views:
+  - type: table
+    name: All Conditions
+    order:
+      - file.name
+      - ConditionType
+      - Interval
+      - Vector
+      - Biology
+      - Addictive
+      - TL
+      - ML
+    columnSize:
+      file.name: 83
+      note.Interval: 142
+      note.Vector: 140
+      note.Biology: 126
+      note.TL: 57
+      note.ML: 59
